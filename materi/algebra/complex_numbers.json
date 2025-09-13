@@ -1,0 +1,56 @@
+{
+  "id": "complex_numbers",
+  "title": "Complex Numbers",
+  "subcategories": [
+    {
+      "id": "introduction",
+      "title": "Introduction to Complex Numbers",
+      "content": "<h2>Introduction to Complex Numbers</h2><p>Complex numbers extend the real number system to solve equations that have no real solutions, such as $x^2 + 1 = 0$.</p><p>A complex number is expressed in the form: $$z = a + bi$$ where:</p><ul><li>$a$ is the <strong>real part</strong> (Re(z))</li><li>$b$ is the <strong>imaginary part</strong> (Im(z))</li><li>$i$ is the <strong>imaginary unit</strong> where $i^2 = -1$</li></ul>"
+    },
+    {
+      "id": "basic_operations",
+      "title": "Basic Operations",
+      "content": "<h2>Basic Operations</h2><h3>Addition and Subtraction</h3><p>$$(a + bi) + (c + di) = (a + c) + (b + d)i$$ $$(a + bi) - (c + di) = (a - c) + (b - d)i$$</p><h3>Multiplication</h3><p>$$(a + bi)(c + di) = ac + adi + bci + bdi^2 = (ac - bd) + (ad + bc)i$$</p><h3>Division</h3><p>To divide complex numbers, multiply numerator and denominator by the <strong>complex conjugate</strong> of the denominator: $$\\frac{a + bi}{c + di} = \\frac{(a + bi)(c - di)}{(c + di)(c - di)} = \\frac{(ac + bd) + (bc - ad)i}{c^2 + d^2}$$</p>"
+    },
+    {
+      "id": "complex_conjugate",
+      "title": "Complex Conjugate",
+      "content": "<h2>Complex Conjugate</h2><p>The complex conjugate of $z = a + bi$ is denoted as $\\overline{z} = a - bi$.</p><p>Properties:</p><ul><li>$z + \\overline{z} = 2a$ (real)</li><li>$z - \\overline{z} = 2bi$ (imaginary)</li><li>$z \\cdot \\overline{z} = a^2 + b^2$ (real and positive)</li></ul>"
+    },
+    {
+      "id": "geometric_representation",
+      "title": "Geometric Representation",
+      "content": "<h2>Geometric Representation</h2><p>Complex numbers can be represented as points in the <strong>complex plane</strong> (Argand diagram):</p><ul><li>x-axis: real part</li><li>y-axis: imaginary part</li></ul><h3>Polar Form</h3><p>$$z = r(\\cos\\theta + i\\sin\\theta) = re^{i\\theta}$$ where:</p><ul><li>$r = |z| = \\sqrt{a^2 + b^2}$ (modulus)</li><li>$\\theta = \\arg(z)$ (argument)</li></ul><div class='image-container'><img src='https://raw.githubusercontent.com/rovihan12/cognimath/main/images/complex_plane.png' alt='Complex Plane' loading='lazy'/><div class='image-caption'>Visual representation of complex numbers in the complex plane</div></div>"
+    },
+    {
+      "id": "eulers_formula",
+      "title": "Euler's Formula",
+      "content": "<h2>Euler's Formula</h2><p>$$e^{i\\theta} = \\cos\\theta + i\\sin\\theta$$</p><p>This leads to the beautiful identity: $$e^{i\\pi} + 1 = 0$$</p>"
+    },
+    {
+      "id": "demoivres_theorem",
+      "title": "De Moivre's Theorem",
+      "content": "<h2>De Moivre's Theorem</h2><p>For any integer $n$: $$[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$$</p><p>This theorem is useful for:</p><ul><li>Finding powers of complex numbers</li><li>Finding roots of complex numbers</li><li>Solving trigonometric identities</li></ul>"
+    },
+    {
+      "id": "applications",
+      "title": "Applications",
+      "content": "<h2>Applications</h2><p>Complex numbers are essential in:</p><ul><li>Electrical engineering (AC circuit analysis)</li><li>Quantum mechanics (wave functions)</li><li>Signal processing (Fourier analysis)</li><li>Control theory (system stability)</li><li>Fluid dynamics (potential flow)</li></ul>"
+    },
+    {
+      "id": "example_problems",
+      "title": "Example Problems",
+      "content": "<h2>Example Problems</h2><h3>Example 1: Basic Operations</h3><p>Simplify $(2 + 3i) + (4 - 5i)$</p><p><strong>Solution:</strong> $$(2 + 4) + (3 - 5)i = 6 - 2i$$</p><h3>Example 2: Multiplication</h3><p>Find $(1 + 2i)(3 - 4i)$</p><p><strong>Solution:</strong> $$= 1\\cdot3 + 1\\cdot(-4i) + 2i\\cdot3 + 2i\\cdot(-4i)$$ $$= 3 - 4i + 6i - 8i^2$$ $$= 3 + 2i + 8 = 11 + 2i$$</p><h3>Example 3: Division</h3><p>Simplify $\\frac{3 + 4i}{1 - 2i}$</p><p><strong>Solution:</strong> Multiply numerator and denominator by the conjugate $(1 + 2i)$: $$= \\frac{(3 + 4i)(1 + 2i)}{(1 - 2i)(1 + 2i)} = \\frac{3 + 6i + 4i + 8i^2}{1 + 4} = \\frac{-5 + 10i}{5} = -1 + 2i$$</p><h3>Example 4: Polar Form</h3><p>Convert $z = 1 + i$ to polar form</p><p><strong>Solution:</strong> $r = \\sqrt{1^2 + 1^2} = \\sqrt{2}$ $\\theta = \\arctan(1/1) = \\frac{\\pi}{4}$ So $z = \\sqrt{2}(\\cos\\frac{\\pi}{4} + i\\sin\\frac{\\pi}{4}) = \\sqrt{2}e^{i\\pi/4}$</p>"
+    },
+    {
+      "id": "practice_exercises",
+      "title": "Practice Exercises",
+      "content": "<h2>Practice Exercises</h2><ol><li>Simplify $(2 - 3i)^2$</li><li>Find the complex conjugate of $5 - 2i$</li><li>Convert $z = -2 + 2i$ to polar form</li><li>Solve $z^2 + 4 = 0$ in the complex number system</li><li>Find all cube roots of $8$</li></ol>"
+    },
+    {
+      "id": "key_properties",
+      "title": "Key Properties",
+      "content": "<h2>Key Properties</h2><ul><li>Complex numbers form a <strong>field</strong> (closed under addition, subtraction, multiplication, and division)</li><li>The complex number system is <strong>algebraically closed</strong> (every polynomial has a root)</li><li>Complex numbers obey the <strong>commutative</strong>, <strong>associative</strong>, and <strong>distributive</strong> properties</li></ul>"
+    }
+  ]
+}
