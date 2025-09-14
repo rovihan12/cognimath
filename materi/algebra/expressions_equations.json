@@ -28,7 +28,7 @@
     },
     {
       "judul": "Linear Inequalities",
-      "teks": "Linear inequalities compare two expressions using inequality symbols: <, >, ≤, ≥.\n\nSolving linear inequalities is similar to solving equations, with one crucial difference:\n\n**When multiplying or dividing by a negative number, reverse the inequality sign.**\n\nExample: Solve $-3x + 5 ≥ 11$\n\n**Solution:**\n$-3x ≥ 6$\n$x ≤ -2$ (inequality reversed because we divided by -3)\n\nGraphing solutions on a number line:\n- Open circle for < or >\n- Closed circle for ≤ or ≥\n- Arrow indicating all numbers that satisfy the inequality",
+      "teks": "Linear inequalities compare two expressions using inequality symbols: <, >, \\leq, \\geq.\n\nSolving linear inequalities is similar to solving equations, with one crucial difference:\n\n**When multiplying or dividing by a negative number, reverse the inequality sign.**\n\nExample: Solve $-3x + 5 \\geq 11$\n\n**Solution:**\n$-3x \\geq 6$\n$x \\leq -2$ (inequality reversed because we divided by -3)\n\nGraphing solutions on a number line:\n- Open circle for < or >\n- Closed circle for \\leq or \\geq\n- Arrow indicating all numbers that satisfy the inequality",
       "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/number_line_inequality.png",
       "gambarDeskripsi": "Number line showing x ≤ -2"
     },
@@ -38,11 +38,11 @@
     },
     {
       "judul": "Absolute Value Equations and Inequalities",
-      "teks": "Absolute value represents the distance from zero on a number line.\n\n### Equations\n$$|expression| = k$$\nMeans: $expression = k$ or $expression = -k$\n\n### Inequalities\n- $|expression| < k$ means $-k < expression < k$\n- $|expression| > k$ means $expression < -k$ or $expression > k$\n\nExample: Solve $|2x - 3| ≤ 7$\n\n**Solution:**\n$-7 ≤ 2x - 3 ≤ 7$\n$-4 ≤ 2x ≤ 10$\n$-2 ≤ x ≤ 5$"
+      "teks": "Absolute value represents the distance from zero on a number line.\n\n### Equations\n$$|expression| = k$$\nMeans: $expression = k$ or $expression = -k$\n\n### Inequalities\n- $|expression| < k$ means $-k < expression < k$\n- $|expression| > k$ means $expression < -k$ or $expression > k$\n\nExample: Solve $|2x - 3| \\leq 7$\n\n**Solution:**\n$-7 \\leq 2x - 3 \\leq 7$\n$-4 \\leq 2x \\leq 10$\n$-2 \\leq x \\leq 5$"
     },
     {
       "judul": "Systems of Equations and Inequalities",
-      "teks": "A system contains multiple equations or inequalities with the same variables.\n\n### Systems of Equations\nMethods for solving:\n- Substitution\n- Elimination\n- Graphing\n\nExample: Solve the system:\n$2x + y = 7$\n$x - y = -1$\n\n**Solution (elimination):**\nAdd equations: $3x = 6$ → $x = 2$\nSubstitute: $2 - y = -1$ → $y = 3$\n\n### Systems of Inequalities\nSolution is the region where all inequalities are satisfied simultaneously.\n\nExample: Graph the system:\n$y > x - 2$\n$y ≤ -x + 3$"
+      "teks": "A system contains multiple equations or inequalities with the same variables.\n\n### Systems of Equations\nMethods for solving:\n- Substitution\n- Elimination\n- Graphing\n\nExample: Solve the system:\n$2x + y = 7$\n$x - y = -1$\n\n**Solution (elimination):**\nAdd equations: $3x = 6$ → $x = 2$\nSubstitute: $2 - y = -1$ → $y = 3$\n\n### Systems of Inequalities\nSolution is the region where all inequalities are satisfied simultaneously.\n\nExample: Graph the system:\n$y > x - 2$\n$y \\leq -x + 3$"
     },
     {
       "judul": "Example Problems",
@@ -62,13 +62,13 @@
         },
         {
           "judul": "Example 4: Inequality",
-          "teks": "Solve $\\frac{x - 3}{x + 2} ≥ 0$\n\n**Solution:**\nCritical numbers: $x = 3$ (numerator zero) and $x = -2$ (denominator zero)\n\nTest intervals:\n- x < -2: Test x = -3 → negative/negative = positive ✓\n- -2 < x < 3: Test x = 0 → negative/positive = negative ✗\n- x > 3: Test x = 4 → positive/positive = positive ✓\n\n**Solution:** $x < -2$ or $x ≥ 3$"
+          "teks": "Solve $\\frac{x - 3}{x + 2} \\geq 0$\n\n**Solution:**\nCritical numbers: $x = 3$ (numerator zero) and $x = -2$ (denominator zero)\n\nTest intervals:\n- x < -2: Test x = -3 → negative/negative = positive ✓\n- -2 < x < 3: Test x = 0 → negative/positive = negative ✗\n- x > 3: Test x = 4 → positive/positive = positive ✓\n\n**Solution:** $x < -2$ or $x \\geq 3$"
         }
       ]
     },
     {
       "judul": "Practice Exercises",
-      "teks": "1. Solve $5(2x - 3) + 4 = 3(4x - 1) - 2$\n2. Solve $x^2 - 4x = 5$ by factoring\n3. Solve $\\sqrt{3x + 1} = x - 1$\n4. Solve $|2x + 1| > 5$\n5. Solve the system: $2x + 3y = 12$ and $x - y = 1$\n6. Solve the inequality: $x^2 + 2x - 8 ≤ 0$"
+      "teks": "1. Solve $5(2x - 3) + 4 = 3(4x - 1) - 2$\n2. Solve $x^2 - 4x = 5$ by factoring\n3. Solve $\\sqrt{3x + 1} = x - 1$\n4. Solve $|2x + 1| > 5$\n5. Solve the system: $2x + 3y = 12$ and $x - y = 1$\n6. Solve the inequality: $x^2 + 2x - 8 \\leq 0$"
     },
     {
       "judul": "Key Properties and Strategies",
