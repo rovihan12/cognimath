@@ -1,1 +1,66 @@
-
+{
+  "id": "complex_numbers",
+  "title": "",
+  "subItems": [
+    {
+      "judul": "Introduction to Complex Numbers",
+      "teks": "Complex numbers extend the real number system to solve equations that have no real solutions, such as $x^2 + 1 = 0$.\n\nA complex number is expressed in the form: $$z = a + bi$$\nwhere:\n- $a$ is the **real part** (Re(z))\n- $b$ is the **imaginary part** (Im(z))\n- $i$ is the **imaginary unit** where $i^2 = -1$"
+    },
+    {
+      "judul": "Basic Operations",
+      "teks": "### Addition and Subtraction\n$$(a + bi) + (c + di) = (a + c) + (b + d)i$$\n$$(a + bi) - (c + di) = (a - c) + (b - d)i$$\n\n### Multiplication\n$$(a + bi)(c + di) = ac + adi + bci + bdi^2 = (ac - bd) + (ad + bc)i$$\n\n### Division\nTo divide complex numbers, multiply the numerator and denominator by the **complex conjugate** of the denominator: $$\\frac{a + bi}{c + di} = \\frac{(a + bi)(c - di)}{(c + di)(c - di)} = \\frac{(ac + bd) + (bc - ad)i}{c^2 + d^2}$$"
+    },
+    {
+      "judul": "Complex Conjugate",
+      "teks": "The complex conjugate of $z = a + bi$ is denoted as $\\overline{z} = a - bi$.\n\nProperties:\n- $z + \\overline{z} = 2a$ (real)\n- $z - \\overline{z} = 2bi$ (imaginary)\n- $z \\cdot \\overline{z} = a^2 + b^2$ (real and positive)"
+    },
+    {
+      "judul": "Geometric Representation",
+      "teks": "Complex numbers can be represented as points in the **complex plane** (Argand diagram):\n- x-axis: real part\n- y-axis: imaginary part\n\n### Polar Form\n$$z = r(\\cos\\theta + i\\sin\\theta) = re^{i\\theta}$$\nwhere:\n- $r = |z| = \\sqrt{a^2 + b^2}$ (modulus)\n- $\\theta = \\arg(z)$ (argument)",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/complex_plane.png",
+      "gambarDeskripsi": "Visual representation of complex numbers in the complex plane"
+    },
+    {
+      "judul": "Euler's Formula",
+      "teks": "$$e^{i\\theta} = \\cos\\theta + i\\sin\\theta$$\n\nThis leads to the beautiful identity: $$e^{i\\pi} + 1 = 0$$"
+    },
+    {
+      "judul": "De Moivre's Theorem",
+      "teks": "For any integer $n$: $$[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$$\n\nThis theorem is useful for:\n- Finding powers of complex numbers\n- Finding roots of complex numbers\n- Solving trigonometric identities"
+    },
+    {
+      "judul": "Applications",
+      "teks": "Complex numbers are essential in:\n- Electrical engineering (AC circuit analysis)\n- Quantum mechanics (wave functions)\n- Signal processing (Fourier analysis)\n- Control theory (system stability)\n- Fluid dynamics (potential flow)"
+    },
+    {
+      "judul": "Example Problems",
+      "teks": "Here are some example problems:",
+      "subItems": [
+        {
+          "judul": "Example 1: Basic Operations",
+          "teks": "Simplify $(2 + 3i) + (4 - 5i)$\n\n**Solution:** $$(2 + 4) + (3 - 5)i = 6 - 2i$$"
+        },
+        {
+          "judul": "Example 2: Multiplication",
+          "teks": "Find $(1 + 2i)(3 - 4i)$\n\n**Solution:** $$= 1\\cdot3 + 1\\cdot(-4i) + 2i\\cdot3 + 2i\\cdot(-4i)$$ $$= 3 - 4i + 6i - 8i^2$$ $$= 3 + 2i + 8 = 11 + 2i$$"
+        },
+        {
+          "judul": "Example 3: Division",
+          "teks": "Simplify $\\frac{3 + 4i}{1 - 2i}$\n\n**Solution:** Multiply the numerator and denominator by the conjugate $(1 + 2i)$: $$= \\frac{(3 + 4i)(1 + 2i)}{(1 - 2i)(1 + 2i)} = \\frac{3 + 6i + 4i + 8i^2}{1 + 4} = \\frac{-5 + 10i}{5} = -1 + 2i$$"
+        },
+        {
+          "judul": "Example 4: Polar Form",
+          "teks": "Convert $z = 1 + i$ to polar form\n\n**Solution:** $r = \\sqrt{1^2 + 1^2} = \\sqrt{2}$\n$\\theta = \\arctan(1/1) = \\frac{\\pi}{4}$\nSo $z = \\sqrt{2}(\\cos\\frac{\\pi}{4} + i\\sin\\frac{\\pi}{4}) = \\sqrt{2}e^{i\\pi/4}$"
+        }
+      ]
+    },
+    {
+      "judul": "Practice Exercises",
+      "teks": "Practice Problems:\n- Simplify $(2 - 3i)^2$\n- Find the complex conjugate of $5 - 2i$\n- Convert $z = -2 + 2i$ to polar form\n- Solve $z^2 + 4 = 0$ in the complex number system\n- Find all cube roots of $8$"
+    },
+    {
+      "judul": "Key Properties",
+      "teks": "Key Properties:\n- Complex numbers form a **field** (closed under addition, subtraction, multiplication, and division)\n- The complex number system is **algebraically closed** (every polynomial has a root)\n- Complex numbers obey the **commutative**, **associative**, and **distributive** properties"
+    }
+  ]
+}
