@@ -1,35 +1,80 @@
-
 {
   "id": "coordinate_geometry",
-  "title": "Coordinate Geometry",
+  "title": "",
   "subItems": [
     {
-      "judul": "Lines in the Cartesian Plane",
-      "teks": "Coordinate geometry is a branch of mathematics that uses a coordinate system to study geometry. The most common system is the Cartesian plane, which consists of two perpendicular axes, the x-axis and the y-axis.\n\n### Slope of a Line\n**Slope** is a measure of the steepness of a line. It is the ratio of the change in y-coordinate (rise) to the change in x-coordinate (run) between two points on the line. The formula for the slope ($m$) of a line passing through two points $(x_1, y_1)$ and $(x_2, y_2)$ is:\n\n$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$\n\n- A positive slope means the line goes up from left to right.\n- A negative slope means the line goes down from left to right.\n- A slope of zero ($m = 0$) is a horizontal line.\n- An undefined slope is a vertical line.\n\n### Parallel and Perpendicular Lines\n- **Parallel lines** have the same slope. If line 1 has slope $m_1$ and line 2 has slope $m_2$, they are parallel if $m_1 = m_2$.\n- **Perpendicular lines** have slopes that are negative reciprocals of each other. They are perpendicular if $m_1 \\cdot m_2 = -1$ (or $m_2 = -\\frac{1}{m_1}$).",
+      "judul": "Introduction to Coordinate Geometry",
+      "teks": "Coordinate geometry (also called analytic geometry) combines algebra and geometry using the coordinate plane. It allows us to represent geometric shapes algebraically and solve geometric problems using algebraic equations.\n\nThe Cartesian coordinate system consists of:\n- **x-axis**: Horizontal number line\n- **y-axis**: Vertical number line\n- **Origin**: Point (0, 0) where axes intersect\n- **Quadrants**: Four regions created by the axes (I, II, III, IV)\n\nAny point in the plane can be represented by an ordered pair (x, y) called coordinates."
+    },
+    {
+      "judul": "Distance Formula",
+      "teks": "The distance between two points $(x_1, y_1)$ and $(x_2, y_2)$ is given by:\n\n$$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$\n\nThis formula is derived from the Pythagorean theorem.\n\nExample: Find distance between (3, 2) and (7, 5)\n\n**Solution:**\n$d = \\sqrt{(7 - 3)^2 + (5 - 2)^2} = \\sqrt{4^2 + 3^2} = \\sqrt{16 + 9} = \\sqrt{25} = 5$\n\nThe distance formula is essential for determining lengths, perimeters, and identifying geometric properties of shapes."
+    },
+    {
+      "judul": "Midpoint Formula",
+      "teks": "The midpoint of a line segment joining points $(x_1, y_1)$ and $(x_2, y_2)$ is:\n\n$$M = \\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)$$\n\nThis point is exactly halfway between the two endpoints.\n\nExample: Find midpoint between (-2, 3) and (4, -1)\n\n**Solution:**\n$M = \\left(\\frac{-2 + 4}{2}, \\frac{3 + (-1)}{2}\\right) = \\left(\\frac{2}{2}, \\frac{2}{2}\\right) = (1, 1)$\n\nThe midpoint formula is used to find centers, bisectors, and in various geometric constructions."
+    },
+    {
+      "judul": "Slope of a Line",
+      "teks": "The slope measures the steepness and direction of a line. For two points $(x_1, y_1)$ and $(x_2, y_2)$:\n\n$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{\\text{rise}}{\\text{run}}$$\n\nTypes of slope:\n- **Positive slope**: Line rises from left to right\n- **Negative slope**: Line falls from left to right\n- **Zero slope**: Horizontal line ($m = 0$)\n- **Undefined slope**: Vertical line (division by zero)\n\nExample: Find slope through (1, 4) and (3, 8)\n\n**Solution:**\n$m = \\frac{8 - 4}{3 - 1} = \\frac{4}{2} = 2$\n\nSlope is fundamental for understanding rates of change and linear relationships."
+    },
+    {
+      "judul": "Equations of Lines",
+      "teks": "### Slope-Intercept Form\n$$y = mx + b$$\n- $m$ = slope\n- $b$ = y-intercept\n\n### Point-Slope Form\n$$y - y_1 = m(x - x_1)$$\n- $m$ = slope\n- $(x_1, y_1)$ = point on the line\n\n### Standard Form\n$$Ax + By = C$$\n- A, B, C are integers (usually)\n- A should be positive\n\n### Horizontal and Vertical Lines\n- Horizontal: $y = k$\n- Vertical: $x = k$\n\nExample: Find equation of line through (2, 5) with slope 3\n\n**Solution (point-slope):**\n$y - 5 = 3(x - 2)$\n**Solution (slope-intercept):**\n$y = 3x - 1$",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/line_equations.png",
+      "gambarDeskripsi": "Graph showing different forms of linear equations"
+    },
+    {
+      "judul": "Parallel and Perpendicular Lines",
+      "teks": "### Parallel Lines\nTwo lines are parallel if they have the same slope:\n$$m_1 = m_2$$\n\n### Perpendicular Lines\nTwo lines are perpendicular if their slopes are negative reciprocals:\n$$m_1 \\cdot m_2 = -1$$\n$$m_2 = -\\frac{1}{m_1}$$\n\nExample: Find line perpendicular to $y = 2x + 3$ through (1, 4)\n\n**Solution:**\nOriginal slope: $m_1 = 2$\nPerpendicular slope: $m_2 = -\\frac{1}{2}$\nEquation: $y - 4 = -\\frac{1}{2}(x - 1)$\nOr: $y = -\\frac{1}{2}x + \\frac{9}{2}$\n\nThese relationships are crucial for solving many geometric problems involving angles and shapes."
+    },
+    {
+      "judul": "Circles",
+      "teks": "A circle is the set of all points equidistant from a fixed point (center).\n\n### Standard Form\n$$(x - h)^2 + (y - k)^2 = r^2$$\n- Center: $(h, k)$\n- Radius: $r$\n\n### General Form\n$$x^2 + y^2 + Dx + Ey + F = 0$$\n\nTo convert from general to standard form, complete the square for both x and y terms.\n\nExample: Find center and radius of $x^2 + y^2 - 6x + 4y - 12 = 0$\n\n**Solution:**\nComplete squares: $(x^2 - 6x + 9) + (y^2 + 4y + 4) = 12 + 9 + 4$\n$(x - 3)^2 + (y + 2)^2 = 25$\nCenter: $(3, -2)$, Radius: $5$"
+    },
+    {
+      "judul": "Parabolas",
+      "teks": "A parabola is the set of points equidistant from a fixed point (focus) and a fixed line (directrix).\n\n### Standard Forms\n**Vertical axis**: $$(x - h)^2 = 4p(y - k)$$\n- Vertex: $(h, k)$\n- Focus: $(h, k + p)$\n- Directrix: $y = k - p$\n\n**Horizontal axis**: $$(y - k)^2 = 4p(x - h)$$\n- Vertex: $(h, k)$\n- Focus: $(h + p, k)$\n- Directrix: $x = h - p$\n\n### Quadratic Form\n$$y = ax^2 + bx + c$$\n- Vertex: $\\left(-\\frac{b}{2a}, f(-\\frac{b}{2a})\\right)$\n- Axis of symmetry: $x = -\\frac{b}{2a}$",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/parabola_elements.png",
+      "gambarDeskripsi": "Parabola showing focus, directrix, vertex, and axis of symmetry"
+    },
+    {
+      "judul": "Ellipses (Advanced Topic)",
+      "teks": "An ellipse is the set of points where the sum of distances to two fixed points (foci) is constant.\n\n### Standard Forms\n**Horizontal major axis**: $$\\frac{(x - h)^2}{a^2} + \\frac{(y - k)^2}{b^2} = 1$$\n- Center: $(h, k)$\n- Vertices: $(h ± a, k)$\n- Foci: $(h ± c, k)$ where $c^2 = a^2 - b^2$\n\n**Vertical major axis**: $$\\frac{(x - h)^2}{b^2} + \\frac{(y - k)^2}{a^2} = 1$$\n- Center: $(h, k)$\n- Vertices: $(h, k ± a)$\n- Foci: $(h, k ± c)$ where $c^2 = a^2 - b^2$\n\nEccentricity: $e = \\frac{c}{a}$ (0 < e < 1)"
+    },
+    {
+      "judul": "Hyperbolas (Advanced Topic)",
+      "teks": "A hyperbola is the set of points where the difference of distances to two fixed points (foci) is constant.\n\n### Standard Forms\n**Horizontal transverse axis**: $$\\frac{(x - h)^2}{a^2} - \\frac{(y - k)^2}{b^2} = 1$$\n- Center: $(h, k)$\n- Vertices: $(h ± a, k)$\n- Foci: $(h ± c, k)$ where $c^2 = a^2 + b^2$\n- Asymptotes: $y - k = ±\\frac{b}{a}(x - h)$\n\n**Vertical transverse axis**: $$\\frac{(y - k)^2}{a^2} - \\frac{(x - h)^2}{b^2} = 1$$\n- Center: $(h, k)$\n- Vertices: $(h, k ± a)$\n- Foci: $(h, k ± c)$ where $c^2 = a^2 + b^2$\n- Asymptotes: $y - k = ±\\frac{a}{b}(x - h)$\n\nEccentricity: $e = \\frac{c}{a}$ (e > 1)"
+    },
+    {
+      "judul": "Example Problems",
+      "teks": "Practice problems with coordinate geometry concepts:",
       "subItems": [
         {
-          "judul": "Midpoint and Distance Formulas",
-          "teks": "### Midpoint Formula\nThe **midpoint** of a line segment is the point that divides it into two equal parts. For a line segment with endpoints $(x_1, y_1)$ and $(x_2, y_2)$, the midpoint $(x_m, y_m)$ is:\n\n$$(x_m, y_m) = (\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2})$$\n\n### Distance Formula\nThe **distance** between two points $(x_1, y_1)$ and $(x_2, y_2)$ can be found using the Pythagorean theorem. The formula for the distance ($d$) is:\n\n$$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$"
+          "judul": "Example 1: Distance and Midpoint",
+          "teks": "Given A(-3, 2) and B(5, -4), find:\na) Distance AB\nb) Midpoint of AB\n\n**Solution:**\na) $d = \\sqrt{(5 - (-3))^2 + (-4 - 2)^2} = \\sqrt{8^2 + (-6)^2} = \\sqrt{64 + 36} = \\sqrt{100} = 10$\nb) $M = \\left(\\frac{-3 + 5}{2}, \\frac{2 + (-4)}{2}\\right) = (1, -1)$"
+        },
+        {
+          "judul": "Example 2: Line Equations",
+          "teks": "Find equation of line through (-1, 3) parallel to $2x - 3y = 6$\n\n**Solution:**\nFind slope: $2x - 3y = 6$ → $-3y = -2x + 6$ → $y = \\frac{2}{3}x - 2$\nSlope = $\\frac{2}{3}$\nParallel line has same slope\nEquation: $y - 3 = \\frac{2}{3}(x - (-1))$\n$y = \\frac{2}{3}x + \\frac{11}{3}$"
+        },
+        {
+          "judul": "Example 3: Circle Equation",
+          "teks": "Find equation of circle with center (2, -3) passing through (5, 1)\n\n**Solution:**\nRadius: $r = \\sqrt{(5 - 2)^2 + (1 - (-3))^2} = \\sqrt{3^2 + 4^2} = 5$\nEquation: $(x - 2)^2 + (y + 3)^2 = 25$"
+        },
+        {
+          "judul": "Example 4: Parabola Elements",
+          "teks": "For parabola $(y + 1)^2 = 12(x - 2)$, find:\na) Vertex\nb) Focus\nc) Directrix\n\n**Solution:**\nForm: $(y - k)^2 = 4p(x - h)$\n$4p = 12$ → $p = 3$\nVertex: $(2, -1)$\nFocus: $(2 + 3, -1) = (5, -1)$\nDirectrix: $x = 2 - 3 = -1$"
         }
       ]
     },
     {
-      "judul": "Conic Sections",
-      "teks": "Conic sections are curves formed by the intersection of a plane with a cone. The main types of conic sections are circles, parabolas, ellipses, and hyperbolas.\n\n### Circles\nA **circle** is the set of all points in a plane that are at a fixed distance (the radius) from a fixed point (the center). The standard equation of a circle with center $(h, k)$ and radius $r$ is:\n\n$$(x - h)^2 + (y - k)^2 = r^2$$",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/circle.png",
-      "gambarDeskripsi": "A circle with center (h, k) and radius r.",
-      "subItems": [
-        {
-          "judul": "Parabolas",
-          "teks": "A **parabola** is the set of all points in a plane that are equidistant from a fixed point (the focus) and a fixed line (the directrix).\n\nThe standard equation of a parabola depends on its orientation:\n- **Vertical parabola** (opens up or down): $(x - h)^2 = 4p(y - k)$\n  - Vertex at $(h, k)$\n  - Focus at $(h, k + p)$\n  - Directrix: $y = k - p$\n\n- **Horizontal parabola** (opens left or right): $(y - k)^2 = 4p(x - h)$\n  - Vertex at $(h, k)$\n  - Focus at $(h + p, k)$\n  - Directrix: $x = h - p$\n\nThe sign of $p$ determines the direction of opening ($p > 0$ opens up/right, $p < 0$ opens down/left).",
-          "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/parabola.png",
-          "gambarDeskripsi": "A parabola with vertex, focus, and directrix."
-        }
-      ]
+      "judul": "Practice Exercises",
+      "teks": "1. Find distance between (-5, 3) and (2, -4)\n2. Find midpoint between (6, -2) and (-4, 8)\n3. Find slope of line through (3, 7) and (-1, 5)\n4. Find equation of line perpendicular to $y = -\\frac{1}{4}x + 2$ through (0, 0)\n5. Convert to standard form: $x^2 + y^2 + 8x - 6y = 0$\n6. For parabola $x^2 = 16y$, find focus and directrix\n7. Determine if lines $3x + 2y = 6$ and $6x + 4y = 12$ are parallel, perpendicular, or neither"
     },
     {
-      "judul": "Advanced Topics: Ellipses and Hyperbolas",
-      "teks": "### Ellipses\nAn **ellipse** is the set of all points in a plane such that the sum of the distances from two fixed points (foci) is a constant. The standard equation of an ellipse centered at the origin $(0, 0)$ is:\n\n$$ \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$$\n\n### Hyperbolas\nA **hyperbola** is the set of all points in a plane such that the absolute difference of the distances from two fixed points (foci) is a constant. The standard equation of a hyperbola centered at the origin $(0, 0)$ is:\n\n$$ \\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$$"
+      "judul": "Key Properties and Applications",
+      "teks": "1. **Distance formula**: Derived from Pythagorean theorem, used for lengths\n2. **Midpoint formula**: Finds center points and bisectors\n3. **Slope**: Measures steepness and direction of lines\n4. **Parallel lines**: Equal slopes\n5. **Perpendicular lines**: Negative reciprocal slopes\n6. **Circle**: All points equidistant from center\n7. **Parabola**: All points equidistant from focus and directrix\n8. **Ellipse**: Sum of distances to foci is constant\n9. **Hyperbola**: Difference of distances to foci is constant\n10. **Conic sections**: Circles, parabolas, ellipses, hyperbolas are all cross-sections of a cone"
     }
   ]
 }
