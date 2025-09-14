@@ -4,81 +4,70 @@
   "subItems": [
     {
       "judul": "Introduction to Polynomials",
-      "teks": "A polynomial is a mathematical expression consisting of variables, coefficients, and non-negative integer exponents, combined using addition, subtraction, and multiplication.\n\nGeneral form: $$P(x) = a_nx^n + a_{n-1}x^{n-1} + \\cdots + a_1x + a_0$$\n\nKey terminology:\n- **Term**: Each part of the polynomial (e.g., $3x^2$, $-4x$, $7$)\n- **Coefficient**: The numerical factor of a term (e.g., 3, -4, 7)\n- **Degree**: The highest exponent of the variable (n)\n- **Leading coefficient**: The coefficient of the term with the highest degree ($a_n$)\n- **Constant term**: The term with no variable ($a_0$)\n\nExamples:\n- $3x^2 - 4x + 7$ (degree 2)\n- $5x^4 - 2x^3 + x - 9$ (degree 4)\n- $8$ (degree 0, constant polynomial)"
+      "teks": "A polynomial is a mathematical expression consisting of variables, coefficients, and non-negative integer exponents, combined using addition, subtraction, and multiplication.\n\nGeneral form: $$P(x) = a_nx^n + a_{n-1}x^{n-1} + \\cdots + a_1x + a_0$$\n\nKey terminology:\n- **Term**: Each part of the polynomial (e.g., $3x^2$, $-4x$, $7$)\n- **Coefficient**: The numerical factor of a term (e.g., 3 in $3x^2$)\n- **Degree**: The highest exponent of the variable (e.g., degree 2 in $3x^2 - 4x + 7$)\n- **Leading coefficient**: The coefficient of the highest-degree term\n- **Constant term**: The term without a variable (e.g., 7)\n\nSpecial polynomials:\n- **Monomial**: Single term (e.g., $5x^3$)\n- **Binomial**: Two terms (e.g., $2x + 1$)\n- **Trinomial**: Three terms (e.g., $x^2 - 5x + 6$)"
     },
     {
       "judul": "Polynomial Operations",
-      "teks": "### Addition and Subtraction\nCombine like terms (terms with the same variable and exponent).\n\nExample: $(3x^2 + 2x - 5) + (2x^2 - 4x + 7)$\n$= (3x^2 + 2x^2) + (2x - 4x) + (-5 + 7)$\n$= 5x^2 - 2x + 2$\n\n### Multiplication\nUse the distributive property (FOIL method for binomials).\n\nExample: $(2x + 3)(x - 4)$\n$= 2x(x) + 2x(-4) + 3(x) + 3(-4)$\n$= 2x^2 - 8x + 3x - 12$\n$= 2x^2 - 5x - 12$\n\n### Division\nUse long division or synthetic division (for divisors of form x - c)."
+      "teks": "### Addition and Subtraction\nCombine like terms (terms with same variable and exponent)\n\nExample: $(3x^2 + 2x - 5) + (2x^2 - 4x + 7) = 5x^2 - 2x + 2$\n\n### Multiplication\nUse distributive property (FOIL for binomials)\n\nExample: $(2x + 3)(x - 4) = 2x(x) + 2x(-4) + 3(x) + 3(-4) = 2x^2 - 8x + 3x - 12 = 2x^2 - 5x - 12$\n\n### Division\n- **Long division**: Similar to numerical long division\n- **Synthetic division**: Shortcut method for dividing by linear factors $(x - c)$\n\nExample: Divide $x^3 - 2x^2 - 4x + 8$ by $(x - 2)$\n\nUsing synthetic division:\n```\n2 | 1  -2  -4   8\n  |    2   0  -8\n  --------------\n    1   0  -4   0\n```\nResult: $x^2 + 0x - 4 = x^2 - 4$"
     },
     {
       "judul": "Factoring Polynomials",
-      "teks": "Factoring expresses a polynomial as a product of simpler polynomials.\n\n### Common Factoring Techniques:\n\n1. **Greatest Common Factor (GCF)**:\n$6x^3 + 9x^2 = 3x^2(2x + 3)$\n\n2. **Difference of Squares**:\n$a^2 - b^2 = (a + b)(a - b)$\n$x^2 - 9 = (x + 3)(x - 3)$\n\n3. **Perfect Square Trinomials**:\n$a^2 + 2ab + b^2 = (a + b)^2$\n$a^2 - 2ab + b^2 = (a - b)^2$\n\n4. **Sum/Difference of Cubes**:\n$a^3 + b^3 = (a + b)(a^2 - ab + b^2)$\n$a^3 - b^3 = (a - b)(a^2 + ab + b^2)$\n\n5. **Trinomial Factoring**:\n$x^2 + bx + c = (x + m)(x + n)$ where $m + n = b$ and $m \\cdot n = c$"
-    },
-    {
-      "judul": "Factoring by Grouping",
-      "teks": "For polynomials with four terms, factor by grouping:\n\nExample: Factor $x^3 + 2x^2 + 3x + 6$\n\n**Solution:**\nGroup terms: $(x^3 + 2x^2) + (3x + 6)$\nFactor each group: $x^2(x + 2) + 3(x + 2)$\nFactor out common binomial: $(x + 2)(x^2 + 3)$\n\nExample: Factor $2x^3 - 4x^2 - 3x + 6$\n\n**Solution:**\n$(2x^3 - 4x^2) + (-3x + 6)$\n$2x^2(x - 2) - 3(x - 2)$\n$(x - 2)(2x^2 - 3)$",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/factoring_grouping.png",
-      "gambarDeskripsi": "Visual representation of factoring by grouping process"
+      "teks": "Factoring expresses a polynomial as a product of simpler polynomials.\n\n### Common Factoring Techniques:\n\n1. **Greatest Common Factor (GCF)**:\n   $6x^3 + 9x^2 = 3x^2(2x + 3)$\n\n2. **Difference of Squares**:\n   $a^2 - b^2 = (a + b)(a - b)$\n   Example: $x^2 - 9 = (x + 3)(x - 3)$\n\n3. **Perfect Square Trinomials**:\n   $a^2 + 2ab + b^2 = (a + b)^2$\n   $a^2 - 2ab + b^2 = (a - b)^2$\n\n4. **Sum/Difference of Cubes**:\n   $a^3 + b^3 = (a + b)(a^2 - ab + b^2)$\n   $a^3 - b^3 = (a - b)(a^2 + ab + b^2)$\n\n5. **Trinomial Factoring**:\n   $x^2 + bx + c = (x + m)(x + n)$ where $m + n = b$ and $m \\cdot n = c$\n\n6. **Factoring by Grouping**:\n   Group terms with common factors\n   Example: $x^3 + 2x^2 + 3x + 6 = (x^3 + 2x^2) + (3x + 6) = x^2(x + 2) + 3(x + 2) = (x + 2)(x^2 + 3)$"
     },
     {
       "judul": "Remainder Theorem",
-      "teks": "The Remainder Theorem states:\n\nIf a polynomial $P(x)$ is divided by $(x - c)$, then the remainder is $P(c)$.\n\nExample: Find remainder when $P(x) = x^3 - 2x^2 + 3x - 5$ is divided by $(x - 2)$\n\n**Solution:**\n$P(2) = (2)^3 - 2(2)^2 + 3(2) - 5 = 8 - 8 + 6 - 5 = 1$\n\nThe remainder is 1.\n\nThis theorem provides a quick way to evaluate polynomials and check factors."
+      "teks": "The Remainder Theorem provides a quick way to evaluate polynomials:\n\nIf a polynomial $P(x)$ is divided by $(x - c)$, then the remainder is $P(c)$.\n\nExample: Find the remainder when $P(x) = x^3 - 4x^2 + 2x - 1$ is divided by $(x - 2)$\n\n**Solution:**\n$P(2) = (2)^3 - 4(2)^2 + 2(2) - 1 = 8 - 16 + 4 - 1 = -5$\n\nThe remainder is $-5$.\n\nThis theorem is useful for:\n- Quick polynomial evaluation\n- Checking if $(x - c)$ is a factor (if remainder = 0)\n- Polynomial root finding"
     },
     {
       "judul": "Factor Theorem",
-      "teks": "The Factor Theorem is a special case of the Remainder Theorem:\n\n$(x - c)$ is a factor of polynomial $P(x)$ if and only if $P(c) = 0$.\n\nThis means if $P(c) = 0$, then:\n- $c$ is a root (zero) of the polynomial\n- $(x - c)$ is a factor\n- $c$ is an x-intercept of the graph\n\nExample: Show that $(x + 3)$ is a factor of $P(x) = x^3 + 2x^2 - 5x - 6$\n\n**Solution:**\n$P(-3) = (-3)^3 + 2(-3)^2 - 5(-3) - 6 = -27 + 18 + 15 - 6 = 0$\nSince $P(-3) = 0$, $(x + 3)$ is a factor."
+      "teks": "The Factor Theorem is a special case of the Remainder Theorem:\n\n$(x - c)$ is a factor of polynomial $P(x)$ if and only if $P(c) = 0$.\n\nThis means if $c$ is a root (zero) of the polynomial, then $(x - c)$ is a factor.\n\nExample: Show that $(x + 3)$ is a factor of $P(x) = x^3 + 2x^2 - 5x - 6$\n\n**Solution:**\n$P(-3) = (-3)^3 + 2(-3)^2 - 5(-3) - 6 = -27 + 18 + 15 - 6 = 0$\n\nSince $P(-3) = 0$, $(x + 3)$ is a factor.\n\nWe can then factor completely:\n$x^3 + 2x^2 - 5x - 6 = (x + 3)(x^2 - x - 2) = (x + 3)(x - 2)(x + 1)$",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/factor_theorem.png",
+      "gambarDeskripsi": "Visual representation of the Factor Theorem showing roots and factors"
     },
     {
-      "judul": "Finding Zeros of Polynomials",
-      "teks": "Zeros (roots) are the x-values where $P(x) = 0$.\n\n### Methods for Finding Zeros:\n\n1. **Factoring**: Solve $P(x) = 0$ by factoring\nExample: $x^2 - 5x + 6 = 0$\n$(x - 2)(x - 3) = 0$\n$x = 2$ or $x = 3$\n\n2. **Quadratic Formula**: For quadratic polynomials\n\n3. **Rational Root Theorem**: Lists possible rational roots\n\n4. **Synthetic Division**: Tests possible roots efficiently\n\n5. **Graphical Methods**: Estimate zeros from graph\n\nThe number of zeros equals the degree of the polynomial (counting multiplicity)."
+      "judul": "Finding Zeros of Polynomial Functions",
+      "teks": "Zeros (or roots) are the x-values where $P(x) = 0$.\n\n### Methods for Finding Zeros:\n\n1. **Factoring**: Solve $P(x) = 0$ by factoring\n   Example: $x^2 - 5x + 6 = 0 \\rightarrow (x - 2)(x - 3) = 0 \\rightarrow x = 2, 3$\n\n2. **Quadratic Formula**: For degree 2 polynomials\n   $$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$\n\n3. **Rational Root Theorem**: Lists possible rational roots\n   For $P(x) = a_nx^n + \\cdots + a_0$, possible rational roots are $\\pm\\frac{p}{q}$\n   where p divides $a_0$ and q divides $a_n$\n\n4. **Synthetic Division**: Tests possible roots efficiently\n\n5. **Graphical Methods**: Estimate zeros from graph\n\nExample: Find all zeros of $P(x) = x^3 - 3x^2 - 4x + 12$\n\nPossible rational roots: $\\pm1, \\pm2, \\pm3, \\pm4, \\pm6, \\pm12$\nTest $x = 2$: $P(2) = 8 - 12 - 8 + 12 = 0$ ✓\n\nUse synthetic division to factor: $(x - 2)(x^2 - x - 6) = (x - 2)(x - 3)(x + 2)$\nZeros: $x = 2, 3, -2$"
     },
     {
       "judul": "Graphing Polynomial Functions",
-      "teks": "Key features of polynomial graphs:\n\n### End Behavior\nDetermined by leading term $a_nx^n$:\n- If $n$ is even and $a_n > 0$: ↑ as $x \\to \\pm\\infty$\n- If $n$ is even and $a_n < 0$: ↓ as $x \\to \\pm\\infty$\n- If $n$ is odd and $a_n > 0$: ↓ as $x \\to -\\infty$, ↑ as $x \\to \\infty$\n- If $n$ is odd and $a_n < 0$: ↑ as $x \\to -\\infty$, ↓ as $x \\to \\infty$\n\n### Intercepts\n- x-intercepts: Real zeros of the polynomial\n- y-intercept: $P(0)$ (constant term)\n\n### Turning Points\nA polynomial of degree $n$ has at most $(n - 1)$ turning points.\n\n### Multiplicity\n- Odd multiplicity: Graph crosses x-axis\n- Even multiplicity: Graph touches x-axis and turns around",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/polynomial_graphs.png",
-      "gambarDeskripsi": "Examples of polynomial graphs showing different degrees and behaviors"
+      "teks": "### Key Features of Polynomial Graphs:\n\n1. **End Behavior**: Determined by leading term\n   - Even degree, positive LC: \\( \\uparrow \\) both ends\n   - Even degree, negative LC: \\( \\downarrow \\) both ends\n   - Odd degree, positive LC: \\( \\downarrow \\) left, \\( \\uparrow \\) right\n   - Odd degree, negative LC: \\( \\uparrow \\) left, \\( \\downarrow \\) right\n\n2. **Intercepts**:\n   - x-intercepts: Real zeros (roots)\n   - y-intercept: $P(0)$\n\n3. **Turning Points**: A degree n polynomial has at most (n - 1) turning points\n\n4. **Multiplicity Behavior**:\n   - Odd multiplicity: Graph crosses x-axis\n   - Even multiplicity: Graph touches x-axis and turns around\n\n### Graphing Steps:\n1. Determine end behavior from leading term\n2. Find and plot intercepts\n3. Determine behavior at each x-intercept (multiplicity)\n4. Find additional points if needed\n5. Sketch smooth curve through points\n\nExample: Graph $P(x) = (x + 1)^2(x - 2)$",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/polynomial_graph.png",
+      "gambarDeskripsi": "Graph showing polynomial with roots and turning points"
     },
     {
-      "judul": "Synthetic Division",
-      "teks": "Synthetic division is a shortcut method for dividing polynomials by linear factors of the form $(x - c)$.\n\nExample: Divide $2x^3 - 5x^2 + 3x - 7$ by $(x - 2)$\n\n**Steps:**\n1. Write coefficients: 2, -5, 3, -7\n2. Write $c = 2$ (from x - 2)\n3. Bring down first coefficient: 2\n4. Multiply by c: 2 \\times 2 = 4\n5. Add to next coefficient: -5 + 4 = -1\n6. Multiply by c: -1 \\times 2 = -2\n7. Add to next coefficient: 3 + (-2) = 1\n8. Multiply by c: 1 \\times 2 = 2\n9. Add to last coefficient: -7 + 2 = -5\n\nResult: $2x^2 - x + 1$ with remainder $-5$\n\nSo: $\\frac{2x^3 - 5x^2 + 3x - 7}{x - 2} = 2x^2 - x + 1 - \\frac{5}{x - 2}$"
+      "judul": "Polynomial Behavior and Characteristics",
+      "teks": "### Fundamental Theorem of Algebra\nEvery polynomial of degree n ≥ 1 has exactly n complex roots (counting multiplicity).\n\n### Complex Roots\nComplex roots of polynomials with real coefficients always occur in conjugate pairs.\nIf $a + bi$ is a root, then $a - bi$ is also a root.\n\n### Multiplicity\nThe number of times a particular root occurs.\n\nExample: $P(x) = (x - 2)^3(x + 1)^2$\n- Root x = 2 has multiplicity 3\n- Root x = -1 has multiplicity 2\n- Total degree: 5\n\n### Intermediate Value Theorem\nIf P(x) is continuous on [a, b] and P(a) and P(b) have opposite signs, then there exists at least one c in (a, b) such that P(c) = 0."
     },
     {
-      "judul": "Rational Root Theorem",
-      "teks": "The Rational Root Theorem helps find possible rational zeros of a polynomial with integer coefficients.\n\nFor $P(x) = a_nx^n + a_{n-1}x^{n-1} + \\cdots + a_1x + a_0$:\n\nAny rational root $\\frac{p}{q}$ (in lowest terms) must satisfy:\n- $p$ is a factor of the constant term $a_0$\n- $q$ is a factor of the leading coefficient $a_n$\n\nExample: Find possible rational roots of $P(x) = 2x^3 - 5x^2 + 3x - 7$\n\n**Solution:**\nFactors of constant term (-7): \\pm1, \\pm7\nFactors of leading coefficient (2): \\pm1, \\pm2\n\nPossible rational roots: \\pm1, \\pm7, \\pm\\frac{1}{2}, \\pm\\frac{7}{2}$\n\nTest these values using synthetic division or the Remainder Theorem."
-    },
-    {
-      "judul": "Polynomial Theorems and Properties",
-      "teks": "### Fundamental Theorem of Algebra\nEvery polynomial of degree $n \\geq 1$ has exactly $n$ complex roots (counting multiplicity).\n\n### Complex Conjugate Root Theorem\nIf a polynomial with real coefficients has a complex root $a + bi$, then its conjugate $a - bi$ is also a root.\n\n### Descartes' Rule of Signs\nDetermines possible numbers of positive and negative real roots:\n- Positive roots: Number of sign changes in $P(x)$ or less by even number\n- Negative roots: Number of sign changes in $P(-x)$ or less by even number\n\n### Intermediate Value Theorem\nIf $P(a)$ and $P(b)$ have opposite signs, then there is at least one real root between $a$ and $b$."
+      "judul": "Special Polynomial Products",
+      "teks": "### Binomial Theorem\n$$(a + b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k$$\nwhere $\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$ (binomial coefficient)\n\n### Special Products\n1. $(a + b)^2 = a^2 + 2ab + b^2$\n2. $(a - b)^2 = a^2 - 2ab + b^2$\n3. $(a + b)(a - b) = a^2 - b^2$\n4. $(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$\n5. $(a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$\n6. $(a + b)(a^2 - ab + b^2) = a^3 + b^3$\n7. $(a - b)(a^2 + ab + b^2) = a^3 - b^3$\n\nThese formulas are essential for expanding and factoring polynomials efficiently."
     },
     {
       "judul": "Example Problems",
-      "teks": "Practice problems with polynomials:",
+      "teks": "Practice problems with polynomial concepts:",
       "subItems": [
         {
           "judul": "Example 1: Factoring",
-          "teks": "Factor completely: $x^4 - 16$\n\n**Solution:**\nDifference of squares: $(x^2)^2 - 4^2 = (x^2 + 4)(x^2 - 4)$\nSecond factor is another difference of squares: $(x^2 + 4)(x + 2)(x - 2)$"
+          "teks": "Factor completely: $2x^3 - 8x^2 - 10x$\n\n**Solution:**\nGCF: $2x(x^2 - 4x - 5)$\nFactor quadratic: $2x(x - 5)(x + 1)$"
         },
         {
-          "judul": "Example 2: Finding Zeros",
-          "teks": "Find all zeros of $P(x) = x^3 - 3x^2 - 4x + 12$\n\n**Solution:**\nTry possible rational roots: \\pm1, \\pm2, \\pm3, \\pm4, \\pm6, \\pm12\n$P(2) = 8 - 12 - 8 + 12 = 0$ ✓\n\nUse synthetic division with x = 2:\nCoefficients: 1, -3, -4, 12\nResult: 1, -1, -6, 0\n\nSo: $P(x) = (x - 2)(x^2 - x - 6) = (x - 2)(x - 3)(x + 2)$\nZeros: x = 2, 3, -2"
+          "judul": "Example 2: Remainder Theorem",
+          "teks": "Use Remainder Theorem to find $P(-2)$ for $P(x) = 3x^4 - 2x^3 + 5x - 7$\n\n**Solution:**\n$P(-2) = 3(-2)^4 - 2(-2)^3 + 5(-2) - 7 = 3(16) - 2(-8) - 10 - 7 = 48 + 16 - 10 - 7 = 47$"
         },
         {
-          "judul": "Example 3: Graphing Analysis",
-          "teks": "Analyze the graph of $P(x) = -2x^3 + 4x^2 - x + 1$\n\n**Solution:**\n- Degree: 3 (odd)\n- Leading coefficient: -2 (negative)\n- End behavior: \\uparrow as $x \\to -\\infty$, \\downarrow as $x \\to \\infty$\n- y-intercept: P(0) = 1\n- Maximum turning points: 2"
+          "judul": "Example 3: Finding Zeros",
+          "teks": "Find all zeros of $P(x) = x^3 - 6x^2 + 11x - 6$\n\n**Solution:**\nPossible rational roots: $\\pm1, \\pm2, \\pm3, \\pm4, \\pm6, \\pm12$\nTest $x = 1$: $1 - 6 + 11 - 6 = 0$ ✓\n\nSynthetic division:\n```\n1 | 1  -6  11  -6\n  |    1  -5   6\n  --------------\n    1  -5   6   0\n```\n$P(x) = (x - 1)(x^2 - 5x + 6) = (x - 1)(x - 2)(x - 3)$\nZeros: $x = 1, 2, 3$"
         },
         {
-          "judul": "Example 4: Application Problem",
-          "teks": "A box is made from a 20cm \\times 30cm sheet by cutting squares from corners and folding. Find volume polynomial.\n\n**Solution:**\nLet x = side of cut square\nDimensions: (20 - 2x) \\times (30 - 2x) \\times x\nVolume: $V(x) = x(20 - 2x)(30 - 2x) = 4x^3 - 100x^2 + 600x$"
+          "judul": "Example 4: Polynomial Division",
+          "teks": "Divide $x^4 - 3x^3 + 2x^2 - 5x + 7$ by $(x - 2)$\n\n**Solution (synthetic division):**\n```\n2 | 1  -3   2  -5   7\n  |    2  -2   0  -10\n  -------------------\n    1  -1   0  -5  -3\n```\nResult: $x^3 - x^2 + 0x - 5$ with remainder $-3$\nOr: $x^3 - x^2 - 5 + \\frac{-3}{x - 2}$"
         }
       ]
     },
     {
       "judul": "Practice Exercises",
-      "teks": "1. Factor: $x^3 + 27$\n2. Find remainder when $x^4 - 3x^2 + 2x - 1$ is divided by $(x + 2)$\n3. Find all zeros of $x^3 - 6x^2 + 11x - 6$\n4. Use synthetic division to divide $3x^3 - 8x^2 + 5x - 2$ by $(x - 1)$\n5. List possible rational roots of $2x^4 - 3x^3 + 5x^2 - 7x + 11$\n6. Graph and analyze $P(x) = x^4 - 4x^2 + 3$"
+      "teks": "1. Factor completely: $x^4 - 16$\n2. Use Remainder Theorem to find $P(3)$ for $P(x) = 2x^3 - 5x^2 + x - 8$\n3. Find all zeros of $P(x) = x^3 - 4x^2 + x + 6$\n4. Divide $2x^3 + 3x^2 - 5x + 1$ by $(x + 2)$ using synthetic division\n5. Expand: $(2x - 3)^3$\n6. Graph $P(x) = x(x - 2)^2(x + 1)$ showing intercepts and behavior"
     },
     {
       "judul": "Key Properties and Concepts",
-      "teks": "1. **Polynomial Structure**: Sum of terms with non-negative integer exponents\n2. **Degree Classification**: Constant, linear, quadratic, cubic, quartic, etc.\n3. **Factor Theorem**: $(x - c)$ is a factor if and only if $P(c) = 0$\n4. **Remainder Theorem**: Remainder of $P(x) \\div (x - c)$ is $P(c)$\n5. **End Behavior**: Determined by leading term\n6. **Root Multiplicity**: Affects how graph interacts with x-axis\n7. **Synthetic Division**: Efficient method for linear divisors\n8. **Rational Root Theorem**: Lists possible rational zeros\n9. **Complex Roots**: Occur in conjugate pairs for real polynomials"
-    }
-  ]
-}
+      "teks": "1. **Degree**: Determines maximum number of roots and turning points\n2. **Factoring**: Essential for solving polynomial equations and simplifying expressions\n3. **Remainder Theorem**: $P(c)$ equals remainder when dividing by $(x - c)$\n4. **Factor Theorem**: $(x - c)$ is a factor if and only if $P(c) = 0$\n5. **Rational Root Theorem**: Provides possible rational roots to test\n6. **End Behavior**: Determined by leading term's degree and coefficient\n7. **Multiplicity**: Affects how graph behaves at x-intercepts\n8. **Fundamental Theorem**: Degree n polynomial has exactly n complex roots\n9. **Complex Roots**: Occur in conjugate pairs for real-coefficient polynomials"
