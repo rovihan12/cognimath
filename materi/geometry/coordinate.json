@@ -1,1 +1,35 @@
 
+{
+  "id": "coordinate_geometry",
+  "title": "Coordinate Geometry",
+  "subItems": [
+    {
+      "judul": "Lines in the Cartesian Plane",
+      "teks": "Coordinate geometry is a branch of mathematics that uses a coordinate system to study geometry. The most common system is the Cartesian plane, which consists of two perpendicular axes, the x-axis and the y-axis.\n\n### Slope of a Line\n**Slope** is a measure of the steepness of a line. It is the ratio of the change in y-coordinate (rise) to the change in x-coordinate (run) between two points on the line. The formula for the slope ($m$) of a line passing through two points $(x_1, y_1)$ and $(x_2, y_2)$ is:\n\n$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$\n\n- A positive slope means the line goes up from left to right.\n- A negative slope means the line goes down from left to right.\n- A slope of zero ($m = 0$) is a horizontal line.\n- An undefined slope is a vertical line.\n\n### Parallel and Perpendicular Lines\n- **Parallel lines** have the same slope. If line 1 has slope $m_1$ and line 2 has slope $m_2$, they are parallel if $m_1 = m_2$.\n- **Perpendicular lines** have slopes that are negative reciprocals of each other. They are perpendicular if $m_1 \\cdot m_2 = -1$ (or $m_2 = -\\frac{1}{m_1}$).",
+      "subItems": [
+        {
+          "judul": "Midpoint and Distance Formulas",
+          "teks": "### Midpoint Formula\nThe **midpoint** of a line segment is the point that divides it into two equal parts. For a line segment with endpoints $(x_1, y_1)$ and $(x_2, y_2)$, the midpoint $(x_m, y_m)$ is:\n\n$$(x_m, y_m) = (\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2})$$\n\n### Distance Formula\nThe **distance** between two points $(x_1, y_1)$ and $(x_2, y_2)$ can be found using the Pythagorean theorem. The formula for the distance ($d$) is:\n\n$$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$"
+        }
+      ]
+    },
+    {
+      "judul": "Conic Sections",
+      "teks": "Conic sections are curves formed by the intersection of a plane with a cone. The main types of conic sections are circles, parabolas, ellipses, and hyperbolas.\n\n### Circles\nA **circle** is the set of all points in a plane that are at a fixed distance (the radius) from a fixed point (the center). The standard equation of a circle with center $(h, k)$ and radius $r$ is:\n\n$$(x - h)^2 + (y - k)^2 = r^2$$",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/circle.png",
+      "gambarDeskripsi": "A circle with center (h, k) and radius r.",
+      "subItems": [
+        {
+          "judul": "Parabolas",
+          "teks": "A **parabola** is the set of all points in a plane that are equidistant from a fixed point (the focus) and a fixed line (the directrix).\n\nThe standard equation of a parabola depends on its orientation:\n- **Vertical parabola** (opens up or down): $(x - h)^2 = 4p(y - k)$\n  - Vertex at $(h, k)$\n  - Focus at $(h, k + p)$\n  - Directrix: $y = k - p$\n\n- **Horizontal parabola** (opens left or right): $(y - k)^2 = 4p(x - h)$\n  - Vertex at $(h, k)$\n  - Focus at $(h + p, k)$\n  - Directrix: $x = h - p$\n\nThe sign of $p$ determines the direction of opening ($p > 0$ opens up/right, $p < 0$ opens down/left).",
+          "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/parabola.png",
+          "gambarDeskripsi": "A parabola with vertex, focus, and directrix."
+        }
+      ]
+    },
+    {
+      "judul": "Advanced Topics: Ellipses and Hyperbolas",
+      "teks": "### Ellipses\nAn **ellipse** is the set of all points in a plane such that the sum of the distances from two fixed points (foci) is a constant. The standard equation of an ellipse centered at the origin $(0, 0)$ is:\n\n$$ \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$$\n\n### Hyperbolas\nA **hyperbola** is the set of all points in a plane such that the absolute difference of the distances from two fixed points (foci) is a constant. The standard equation of a hyperbola centered at the origin $(0, 0)$ is:\n\n$$ \\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$$"
+    }
+  ]
+}
