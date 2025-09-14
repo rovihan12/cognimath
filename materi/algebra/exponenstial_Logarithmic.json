@@ -4,19 +4,19 @@
   "subItems": [
     {
       "judul": "Introduction to Exponential Functions",
-      "teks": "Exponential functions model rapid growth or decay and have the form:\n\n$$f(x) = a \\\\cdot b^x$$\n\nwhere:\n- $a$ is the initial value (y-intercept)\n- $b$ is the growth/decay factor ($b > 0$, $b \\\\neq 1$)\n- $x$ is the exponent\n\nKey characteristics:\n- Domain: All real numbers ($-\\\\infty < x < \\\\infty$)\n- Range: $(0, \\\\infty)$ if $a > 0$\n- Horizontal asymptote: $y = 0$\n- y-intercept: $(0, a)$\n\nNatural exponential function: $$f(x) = e^x$$\nwhere $e \\\\approx 2.71828$ is Euler's number."
+      "teks": "Exponential functions model rapid growth or decay and have the form:\n\n$f(x) = a \\\\cdot b^x$\n\nwhere:\n- $a$ is the initial value (y-intercept)\n- $b$ is the growth/decay factor ($b > 0$, $b \\\\neq 1$)\n- $x$ is the exponent\n\nKey characteristics:\n- Domain: All real numbers ($-\\\\infty < x < \\\\infty$)\n- Range: $(0, \\\\infty)$ if $a > 0$\n- Horizontal asymptote: $y = 0$\n- y-intercept: $(0, a)$\n\nNatural exponential function: $f(x) = e^x$\nwhere $e \\\\approx 2.71828$ is Euler's number."
     },
     {
       "judul": "Laws of Exponents",
-      "teks": "For any positive real numbers $a$, $b$ and any real numbers $m$, $n$:\n\n1. **Product Rule**: $$a^m \\\\cdot a^n = a^{m+n}$$\n2. **Quotient Rule**: $$\\\\frac{a^m}{a^n} = a^{m-n}$$\n3. **Power Rule**: $$(a^m)^n = a^{m \\\\cdot n}$$\n4. **Zero Exponent**: $$a^0 = 1$$\n5. **Negative Exponent**: $$a^{-n} = \\\\frac{1}{a^n}$$\n6. **Fractional Exponent**: $$a^{m/n} = \\\\sqrt[n]{a^m} = (\\\\sqrt[n]{a})^m$$\n7. **Product to Power**: $$(ab)^n = a^n b^n$$\n8. **Quotient to Power**: $$\\\\left(\\\\frac{a}{b}\\\\right)^n = \\\\frac{a^n}{b^n}$$\n\nThese rules are fundamental for simplifying exponential expressions."
+      "teks": "For any positive real numbers $a$, $b$ and any real numbers $m$, $n$:\n\n1. **Product Rule**: $a^m \\\\cdot a^n = a^{m+n}$\n2. **Quotient Rule**: $\\\\frac{a^m}{a^n} = a^{m-n}$\n3. **Power Rule**: $(a^m)^n = a^{m \\\\cdot n}$\n4. **Zero Exponent**: $a^0 = 1$\n5. **Negative Exponent**: $a^{-n} = \\\\frac{1}{a^n}$\n6. **Fractional Exponent**: $a^{m/n} = \\\\sqrt[n]{a^m} = (\\\\sqrt[n]{a})^m$\n7. **Product to Power**: $(ab)^n = a^n b^n$\n8. **Quotient to Power**: $\\\\left(\\\\frac{a}{b}\\\\right)^n = \\\\frac{a^n}{b^n}$\n\nThese rules are fundamental for simplifying exponential expressions."
     },
     {
       "judul": "Introduction to Logarithmic Functions",
-      "teks": "Logarithmic functions are the inverses of exponential functions.\n\nIf $b^y = x$, then $\\\\log_b x = y$\n\nRead as: \"log base b of x equals y\"\n\nCommon logarithms:\n- $\\\\log_{10} x$ or simply $\\\\log x$ (common logarithm)\n- $\\\\log_e x$ or $\\\\ln x$ (natural logarithm)\n\nProperties:\n- Domain: $(0, \\\\infty)$\n- Range: $(-\\\\infty, \\\\infty)$\n- Vertical asymptote: $x = 0$\n- x-intercept: $(1, 0)$\n\nLogarithmic and exponential functions are inverses:\n$$\\\\log_b(b^x) = x \\\\quad \\\\text{and} \\\\quad b^{\\\\log_b x} = x$$"
+      "teks": "Logarithmic functions are the inverses of exponential functions.\n\nIf $b^y = x$, then $\\\\log_b x = y$\n\nRead as: \"log base b of x equals y\"\n\nCommon logarithms:\n- $\\\\log_{10} x$ or simply $\\\\log x$ (common logarithm)\n- $\\\\log_e x$ or $\\\\ln x$ (natural logarithm)\n\nProperties:\n- Domain: $(0, \\\\infty)$\n- Range: $(-\\\\infty, \\\\infty)$\n- Vertical asymptote: $x = 0$\n- x-intercept: $(1, 0)$\n\nLogarithmic and exponential functions are inverses:\n$\\\\log_b(b^x) = x \\\\quad \\\\text{and} \\\\quad b^{\\\\log_b x} = x$"
     },
     {
       "judul": "Laws of Logarithms",
-      "teks": "For any positive real numbers $M$, $N$, $b$ ($b \\\\neq 1$), and any real number $p$:\n\n1. **Product Rule**: $$\\\\log_b(MN) = \\\\log_b M + \\\\log_b N$$\n2. **Quotient Rule**: $$\\\\log_b\\\\left(\\\\frac{M}{N}\\\\right) = \\\\log_b M - \\\\log_b N$$\n3. **Power Rule**: $$\\\\log_b(M^p) = p \\\\cdot \\\\log_b M$$\n4. **Change of Base**: $$\\\\log_b M = \\\\frac{\\\\log_k M}{\\\\log_k b}$$\n5. **Identity**: $$\\\\log_b b = 1$$\n6. **Base Identity**: $$\\\\log_b 1 = 0$$\n\nThese laws allow us to simplify and manipulate logarithmic expressions."
+      "teks": "For any positive real numbers $M$, $N$, $b$ ($b \\\\neq 1$), and any real number $p$:\n\n1. **Product Rule**: $\\\\log_b(MN) = \\\\log_b M + \\\\log_b N$\n2. **Quotient Rule**: $\\\\log_b\\\\left(\\\\frac{M}{N}\\\\right) = \\\\log_b M - \\\\log_b N$\n3. **Power Rule**: $\\\\log_b(M^p) = p \\\\cdot \\\\log_b M$\n4. **Change of Base**: $\\\\log_b M = \\\\frac{\\\\log_k M}{\\\\log_k b}$\n5. **Identity**: $\\\\log_b b = 1$\n6. **Base Identity**: $\\\\log_b 1 = 0$\n\nThese laws allow us to simplify and manipulate logarithmic expressions."
     },
     {
       "judul": "Solving Exponential Equations",
@@ -28,15 +28,15 @@
     },
     {
       "judul": "Exponential Growth and Decay Models",
-      "teks": "Exponential functions model many real-world phenomena:\n\n### Exponential Growth\n$$A(t) = A_0 e^{rt}$$\nwhere:\n- $A(t)$ = amount at time t\n- $A_0$ = initial amount\n- $r$ = growth rate ($r > 0$)\n- $t$ = time\n\n### Exponential Decay\n$$A(t) = A_0 e^{-rt}$$\nwhere $r$ = decay rate ($r > 0$)\n\n### Half-Life Formula\n$$A(t) = A_0 \\\\left(\\\\frac{1}{2}\\\\right)^{t/T}$$\nwhere $T$ = half-life\n\n### Doubling Time\n$$A(t) = A_0 \\\\cdot 2^{t/D}$$\nwhere $D$ = doubling time"
+      "teks": "Exponential functions model many real-world phenomena:\n\n### Exponential Growth\n$A(t) = A_0 e^{rt}$\nwhere:\n- $A(t)$ = amount at time t\n- $A_0$ = initial amount\n- $r$ = growth rate ($r > 0$)\n- $t$ = time\n\n### Exponential Decay\n$A(t) = A_0 e^{-rt}$\nwhere $r$ = decay rate ($r > 0$)\n\n### Half-Life Formula\n$A(t) = A_0 \\\\left(\\\\frac{1}{2}\\\\right)^{t/T}$\nwhere $T$ = half-life\n\n### Doubling Time\n$A(t) = A_0 \\\\cdot 2^{t/D}$\nwhere $D$ = doubling time"
     },
     {
       "judul": "Compound Interest",
-      "teks": "Compound interest is a key application of exponential growth:\n\n### Compound Interest Formula\n$$A = P\\\\left(1 + \\\\frac{r}{n}\\\\right)^{nt}$$\nwhere:\n- $A$ = final amount\n- $P$ = principal (initial investment)\n- $r$ = annual interest rate (decimal)\n- $n$ = number of compounding periods per year\n- $t$ = time in years\n\n### Continuous Compounding\n$$A = Pe^{rt}$$\n(compounded infinitely often)\n\nExample: $1000 at 5% interest compounded monthly for 10 years:\n$A = 1000\\\\left(1 + \\\\frac{0.05}{12}\\\\right)^{12 \\\\cdot 10} \\\\approx 1647.01$"
+      "teks": "Compound interest is a key application of exponential growth:\n\n### Compound Interest Formula\n$A = P\\\\left(1 + \\\\frac{r}{n}\\\\right)^{nt}$\nwhere:\n- $A$ = final amount\n- $P$ = principal (initial investment)\n- $r$ = annual interest rate (decimal)\n- $n$ = number of compounding periods per year\n- $t$ = time in years\n\n### Continuous Compounding\n$A = Pe^{rt}$\n(compounded infinitely often)\n\nExample: $1000 at 5% interest compounded monthly for 10 years:\n$A = 1000\\\\left(1 + \\\\frac{0.05}{12}\\\\right)^{12 \\\\cdot 10} \\\\approx 1647.01$"
     },
     {
       "judul": "Logarithmic Scales",
-      "teks": "Logarithmic scales compress large ranges of values:\n\n### Richter Scale (Earthquakes)\n$$M = \\\\log_{10}\\\\left(\\\\frac{A}{A_0}\\\\right)$$\nwhere A is amplitude of seismic waves\n\n### Decibel Scale (Sound)\n$$L = 10 \\\\log_{10}\\\\left(\\\\frac{I}{I_0}\\\\right)$$\nwhere I is sound intensity\n\n### pH Scale (Acidity)\n$$\\\\text{pH} = -\\\\log_{10}[\\\\text{H}^+]$$\nwhere [H⁺] is hydrogen ion concentration\n\nThese scales allow us to work with quantities that vary over enormous ranges."
+      "teks": "Logarithmic scales compress large ranges of values:\n\n### Richter Scale (Earthquakes)\n$M = \\\\log_{10}\\\\left(\\\\frac{A}{A_0}\\\\right)$\nwhere A is amplitude of seismic waves\n\n### Decibel Scale (Sound)\n$L = 10 \\\\log_{10}\\\\left(\\\\frac{I}{I_0}\\\\right)$\nwhere I is sound intensity\n\n### pH Scale (Acidity)\n$\\\\text{pH} = -\\\\log_{10}[\\\\text{H}^+]$\nwhere [H⁺] is hydrogen ion concentration\n\nThese scales allow us to work with quantities that vary over enormous ranges."
     },
     {
       "judul": "Graphing Exponential and Logarithmic Functions",
