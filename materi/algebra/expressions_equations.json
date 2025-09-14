@@ -1,1 +1,78 @@
-
+{
+  "id": "expressions_equations_inequalities",
+  "title": "",
+  "subItems": [
+    {
+      "judul": "Introduction to Algebraic Expressions",
+      "teks": "Algebraic expressions are mathematical phrases that can contain numbers, variables, and operation symbols. They represent quantities without fixed values.\n\nExamples:\n- $3x + 5$ (linear expression)\n- $2x^2 - 4x + 7$ (quadratic expression)\n- $\\sqrt{x + 3}$ (radical expression)\n- $\\frac{x^2 + 1}{x - 2}$ (rational expression)\n\nKey terms:\n- **Variable**: A symbol (usually a letter) that represents an unknown value\n- **Coefficient**: The numerical factor of a term\n- **Constant**: A term with no variable\n- **Term**: A single mathematical expression separated by + or - signs"
+    },
+    {
+      "judul": "Linear Equations",
+      "teks": "Linear equations are equations of the first degree, meaning the highest exponent of the variable is 1.\n\nStandard form: $$ax + b = 0$$\n\nSolving linear equations:\n1. Simplify both sides of the equation (distribute, combine like terms)\n2. Move variable terms to one side and constants to the other\n3. Isolate the variable\n4. Check your solution\n\nExample: Solve $3(2x - 5) + 4 = 7 - (x + 2)$\n\n**Solution:**\n$6x - 15 + 4 = 7 - x - 2$\n$6x - 11 = 5 - x$\n$6x + x = 5 + 11$\n$7x = 16$\n$x = \\frac{16}{7}$"
+    },
+    {
+      "judul": "Quadratic Equations",
+      "teks": "Quadratic equations are polynomial equations of degree 2.\n\nStandard form: $$ax^2 + bx + c = 0$$\n\nMethods for solving quadratic equations:\n\n### 1. Factoring\n$$x^2 + 5x + 6 = 0$$\n$$(x + 2)(x + 3) = 0$$\n$$x = -2 \\text{ or } x = -3$$\n\n### 2. Quadratic Formula\n$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$\n\n### 3. Completing the Square\n$$x^2 + 6x - 7 = 0$$\n$$x^2 + 6x = 7$$\n$$x^2 + 6x + 9 = 7 + 9$$\n$$(x + 3)^2 = 16$$\n$$x + 3 = \\pm 4$$\n$$x = 1 \\text{ or } x = -7$$"
+    },
+    {
+      "judul": "Polynomial Equations",
+      "teks": "Polynomial equations contain terms with variables raised to whole number exponents.\n\nGeneral form: $$a_nx^n + a_{n-1}x^{n-1} + \\cdots + a_1x + a_0 = 0$$\n\nSolving strategies:\n- Factor out the greatest common factor (GCF)\n- Use factoring techniques (grouping, special products)\n- Apply the Rational Root Theorem\n- Use synthetic division\n\nExample: Solve $x^3 - 3x^2 - 4x + 12 = 0$\n\n**Solution:**\nFactor by grouping: $(x^3 - 3x^2) + (-4x + 12) = 0$\n$x^2(x - 3) - 4(x - 3) = 0$\n$(x - 3)(x^2 - 4) = 0$\n$(x - 3)(x - 2)(x + 2) = 0$\n$x = 3, 2, -2$"
+    },
+    {
+      "judul": "Rational Equations",
+      "teks": "Rational equations contain fractions with polynomials in the numerator and denominator.\n\nSolving steps:\n1. Find the least common denominator (LCD)\n2. Multiply both sides by the LCD to eliminate denominators\n3. Solve the resulting equation\n4. Check for extraneous solutions (values that make any denominator zero)\n\nExample: Solve $\\frac{2}{x-1} + \\frac{3}{x+2} = \\frac{6}{x^2+x-2}$\n\n**Solution:**\nFactor denominator: $x^2+x-2 = (x-1)(x+2)$\nLCD is $(x-1)(x+2)$\nMultiply both sides: $2(x+2) + 3(x-1) = 6$\n$2x + 4 + 3x - 3 = 6$\n$5x + 1 = 6$\n$5x = 5$\n$x = 1$\n\nCheck: $x = 1$ makes denominator zero → **No solution**"
+    },
+    {
+      "judul": "Radical Equations",
+      "teks": "Radical equations contain variables within radicals (square roots, cube roots, etc.).\n\nSolving steps:\n1. Isolate the radical expression\n2. Raise both sides to the appropriate power to eliminate the radical\n3. Solve the resulting equation\n4. Check for extraneous solutions\n\nExample: Solve $\\sqrt{2x + 3} - x = 0$\n\n**Solution:**\n$\\sqrt{2x + 3} = x$\nSquare both sides: $2x + 3 = x^2$\n$x^2 - 2x - 3 = 0$\n$(x - 3)(x + 1) = 0$\n$x = 3$ or $x = -1$\n\nCheck: $x = 3$ → $\\sqrt{6 + 3} - 3 = 0$ ✓\n$x = -1$ → $\\sqrt{-2 + 3} - (-1) = 1 + 1 = 2$ ✗\n\n**Solution:** $x = 3$ only"
+    },
+    {
+      "judul": "Linear Inequalities",
+      "teks": "Linear inequalities compare two expressions using inequality symbols: <, >, ≤, ≥.\n\nSolving linear inequalities is similar to solving equations, with one crucial difference:\n\n**When multiplying or dividing by a negative number, reverse the inequality sign.**\n\nExample: Solve $-3x + 5 ≥ 11$\n\n**Solution:**\n$-3x ≥ 6$\n$x ≤ -2$ (inequality reversed because we divided by -3)\n\nGraphing solutions on a number line:\n- Open circle for < or >\n- Closed circle for ≤ or ≥\n- Arrow indicating all numbers that satisfy the inequality",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/number_line_inequality.png",
+      "gambarDeskripsi": "Number line showing x ≤ -2"
+    },
+    {
+      "judul": "Quadratic Inequalities",
+      "teks": "Quadratic inequalities involve quadratic expressions with inequality symbols.\n\nSolving method:\n1. Move all terms to one side (set inequality to zero)\n2. Find the roots (critical numbers) of the corresponding equation\n3. Use a sign chart or test intervals to determine where the inequality holds\n\nExample: Solve $x^2 - 3x - 10 > 0$\n\n**Solution:**\nFactor: $(x - 5)(x + 2) > 0$\nRoots: $x = 5$ and $x = -2$\n\nTest intervals:\n- x < -2: Test x = -3 → (-)(-) = + > 0 ✓\n- -2 < x < 5: Test x = 0 → (-)(+) = - < 0 ✗\n- x > 5: Test x = 6 → (+)(+) = + > 0 ✓\n\n**Solution:** $x < -2$ or $x > 5$"
+    },
+    {
+      "judul": "Absolute Value Equations and Inequalities",
+      "teks": "Absolute value represents the distance from zero on a number line.\n\n### Equations\n$$|expression| = k$$\nMeans: $expression = k$ or $expression = -k$\n\n### Inequalities\n- $|expression| < k$ means $-k < expression < k$\n- $|expression| > k$ means $expression < -k$ or $expression > k$\n\nExample: Solve $|2x - 3| ≤ 7$\n\n**Solution:**\n$-7 ≤ 2x - 3 ≤ 7$\n$-4 ≤ 2x ≤ 10$\n$-2 ≤ x ≤ 5$"
+    },
+    {
+      "judul": "Systems of Equations and Inequalities",
+      "teks": "A system contains multiple equations or inequalities with the same variables.\n\n### Systems of Equations\nMethods for solving:\n- Substitution\n- Elimination\n- Graphing\n\nExample: Solve the system:\n$2x + y = 7$\n$x - y = -1$\n\n**Solution (elimination):**\nAdd equations: $3x = 6$ → $x = 2$\nSubstitute: $2 - y = -1$ → $y = 3$\n\n### Systems of Inequalities\nSolution is the region where all inequalities are satisfied simultaneously.\n\nExample: Graph the system:\n$y > x - 2$\n$y ≤ -x + 3$"
+    },
+    {
+      "judul": "Example Problems",
+      "teks": "Practice solving various types of equations and inequalities:",
+      "subItems": [
+        {
+          "judul": "Example 1: Linear Equation",
+          "teks": "Solve $\\frac{2x - 1}{3} = \\frac{x + 4}{2}$\n\n**Solution:**\nCross multiply: $2(2x - 1) = 3(x + 4)$\n$4x - 2 = 3x + 12$\n$x = 14$"
+        },
+        {
+          "judul": "Example 2: Quadratic Equation",
+          "teks": "Solve $2x^2 + 5x - 3 = 0$\n\n**Solution (quadratic formula):**\n$x = \\frac{-5 \\pm \\sqrt{5^2 - 4(2)(-3)}}{2(2)} = \\frac{-5 \\pm \\sqrt{25 + 24}}{4} = \\frac{-5 \\pm 7}{4}$\n$x = \\frac{1}{2}$ or $x = -3$"
+        },
+        {
+          "judul": "Example 3: Rational Equation",
+          "teks": "Solve $\\frac{1}{x} + \\frac{1}{x+2} = \\frac{4}{3}$\n\n**Solution:**\nLCD: $3x(x+2)$\nMultiply: $3(x+2) + 3x = 4x(x+2)$\n$3x + 6 + 3x = 4x^2 + 8x$\n$6x + 6 = 4x^2 + 8x$\n$4x^2 + 2x - 6 = 0$\n$2x^2 + x - 3 = 0$\n$(2x + 3)(x - 1) = 0$\n$x = -\\frac{3}{2}$ or $x = 1$\nBoth values are valid (don't make denominators zero)."
+        },
+        {
+          "judul": "Example 4: Inequality",
+          "teks": "Solve $\\frac{x - 3}{x + 2} ≥ 0$\n\n**Solution:**\nCritical numbers: $x = 3$ (numerator zero) and $x = -2$ (denominator zero)\n\nTest intervals:\n- x < -2: Test x = -3 → negative/negative = positive ✓\n- -2 < x < 3: Test x = 0 → negative/positive = negative ✗\n- x > 3: Test x = 4 → positive/positive = positive ✓\n\n**Solution:** $x < -2$ or $x ≥ 3$"
+        }
+      ]
+    },
+    {
+      "judul": "Practice Exercises",
+      "teks": "1. Solve $5(2x - 3) + 4 = 3(4x - 1) - 2$\n2. Solve $x^2 - 4x = 5$ by factoring\n3. Solve $\\sqrt{3x + 1} = x - 1$\n4. Solve $|2x + 1| > 5$\n5. Solve the system: $2x + 3y = 12$ and $x - y = 1$\n6. Solve the inequality: $x^2 + 2x - 8 ≤ 0$"
+    },
+    {
+      "judul": "Key Properties and Strategies",
+      "teks": "1. **Balance principle**: Whatever you do to one side of an equation, you must do to the other\n2. **Check solutions**: Always verify your answers, especially for rational and radical equations\n3. **Inequality reversal**: Reverse the inequality sign when multiplying/dividing by a negative number\n4. **Critical numbers**: For inequalities, find values where the expression equals zero or is undefined\n5. **Test intervals**: For polynomial and rational inequalities, test values between critical numbers"
+    }
+  ]
+}
