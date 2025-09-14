@@ -4,43 +4,43 @@
   "subItems": [
     {
       "judul": "Introduction to Exponential Functions",
-      "teks": "Exponential functions model rapid growth or decay and have the form:\n\n$f(x) = a \\\\cdot b^x$\n\nwhere:\n- $a$ is the initial value (y-intercept)\n- $b$ is the growth/decay factor ($b > 0$, $b \\\\neq 1$)\n- $x$ is the exponent\n\nKey characteristics:\n- Domain: All real numbers ($-\\\\infty < x < \\\\infty$)\n- Range: $(0, \\\\infty)$ if $a > 0$\n- Horizontal asymptote: $y = 0$\n- y-intercept: $(0, a)$\n\nNatural exponential function: $f(x) = e^x$\nwhere $e \\\\approx 2.71828$ is Euler's number."
+      "teks": "Exponential functions model rapid growth or decay and have the form:\n\n$f(x) = a \\cdot b^x$\n\nwhere:\n- $a$ is the initial value (y-intercept)\n- $b$ is the growth/decay factor ($b > 0$, $b \\neq 1$)\n- $x$ is the exponent\n\nKey characteristics:\n- Domain: All real numbers ($-\\infty < x < \\infty$)\n- Range: $(0, \\infty)$ if $a > 0$\n- Horizontal asymptote: $y = 0$\n- y-intercept: $(0, a)$\n\nNatural exponential function: $f(x) = e^x$\nwhere $e \\approx 2.71828$ is Euler's number."
     },
     {
       "judul": "Laws of Exponents",
-      "teks": "For any positive real numbers $a$, $b$ and any real numbers $m$, $n$:\n\n1. **Product Rule**: $a^m \\\\cdot a^n = a^{m+n}$\n2. **Quotient Rule**: $\\\\frac{a^m}{a^n} = a^{m-n}$\n3. **Power Rule**: $(a^m)^n = a^{m \\\\cdot n}$\n4. **Zero Exponent**: $a^0 = 1$\n5. **Negative Exponent**: $a^{-n} = \\\\frac{1}{a^n}$\n6. **Fractional Exponent**: $a^{m/n} = \\\\sqrt[n]{a^m} = (\\\\sqrt[n]{a})^m$\n7. **Product to Power**: $(ab)^n = a^n b^n$\n8. **Quotient to Power**: $\\\\left(\\\\frac{a}{b}\\\\right)^n = \\\\frac{a^n}{b^n}$\n\nThese rules are fundamental for simplifying exponential expressions."
+      "teks": "For any positive real numbers $a$, $b$ and any real numbers $m$, $n$:\n\n1. **Product Rule**: $a^m \\cdot a^n = a^{m+n}$\n2. **Quotient Rule**: $\\frac{a^m}{a^n} = a^{m-n}$\n3. **Power Rule**: $(a^m)^n = a^{m \\cdot n}$\n4. **Zero Exponent**: $a^0 = 1$\n5. **Negative Exponent**: $a^{-n} = \\frac{1}{a^n}$\n6. **Fractional Exponent**: $a^{m/n} = \\sqrt[n]{a^m} = (\\sqrt[n]{a})^m$\n7. **Product to Power**: $(ab)^n = a^n b^n$\n8. **Quotient to Power**: $\\left(\\frac{a}{b}\\right)^n = \\frac{a^n}{b^n}$\n\nThese rules are fundamental for simplifying exponential expressions."
     },
     {
       "judul": "Introduction to Logarithmic Functions",
-      "teks": "Logarithmic functions are the inverses of exponential functions.\n\nIf $b^y = x$, then $\\\\log_b x = y$\n\nRead as: \"log base b of x equals y\"\n\nCommon logarithms:\n- $\\\\log_{10} x$ or simply $\\\\log x$ (common logarithm)\n- $\\\\log_e x$ or $\\\\ln x$ (natural logarithm)\n\nProperties:\n- Domain: $(0, \\\\infty)$\n- Range: $(-\\\\infty, \\\\infty)$\n- Vertical asymptote: $x = 0$\n- x-intercept: $(1, 0)$\n\nLogarithmic and exponential functions are inverses:\n$\\\\log_b(b^x) = x \\\\quad \\\\text{and} \\\\quad b^{\\\\log_b x} = x$"
+      "teks": "Logarithmic functions are the inverses of exponential functions.\n\nIf $b^y = x$, then $\\log_b x = y$\n\nRead as: \"log base b of x equals y\"\n\nCommon logarithms:\n- $\\log_{10} x$ or simply $\\log x$ (common logarithm)\n- $\\log_e x$ or $\\ln x$ (natural logarithm)\n\nProperties:\n- Domain: $(0, \\infty)$\n- Range: $(-\\infty, \\infty)$\n- Vertical asymptote: $x = 0$\n- x-intercept: $(1, 0)$\n\nLogarithmic and exponential functions are inverses:\n$\\log_b(b^x) = x \\quad \\text{and} \\quad b^{\\log_b x} = x$"
     },
     {
       "judul": "Laws of Logarithms",
-      "teks": "For any positive real numbers $M$, $N$, $b$ ($b \\\\neq 1$), and any real number $p$:\n\n1. **Product Rule**: $\\\\log_b(MN) = \\\\log_b M + \\\\log_b N$\n2. **Quotient Rule**: $\\\\log_b\\\\left(\\\\frac{M}{N}\\\\right) = \\\\log_b M - \\\\log_b N$\n3. **Power Rule**: $\\\\log_b(M^p) = p \\\\cdot \\\\log_b M$\n4. **Change of Base**: $\\\\log_b M = \\\\frac{\\\\log_k M}{\\\\log_k b}$\n5. **Identity**: $\\\\log_b b = 1$\n6. **Base Identity**: $\\\\log_b 1 = 0$\n\nThese laws allow us to simplify and manipulate logarithmic expressions."
+      "teks": "For any positive real numbers $M$, $N$, $b$ ($b \\neq 1$), and any real number $p$:\n\n1. **Product Rule**: $\\log_b(MN) = \\log_b M + \\log_b N$\n2. **Quotient Rule**: $\\log_b\\left(\\frac{M}{N}\\right) = \\log_b M - \\log_b N$\n3. **Power Rule**: $\\log_b(M^p) = p \\cdot \\log_b M$\n4. **Change of Base**: $\\log_b M = \\frac{\\log_k M}{\\log_k b}$\n5. **Identity**: $\\log_b b = 1$\n6. **Base Identity**: $\\log_b 1 = 0$\n\nThese laws allow us to simplify and manipulate logarithmic expressions."
     },
     {
       "judul": "Solving Exponential Equations",
-      "teks": "Strategies for solving exponential equations:\n\n### Method 1: Same Base\nIf $b^M = b^N$, then $M = N$\n\nExample: Solve $2^{3x-1} = 16$\n$2^{3x-1} = 2^4$\n$3x - 1 = 4$\n$x = \\\\frac{5}{3}$\n\n### Method 2: Logarithms\nTake logarithm of both sides:\n\nExample: Solve $3^x = 20$\n$\\\\ln(3^x) = \\\\ln(20)$\n$x \\\\ln 3 = \\\\ln 20$\n$x = \\\\frac{\\\\ln 20}{\\\\ln 3} \\\\approx 2.726$\n\n### Method 3: Quadratic Form\nFor equations like $e^{2x} - 5e^x + 6 = 0$\nLet $u = e^x$, then $u^2 - 5u + 6 = 0$\n$(u - 2)(u - 3) = 0$\n$e^x = 2$ or $e^x = 3$\n$x = \\\\ln 2$ or $x = \\\\ln 3$"
+      "teks": "Strategies for solving exponential equations:\n\n### Method 1: Same Base\nIf $b^M = b^N$, then $M = N$\n\nExample: Solve $2^{3x-1} = 16$\n$2^{3x-1} = 2^4$\n$3x - 1 = 4$\n$x = \\frac{5}{3}$\n\n### Method 2: Logarithms\nTake logarithm of both sides:\n\nExample: Solve $3^x = 20$\n$\\ln(3^x) = \\ln(20)$\n$x \\ln 3 = \\ln 20$\n$x = \\frac{\\ln 20}{\\ln 3} \\approx 2.726$\n\n### Method 3: Quadratic Form\nFor equations like $e^{2x} - 5e^x + 6 = 0$\nLet $u = e^x$, then $u^2 - 5u + 6 = 0$\n$(u - 2)(u - 3) = 0$\n$e^x = 2$ or $e^x = 3$\n$x = \\ln 2$ or $x = \\ln 3$"
     },
     {
       "judul": "Solving Logarithmic Equations",
-      "teks": "Strategies for solving logarithmic equations:\n\n### Method 1: Single Logarithm\nCombine into single log:\n\nExample: Solve $\\\\log_2(x) + \\\\log_2(x + 2) = 3$\n$\\\\log_2[x(x + 2)] = 3$\n$x(x + 2) = 2^3$\n$x^2 + 2x - 8 = 0$\n$(x + 4)(x - 2) = 0$\n$x = 2$ (x = -4 is extraneous)\n\n### Method 2: Exponential Form\nConvert to exponential form:\n\nExample: Solve $\\\\ln(x - 1) = 2$\n$e^2 = x - 1$\n$x = e^2 + 1$\n\n### Important: Check for Extraneous Solutions\nLog arguments must be positive!"
+      "teks": "Strategies for solving logarithmic equations:\n\n### Method 1: Single Logarithm\nCombine into single log:\n\nExample: Solve $\\log_2(x) + \\log_2(x + 2) = 3$\n$\\log_2[x(x + 2)] = 3$\n$x(x + 2) = 2^3$\n$x^2 + 2x - 8 = 0$\n$(x + 4)(x - 2) = 0$\n$x = 2$ ($x = -4$ is extraneous)\n\n### Method 2: Exponential Form\nConvert to exponential form:\n\nExample: Solve $\\ln(x - 1) = 2$\n$e^2 = x - 1$\n$x = e^2 + 1$\n\n### Important: Check for Extraneous Solutions\nLog arguments must be positive!"
     },
     {
       "judul": "Exponential Growth and Decay Models",
-      "teks": "Exponential functions model many real-world phenomena:\n\n### Exponential Growth\n$A(t) = A_0 e^{rt}$\nwhere:\n- $A(t)$ = amount at time t\n- $A_0$ = initial amount\n- $r$ = growth rate ($r > 0$)\n- $t$ = time\n\n### Exponential Decay\n$A(t) = A_0 e^{-rt}$\nwhere $r$ = decay rate ($r > 0$)\n\n### Half-Life Formula\n$A(t) = A_0 \\\\left(\\\\frac{1}{2}\\\\right)^{t/T}$\nwhere $T$ = half-life\n\n### Doubling Time\n$A(t) = A_0 \\\\cdot 2^{t/D}$\nwhere $D$ = doubling time"
+      "teks": "Exponential functions model many real-world phenomena:\n\n### Exponential Growth\n$A(t) = A_0 e^{rt}$\nwhere:\n- $A(t)$ = amount at time t\n- $A_0$ = initial amount\n- $r$ = growth rate ($r > 0$)\n- $t$ = time\n\n### Exponential Decay\n$A(t) = A_0 e^{-rt}$\nwhere $r$ = decay rate ($r > 0$)\n\n### Half-Life Formula\n$A(t) = A_0 \\left(\\frac{1}{2}\\right)^{t/T}$\nwhere $T$ = half-life\n\n### Doubling Time\n$A(t) = A_0 \\cdot 2^{t/D}$\nwhere $D$ = doubling time"
     },
     {
       "judul": "Compound Interest",
-      "teks": "Compound interest is a key application of exponential growth:\n\n### Compound Interest Formula\n$A = P\\\\left(1 + \\\\frac{r}{n}\\\\right)^{nt}$\nwhere:\n- $A$ = final amount\n- $P$ = principal (initial investment)\n- $r$ = annual interest rate (decimal)\n- $n$ = number of compounding periods per year\n- $t$ = time in years\n\n### Continuous Compounding\n$A = Pe^{rt}$\n(compounded infinitely often)\n\nExample: $1000 at 5% interest compounded monthly for 10 years:\n$A = 1000\\\\left(1 + \\\\frac{0.05}{12}\\\\right)^{12 \\\\cdot 10} \\\\approx 1647.01$"
+      "teks": "Compound interest is a key application of exponential growth:\n\n### Compound Interest Formula\n$A = P\\left(1 + \\frac{r}{n}\\right)^{nt}$\nwhere:\n- $A$ = final amount\n- $P$ = principal (initial investment)\n- $r$ = annual interest rate (decimal)\n- $n$ = number of compounding periods per year\n- $t$ = time in years\n\n### Continuous Compounding\n$A = Pe^{rt}$\n(compounded infinitely often)\n\nExample: $1000 at 5% interest compounded monthly for 10 years:\n$A = 1000\\left(1 + \\frac{0.05}{12}\\right)^{12 \\cdot 10} \\approx 1647.01$"
     },
     {
       "judul": "Logarithmic Scales",
-      "teks": "Logarithmic scales compress large ranges of values:\n\n### Richter Scale (Earthquakes)\n$M = \\\\log_{10}\\\\left(\\\\frac{A}{A_0}\\\\right)$\nwhere A is amplitude of seismic waves\n\n### Decibel Scale (Sound)\n$L = 10 \\\\log_{10}\\\\left(\\\\frac{I}{I_0}\\\\right)$\nwhere I is sound intensity\n\n### pH Scale (Acidity)\n$\\\\text{pH} = -\\\\log_{10}[\\\\text{H}^+]$\nwhere [H⁺] is hydrogen ion concentration\n\nThese scales allow us to work with quantities that vary over enormous ranges."
+      "teks": "Logarithmic scales compress large ranges of values:\n\n### Richter Scale (Earthquakes)\n$M = \\log_{10}\\left(\\frac{A}{A_0}\\right)$\nwhere A is amplitude of seismic waves\n\n### Decibel Scale (Sound)\n$L = 10 \\log_{10}\\left(\\frac{I}{I_0}\\right)$\nwhere I is sound intensity\n\n### pH Scale (Acidity)\n$\\text{pH} = -\\log_{10}[\\text{H}^+]$\nwhere [H⁺] is hydrogen ion concentration\n\nThese scales allow us to work with quantities that vary over enormous ranges."
     },
     {
       "judul": "Graphing Exponential and Logarithmic Functions",
-      "teks": "### Exponential Functions: $f(x) = a \\\\cdot b^x$\n- Always passes through (0, a)\n- Horizontal asymptote: y = 0\n- Increasing if b > 1, decreasing if 0 < b < 1\n\n### Logarithmic Functions: $f(x) = \\\\log_b x$\n- Always passes through (1, 0)\n- Vertical asymptote: x = 0\n- Increasing if b > 1, decreasing if 0 < b < 1\n\n### Transformations\nFor $f(x) = a \\\\cdot b^{c(x-h)} + k$:\n- h: horizontal shift\n- k: vertical shift\n- a: vertical stretch/reflection\n- c: horizontal stretch/compression\n\nSame principles apply to logarithmic functions."
+      "teks": "### Exponential Functions: $f(x) = a \\cdot b^x$\n- Always passes through $(0, a)$\n- Horizontal asymptote: $y = 0$\n- Increasing if $b > 1$, decreasing if $0 < b < 1$\n\n### Logarithmic Functions: $f(x) = \\log_b x$\n- Always passes through $(1, 0)$\n- Vertical asymptote: $x = 0$\n- Increasing if $b > 1$, decreasing if $0 < b < 1$\n\n### Transformations\nFor $f(x) = a \\cdot b^{c(x-h)} + k$:\n- $h$: horizontal shift\n- $k$: vertical shift\n- $a$: vertical stretch/reflection\n- $c$: horizontal stretch/compression\n\nSame principles apply to logarithmic functions."
     },
     {
       "judul": "Example Problems",
@@ -52,25 +52,25 @@
         },
         {
           "judul": "Example 2: Logarithmic Equation",
-          "teks": "Solve $\\\\log_3(x + 1) + \\\\log_3(x - 1) = 1$\n\n**Solution:**\n$\\\\log_3[(x + 1)(x - 1)] = 1$\n$(x + 1)(x - 1) = 3^1$\n$x^2 - 1 = 3$\n$x^2 = 4$\n$x = 2$ (x = -2 is extraneous)"
+          "teks": "Solve $\\log_3(x + 1) + \\log_3(x - 1) = 1$\n\n**Solution:**\n$\\log_3[(x + 1)(x - 1)] = 1$\n$(x + 1)(x - 1) = 3^1$\n$x^2 - 1 = 3$\n$x^2 = 4$\n$x = 2$ ($x = -2$ is extraneous)"
         },
         {
           "judul": "Example 3: Compound Interest",
-          "teks": "How long will it take $5000 to double at 4% interest compounded continuously?\n\n**Solution:**\n$10000 = 5000e^{0.04t}$\n$2 = e^{0.04t}$\n$\\\\ln 2 = 0.04t$\n$t = \\\\frac{\\\\ln 2}{0.04} \\\\approx 17.33$ years"
+          "teks": "How long will it take $5000 to double at 4% interest compounded continuously?\n\n**Solution:**\n$10000 = 5000e^{0.04t}$\n$2 = e^{0.04t}$\n$\\ln 2 = 0.04t$\n$t = \\frac{\\ln 2}{0.04} \\approx 17.33$ years"
         },
         {
           "judul": "Example 4: Exponential Model",
-          "teks": "A bacteria culture starts with 200 cells and doubles every 3 hours. Write the exponential model.\n\n**Solution:**\n$A(t) = 200 \\\\cdot 2^{t/3}$\nAfter 12 hours: $A(12) = 200 \\\\cdot 2^{12/3} = 200 \\\\cdot 16 = 3200$ cells"
+          "teks": "A bacteria culture starts with 200 cells and doubles every 3 hours. Write the exponential model.\n\n**Solution:**\n$A(t) = 200 \\cdot 2^{t/3}$\nAfter 12 hours: $A(12) = 200 \\cdot 2^{12/3} = 200 \\cdot 16 = 3200$ cells"
         }
       ]
     },
     {
       "judul": "Practice Exercises",
-      "teks": "1. Simplify: $\\\\log_2 16 + \\\\log_2 4 - \\\\log_2 8$\n2. Solve: $4^{x+1} = 8^{x-1}$\n3. Solve: $\\\\ln(x^2 - 4) - \\\\ln(x + 2) = 1$\n4. $2000 invested at 6% compounded quarterly for 5 years. Find final amount.\n5. The half-life of carbon-14 is 5730 years. Find the decay constant.\n6. Write $2\\\\log x - 3\\\\log y + \\\\log z$ as a single logarithm"
+      "teks": "1. Simplify: $\\log_2 16 + \\log_2 4 - \\log_2 8$\n2. Solve: $4^{x+1} = 8^{x-1}$\n3. Solve: $\\ln(x^2 - 4) - \\ln(x + 2) = 1$\n4. $2000 invested at 6% compounded quarterly for 5 years. Find final amount.\n5. The half-life of carbon-14 is 5730 years. Find the decay constant.\n6. Write $2\\log x - 3\\log y + \\log z$ as a single logarithm"
     },
     {
       "judul": "Key Properties and Applications",
-      "teks": "1. **Inverse Relationship**: $\\\\log_b(b^x) = x$ and $b^{\\\\log_b x} = x$\n2. **Domain Restrictions**: Logarithm arguments must be positive\n3. **Exponential Growth**: $A(t) = A_0 e^{rt}$ (r > 0)\n4. **Exponential Decay**: $A(t) = A_0 e^{-rt}$ (r > 0)\n5. **Compound Interest**: $A = P(1 + r/n)^{nt}$ or $A = Pe^{rt}$\n6. **Logarithmic Scales**: Used for quantities with enormous ranges (Richter, decibel, pH)\n7. **Always Check Solutions**: Verify answers satisfy original equation and domain restrictions"
+      "teks": "1. **Inverse Relationship**: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$\n2. **Domain Restrictions**: Logarithm arguments must be positive\n3. **Exponential Growth**: $A(t) = A_0 e^{rt}$ (r > 0)\n4. **Exponential Decay**: $A(t) = A_0 e^{-rt}$ (r > 0)\n5. **Compound Interest**: $A = P(1 + r/n)^{nt}$ or $A = Pe^{rt}$\n6. **Logarithmic Scales**: Used for quantities with enormous ranges (Richter, decibel, pH)\n7. **Always Check Solutions**: Verify answers satisfy original equation and domain restrictions"
     }
   ]
 }
