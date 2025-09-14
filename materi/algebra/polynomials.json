@@ -16,7 +16,7 @@
     },
     {
       "judul": "Remainder Theorem",
-      "teks": "The Remainder Theorem provides a quick way to evaluate polynomials:\n\nIf a polynomial $P(x)$ is divided by $(x - c)$, then the remainder is $P(c)$.\n\nExample: Find the remainder when $P(x) = x^3 - 4x^2 + 2x - 1$ is divided by $(x - 2)$\n\n**Solution:**\n$P(2) = (2)^3 - 4(2)^2 + 2(2) - 1 = 8 - 16 + 4 - 1 = -5$\n\nThe remainder is $-5$.\n\nThis theorem is useful for:\n- Quick polynomial evaluation\n- Checking if $(x - c)$ is a factor (if remainder = 0)\n- Polynomial root finding"
+      "teks": "The Remainder Theorem provides a quick way to evaluate polynomials:\n\nIf a polynomial $P(x)$ is divided by $(x - c)$, then the remainder is $P(c)$.\n\nExample: Find remainder when $P(x) = x^3 - 4x^2 + 2x - 1$ is divided by $(x - 2)$\n\n**Solution:**\n$P(2) = (2)^3 - 4(2)^2 + 2(2) - 1 = 8 - 16 + 4 - 1 = -5$\n\nThe remainder is $-5$.\n\nThis theorem is useful for:\n- Quick polynomial evaluation\n- Checking if $(x - c)$ is a factor (if remainder = 0)\n- Polynomial root finding"
     },
     {
       "judul": "Factor Theorem",
@@ -26,11 +26,11 @@
     },
     {
       "judul": "Finding Zeros of Polynomial Functions",
-      "teks": "Zeros (or roots) are the x-values where $P(x) = 0$.\n\n### Methods for Finding Zeros:\n\n1. **Factoring**: Solve $P(x) = 0$ by factoring\n   Example: $x^2 - 5x + 6 = 0 \\rightarrow (x - 2)(x - 3) = 0 \\rightarrow x = 2, 3$\n\n2. **Quadratic Formula**: For degree 2 polynomials\n   $$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$\n\n3. **Rational Root Theorem**: Lists possible rational roots\n   For $P(x) = a_nx^n + \\cdots + a_0$, possible rational roots are $\\pm\\frac{p}{q}$\n   where p divides $a_0$ and q divides $a_n$\n\n4. **Synthetic Division**: Tests possible roots efficiently\n\n5. **Graphical Methods**: Estimate zeros from graph\n\nExample: Find all zeros of $P(x) = x^3 - 3x^2 - 4x + 12$\n\nPossible rational roots: $\\pm1, \\pm2, \\pm3, \\pm4, \\pm6, \\pm12$\nTest $x = 2$: $P(2) = 8 - 12 - 8 + 12 = 0$ ✓\n\nUse synthetic division to factor: $(x - 2)(x^2 - x - 6) = (x - 2)(x - 3)(x + 2)$\nZeros: $x = 2, 3, -2$"
+      "teks": "Zeros (or roots) are the x-values where $P(x) = 0$.\n\n### Methods for Finding Zeros:\n\n1. **Factoring**: Solve $P(x) = 0$ by factoring\n   Example: $x^2 - 5x + 6 = 0$ → $(x - 2)(x - 3) = 0$ → $x = 2, 3$\n\n2. **Quadratic Formula**: For degree 2 polynomials\n   $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$\n\n3. **Rational Root Theorem**: Lists possible rational roots\n   For $P(x) = a_nx^n + \\cdots + a_0$, possible rational roots are $\\pm\\frac{p}{q}$\n   where p divides $a_0$ and q divides $a_n$\n\n4. **Synthetic Division**: Tests possible roots efficiently\n\n5. **Graphical Methods**: Estimate zeros from graph\n\nExample: Find all zeros of $P(x) = x^3 - 3x^2 - 4x + 12$\n\nPossible rational roots: $\\pm1, \\pm2, \\pm3, \\pm4, \\pm6, \\pm12$\nTest $x = 2$: $P(2) = 8 - 12 - 8 + 12 = 0$ ✓\n\nUse synthetic division to factor: $(x - 2)(x^2 - x - 6) = (x - 2)(x - 3)(x + 2)$\nZeros: $x = 2, 3, -2$"
     },
     {
       "judul": "Graphing Polynomial Functions",
-      "teks": "### Key Features of Polynomial Graphs:\n\n1. **End Behavior**: Determined by leading term\n   - Even degree, positive LC: \\( \\uparrow \\) both ends\n   - Even degree, negative LC: \\( \\downarrow \\) both ends\n   - Odd degree, positive LC: \\( \\downarrow \\) left, \\( \\uparrow \\) right\n   - Odd degree, negative LC: \\( \\uparrow \\) left, \\( \\downarrow \\) right\n\n2. **Intercepts**:\n   - x-intercepts: Real zeros (roots)\n   - y-intercept: $P(0)$\n\n3. **Turning Points**: A degree n polynomial has at most (n - 1) turning points\n\n4. **Multiplicity Behavior**:\n   - Odd multiplicity: Graph crosses x-axis\n   - Even multiplicity: Graph touches x-axis and turns around\n\n### Graphing Steps:\n1. Determine end behavior from leading term\n2. Find and plot intercepts\n3. Determine behavior at each x-intercept (multiplicity)\n4. Find additional points if needed\n5. Sketch smooth curve through points\n\nExample: Graph $P(x) = (x + 1)^2(x - 2)$",
+      "teks": "### Key Features of Polynomial Graphs:\n\n1. **End Behavior**: Determined by leading term\n   - Even degree, positive LC: ↑ both ends\n   - Even degree, negative LC: ↓ both ends\n   - Odd degree, positive LC: ↓ left, ↑ right\n   - Odd degree, negative LC: ↑ left, ↓ right\n\n2. **Intercepts**:\n   - x-intercepts: Real zeros (roots)\n   - y-intercept: $P(0)$\n\n3. **Turning Points**: A degree n polynomial has at most (n - 1) turning points\n\n4. **Multiplicity Behavior**:\n   - Odd multiplicity: Graph crosses x-axis\n   - Even multiplicity: Graph touches x-axis and turns around\n\n### Graphing Steps:\n1. Determine end behavior from leading term\n2. Find and plot intercepts\n3. Determine behavior at each x-intercept (multiplicity)\n4. Find additional points if needed\n5. Sketch smooth curve through points\n\nExample: Graph $P(x) = (x + 1)^2(x - 2)$",
       "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/polynomial_graph.png",
       "gambarDeskripsi": "Graph showing polynomial with roots and turning points"
     },
@@ -56,7 +56,7 @@
         },
         {
           "judul": "Example 3: Finding Zeros",
-          "teks": "Find all zeros of $P(x) = x^3 - 6x^2 + 11x - 6$\n\n**Solution:**\nPossible rational roots: $\\pm1, \\pm2, \\pm3, \\pm4, \\pm6, \\pm12$\nTest $x = 1$: $1 - 6 + 11 - 6 = 0$ ✓\n\nSynthetic division:\n```\n1 | 1  -6  11  -6\n  |    1  -5   6\n  --------------\n    1  -5   6   0\n```\n$P(x) = (x - 1)(x^2 - 5x + 6) = (x - 1)(x - 2)(x - 3)$\nZeros: $x = 1, 2, 3$"
+          "teks": "Find all zeros of $P(x) = x^3 - 6x^2 + 11x - 6$\n\n**Solution:**\nPossible rational roots: $\\pm1, \\pm2, \\pm3, \\pm6$\nTest $x = 1$: $1 - 6 + 11 - 6 = 0$ ✓\n\nSynthetic division:\n```\n1 | 1  -6  11  -6\n  |    1  -5   6\n  --------------\n    1  -5   6   0\n```\n$P(x) = (x - 1)(x^2 - 5x + 6) = (x - 1)(x - 2)(x - 3)$\nZeros: $x = 1, 2, 3$"
         },
         {
           "judul": "Example 4: Polynomial Division",
@@ -71,3 +71,6 @@
     {
       "judul": "Key Properties and Concepts",
       "teks": "1. **Degree**: Determines maximum number of roots and turning points\n2. **Factoring**: Essential for solving polynomial equations and simplifying expressions\n3. **Remainder Theorem**: $P(c)$ equals remainder when dividing by $(x - c)$\n4. **Factor Theorem**: $(x - c)$ is a factor if and only if $P(c) = 0$\n5. **Rational Root Theorem**: Provides possible rational roots to test\n6. **End Behavior**: Determined by leading term's degree and coefficient\n7. **Multiplicity**: Affects how graph behaves at x-intercepts\n8. **Fundamental Theorem**: Degree n polynomial has exactly n complex roots\n9. **Complex Roots**: Occur in conjugate pairs for real-coefficient polynomials"
+    }
+  ]
+}
