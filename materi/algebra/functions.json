@@ -8,11 +8,11 @@
     },
     {
       "judul": "Domain and Range",
-      "teks": "The **domain** of a function is the set of all possible input values (x-values) for which the function is defined.\n\nThe **range** of a function is the set of all possible output values (y-values) that result from the domain.\n\n### Finding Domain Restrictions:\n- Denominator cannot be zero\n- Expression under square root (or even root) must be ≥ 0\n- Logarithm arguments must be > 0\n\nExample: Find domain of $f(x) = \\frac{1}{\\sqrt{x-2}}$\n\n**Solution:**\n$x - 2 > 0$ (denominator and square root restrictions)\n$x > 2$\nDomain: $(2, ∞)$"
+      "teks": "The **domain** of a function is the set of all possible input values (x-values) for which the function is defined.\n\nThe **range** of a function is the set of all possible output values (y-values) that result from the domain.\n\n### Finding Domain Restrictions:\n- Denominator cannot be zero\n- Expression under square root (or even root) must be \\u2265 0\n- Logarithm arguments must be > 0\n\nExample: Find domain of $f(x) = \\frac{1}{\\sqrt{x-2}}$\n\n**Solution:**\n$x - 2 > 0$ (denominator and square root restrictions)\n$x > 2$\nDomain: $(2, \\u221e)$"
     },
     {
       "judul": "Function Notation and Evaluation",
-      "teks": "Function notation provides a way to represent inputs and outputs clearly.\n\nExamples:\n- $f(x) = 2x + 3$ means \"function f of x equals 2x plus 3\"\n- $f(2) = 2(2) + 3 = 7$ means \"when x is 2, f(x) is 7\"\n- $f(a + b) = 2(a + b) + 3 = 2a + 2b + 3$\n\nPiecewise functions have different rules for different parts of the domain:\n$$f(x) = \n\\begin{cases} \nx^2 & \\text{if } x < 0 \\\\\n2x + 1 & \\text{if } x \\geq 0 \n\\end{cases}$$"
+      "teks": "Function notation provides a way to represent inputs and outputs clearly.\n\nExamples:\n- $f(x) = 2x + 3$ means \"function f of x equals 2x plus 3\"\n- $f(2) = 2(2) + 3 = 7$ means \"when x is 2, f(x) is 7\"\n- $f(a + b) = 2(a + b) + 3 = 2a + 2b + 3$\n\nPiecewise functions have different rules for different parts of the domain:\n$$f(x) = \\begin{cases} x^2 & \\text{if } x < 0 \\\\ 2x + 1 & \\text{if } x \\ge 0 \\end{cases}$$"
     },
     {
       "judul": "Linear Functions",
@@ -22,19 +22,19 @@
     },
     {
       "judul": "Quadratic Functions",
-      "teks": "Quadratic functions have the form: $$f(x) = ax^2 + bx + c$$\nwhere $a ≠ 0$.\n\nGraph is a parabola that:\n- Opens upward if $a > 0$\n- Opens downward if $a < 0$\n\nKey features:\n- Vertex: $(-\\frac{b}{2a}, f(-\\frac{b}{2a}))$ (minimum/maximum point)\n- Axis of symmetry: $x = -\\frac{b}{2a}$\n- y-intercept: $(0, c)$\n- x-intercepts (roots): Solutions to $ax^2 + bx + c = 0$\n\nVertex form: $$f(x) = a(x - h)^2 + k$$\nwhere $(h, k)$ is the vertex."
+      "teks": "Quadratic functions have the form: $$f(x) = ax^2 + bx + c$$\nwhere $a \\ne 0$.\n\nGraph is a parabola that:\n- Opens upward if $a > 0$\n- Opens downward if $a < 0$\n\nKey features:\n- Vertex: $(-\\frac{b}{2a}, f(-\\frac{b}{2a}))$ (minimum/maximum point)\n- Axis of symmetry: $x = -\\frac{b}{2a}$\n- y-intercept: $(0, c)$\n- x-intercepts (roots): Solutions to $ax^2 + bx + c = 0$\n\nVertex form: $$f(x) = a(x - h)^2 + k$$\nwhere $(h, k)$ is the vertex."
     },
     {
       "judul": "Polynomial Functions",
-      "teks": "Polynomial functions have the form: $$f(x) = a_nx^n + a_{n-1}x^{n-1} + \\cdots + a_1x + a_0$$\nwhere $n$ is a non-negative integer and $a_n ≠ 0$.\n\nKey characteristics:\n- Degree: Highest power of x (n)\n- Leading coefficient: $a_n$\n- End behavior: Determined by degree and leading coefficient\n- Zeros: x-values where f(x) = 0\n- Multiplicity: How many times a factor appears\n\nGraph behavior at zeros:\n- Multiplicity 1: Graph crosses x-axis\n- Even multiplicity: Graph touches x-axis and turns around\n- Odd multiplicity ≥ 3: Graph crosses x-axis and flattens"
+      "teks": "Polynomial functions have the form: $$f(x) = a_nx^n + a_{n-1}x^{n-1} + \\cdots + a_1x + a_0$$\nwhere $n$ is a non-negative integer and $a_n \\ne 0$.\n\nKey characteristics:\n- Degree: Highest power of x (n)\n- Leading coefficient: $a_n$\n- End behavior: Determined by degree and leading coefficient\n- Zeros: x-values where f(x) = 0\n- Multiplicity: How many times a factor appears\n\nGraph behavior at zeros:\n- Multiplicity 1: Graph crosses x-axis\n- Even multiplicity: Graph touches x-axis and turns around\n- Odd multiplicity \\u2265 3: Graph crosses x-axis and flattens"
     },
     {
       "judul": "Radical Functions",
-      "teks": "Radical functions contain a variable within a radical (root).\n\nMost common: Square root function $$f(x) = \\sqrt{x}$$\n\nProperties:\n- Domain: $x ≥ 0$\n- Range: $y ≥ 0$\n- Graph: Curve starting at (0,0) and increasing slowly\n\nGeneral form: $$f(x) = a\\sqrt{b(x - h)} + k$$\n- Transformation of basic $\\sqrt{x}$ function\n- Domain: $b(x - h) ≥ 0$\n\nOther radical functions:\n- Cube root: $f(x) = \\sqrt[3]{x}$ (domain: all real numbers)\n- Higher roots: Similar restrictions based on even/odd degree"
+      "teks": "Radical functions contain a variable within a radical (root).\n\nMost common: Square root function $$f(x) = \\sqrt{x}$$\n\nProperties:\n- Domain: $x \\ge 0$\n- Range: $y \\ge 0$\n- Graph: Curve starting at (0,0) and increasing slowly\n\nGeneral form: $$f(x) = a\\sqrt{b(x - h)} + k$$\n- Transformation of basic $\\sqrt{x}$ function\n- Domain: $b(x - h) \\ge 0$\n\nOther radical functions:\n- Cube root: $f(x) = \\sqrt[3]{x}$ (domain: all real numbers)\n- Higher roots: Similar restrictions based on even/odd degree"
     },
     {
       "judul": "Composite Functions",
-      "teks": "Function composition applies one function to the results of another.\n\nNotation: $$(f \\circ g)(x) = f(g(x))$$\n\nRead as \"f composed with g\" or \"f of g of x\".\n\nSteps to find $f(g(x))$:\n1. Evaluate g(x) first\n2. Substitute this result into f(x)\n\nImportant: Composition is not commutative\n$$f(g(x)) ≠ g(f(x))$$ in general\n\nDomain of composite functions: x must be in domain of g, and g(x) must be in domain of f.\n\nExample: If $f(x) = \\sqrt{x}$ and $g(x) = x - 4$, find $f(g(x))$\n\n**Solution:**\n$f(g(x)) = f(x - 4) = \\sqrt{x - 4}$\nDomain: $x - 4 ≥ 0$ → $x ≥ 4$"
+      "teks": "Function composition applies one function to the results of another.\n\nNotation: $$(f \\circ g)(x) = f(g(x))$$\n\nRead as \"f composed with g\" or \"f of g of x\".\n\nSteps to find $f(g(x))$:\n1. Evaluate g(x) first\n2. Substitute this result into f(x)\n\nImportant: Composition is not commutative\n$$f(g(x)) \\ne g(f(x))$$ in general\n\nDomain of composite functions: x must be in domain of g, and g(x) must be in domain of f.\n\nExample: If $f(x) = \\sqrt{x}$ and $g(x) = x - 4$, find $f(g(x))$\n\n**Solution:**\n$f(g(x)) = f(x - 4) = \\sqrt{x - 4}$\nDomain: $x - 4 \\ge 0$ \\u2192 $x \\ge 4$"
     },
     {
       "judul": "Inverse Functions",
@@ -56,7 +56,7 @@
       "subItems": [
         {
           "judul": "Example 1: Domain and Range",
-          "teks": "Find domain and range of $f(x) = \\sqrt{4 - x^2}$\n\n**Solution:**\nDomain: $4 - x^2 ≥ 0$ → $x^2 ≤ 4$ → $-2 ≤ x ≤ 2$\nRange: $\\sqrt{4 - x^2} ≥ 0$ and maximum value is 2 when x = 0\nSo range: $[0, 2]$"
+          "teks": "Find domain and range of $f(x) = \\sqrt{4 - x^2}$\n\n**Solution:**\nDomain: $4 - x^2 \\ge 0$ \\u2192 $x^2 \\le 4$ \\u2192 $-2 \\le x \\le 2$\nRange: $\\sqrt{4 - x^2} \\ge 0$ and maximum value is 2 when x = 0\nSo range: $[0, 2]$"
         },
         {
           "judul": "Example 2: Composite Functions",
@@ -78,7 +78,7 @@
     },
     {
       "judul": "Key Properties and Concepts",
-      "teks": "1. **Function definition**: Each input maps to exactly one output\n2. **Vertical line test**: Determines if a graph represents a function\n3. **Domain restrictions**: Denominators ≠ 0, even roots ≥ 0, log arguments > 0\n4. **Inverse existence**: Function must be one-to-one (pass horizontal line test)\n5. **Transformation order**: Horizontal changes affect x inside function, vertical changes affect y outside function\n6. **Composition order**: $(f \\circ g)(x) = f(g(x))$ means apply g first, then f"
+      "teks": "1. **Function definition**: Each input maps to exactly one output\n2. **Vertical line test**: Determines if a graph represents a function\n3. **Domain restrictions**: Denominators \\u2260 0, even roots \\u2265 0, log arguments > 0\n4. **Inverse existence**: Function must be one-to-one (pass horizontal line test)\n5. **Transformation order**: Horizontal changes affect x inside function, vertical changes affect y outside function\n6. **Composition order**: $(f \\circ g)(x) = f(g(x))$ means apply g first, then f"
     }
   ]
 }
