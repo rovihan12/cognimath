@@ -40,11 +40,11 @@
     },
     {
       "judul": "Ellipses (Advanced Topic)",
-      "teks": "An ellipse is the set of points where the sum of distances to two fixed points (foci) is constant.\n\n### Standard Forms\n**Horizontal major axis**: $$\\frac{(x - h)^2}{a^2} + \\frac{(y - k)^2}{b^2} = 1$$\n- Center: $(h, k)$\n- Vertices: $(h \\pm a, k)$\n- Foci: $(h \\pm c, k)$ where $c^2 = a^2 - b^2$\n\n**Vertical major axis**: $$\\frac{(x - h)^2}{b^2} + \\frac{(y - k)^2}{a^2} = 1$$\n- Center: $(h, k)$\n- Vertices: $(h, k \\pm a)$\n- Foci: $(h, k \\pm c)$ where $c^2 = a^2 - b^2$\n\nEccentricity: $e = \\frac{c}{a}$ (0 < e < 1)"
+      "teks": "An ellipse is the set of points where the sum of distances to two fixed points (foci) is constant.\n\n### Standard Forms\n**Horizontal major axis**: $$\\frac{(x - h)^2}{a^2} + \\frac{(y - k)^2}{b^2} = 1$$\n- Center: $(h, k)$\n- Vertices: $(h \\pm a, k)$\n- Foci: $(h \\pm c, k)$ where $c^2 = a^2 - b^2$\n\n**Vertical major axis**: $$\\frac{(x - h)^2}{b^2} + \\frac{(y - k)^2}{a^2} = 1$$\n- Center: $(h, k)$\n- Vertices: $(h, k \\pm a)$\n- Foci: $(h, k \\pm c)$ where $c^2 = a^2 - b^2$\n\nEccentricity: $e = \\frac{c}{a}$ ($0 < e < 1$)"
     },
     {
       "judul": "Hyperbolas (Advanced Topic)",
-      "teks": "A hyperbola is the set of points where the difference of distances to two fixed points (foci) is constant.\n\n### Standard Forms\n**Horizontal transverse axis**: $$\\frac{(x - h)^2}{a^2} - \\frac{(y - k)^2}{b^2} = 1$$\n- Center: $(h, k)$\n- Vertices: $(h \\pm a, k)$\n- Foci: $(h \\pm c, k)$ where $c^2 = a^2 + b^2$\n- Asymptotes: $y - k = \\pm\\frac{b}{a}(x - h)$\n\n**Vertical transverse axis**: $$\\frac{(y - k)^2}{a^2} - \\frac{(x - h)^2}{b^2} = 1$$\n- Center: $(h, k)$\n- Vertices: $(h, k \\pm a)$\n- Foci: $(h, k \\pm c)$ where $c^2 = a^2 + b^2$\n- Asymptotes: $y - k = \\pm\\frac{a}{b}(x - h)$\n\nEccentricity: $e = \\frac{c}{a}$ (e > 1)"
+      "teks": "A hyperbola is the set of points where the difference of distances to two fixed points (foci) is constant.\n\n### Standard Forms\n**Horizontal transverse axis**: $$\\frac{(x - h)^2}{a^2} - \\frac{(y - k)^2}{b^2} = 1$$\n- Center: $(h, k)$\n- Vertices: $(h \\pm a, k)$\n- Foci: $(h \\pm c, k)$ where $c^2 = a^2 + b^2$\n- Asymptotes: $y - k = \\pm\\frac{b}{a}(x - h)$\n\n**Vertical transverse axis**: $$\\frac{(y - k)^2}{a^2} - \\frac{(x - h)^2}{b^2} = 1$$\n- Center: $(h, k)$\n- Vertices: $(h, k \\pm a)$\n- Foci: $(h, k \\pm c)$ where $c^2 = a^2 + b^2$\n- Asymptotes: $y - k = \\pm\\frac{a}{b}(x - h)$\n\nEccentricity: $e = \\frac{c}{a}$ ($e > 1$)"
     },
     {
       "judul": "Example Problems",
