@@ -38,7 +38,7 @@
     },
     {
       "judul": "Inverse Functions",
-      "teks": "The inverse of a function f, denoted $f^{-1}$, reverses the action of f.\n\nIf $f(a) = b$, then $f^{-1}(b) = a$.\n\nA function has an inverse if and only if it is one-to-one (passes the horizontal line test).\n\nFinding inverse functions:\n1. Replace f(x) with y\n2. Swap x and y\n3. Solve for y\n4. Replace y with $f^{-1}(x)$\n\nProperties:\n- $f(f^{-1}(x)) = x$ for all x in domain of $f^{-1}$\n- $f^{-1}(f(x)) = x$ for all x in domain of f\n- Graph of $f^{-1}$ is reflection of graph of f across line y = x\n\nExample: Find inverse of $f(x) = 2x + 3$\n\n**Solution:**\n$y = 2x + 3$\n$x = 2y + 3$\n$x - 3 = 2y$\n$y = \\frac{x - 3}{2}$\n$f^{-1}(x) = \\frac{x - 3}{2}$"
+      "teks": "The inverse of a function f, denoted $f^{-1}$, reverses the action of f.\n\nIf $f(a) = b$, then $f^{-1}(b) = a$.\n\nA function has an inverse if and only if it is one-to-one (passes the horizontal line test).\n\nFinding inverse functions:\n1. Replace f(x) with y\n2. Swap x and y\n3. Solve for y\n4. Replace y with $f^{-1}(x)$\n\nProperties:\n- $f(f^{-1}(x)) = x$ for all x in domain of $f^{-1}$\n- $f^{-1}(f(x)) = x$ for all x in domain of f\n- Graph of $f^{-1}$ is reflection of graph of f across line y = x\n\nExample: Find inverse of $f(x) = \\frac{2x + 3}{x - 1}$\n\n**Solution:**\n$y = \\frac{2x + 3}{x - 1}$\n$x = \\frac{2y + 3}{y - 1}$\n$x(y - 1) = 2y + 3$\n$xy - x = 2y + 3$\n$xy - 2y = x + 3$\n$y(x - 2) = x + 3$\n$y = \\frac{x + 3}{x - 2}$\n$f^{-1}(x) = \\frac{x + 3}{x - 2}$"
     },
     {
       "judul": "Graph Transformations",
