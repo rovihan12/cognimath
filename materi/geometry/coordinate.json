@@ -4,7 +4,7 @@
   "subItems": [
     {
       "judul": "Introduction to Coordinate Geometry",
-      "teks": "Coordinate geometry (also called analytic geometry) combines algebra and geometry using the coordinate plane. It allows us to represent geometric shapes algebraically and solve geometric problems using algebraic equations.\n\nThe Cartesian coordinate system consists of:\n- **x-axis**: Horizontal number line\n- **y-axis**: Vertical number line\n- **Origin**: Point (0, 0) where axes intersect\n- **Quadrants**: Four regions created by the axes (I, II, III, IV)\n\nAny point in the plane can be represented by an ordered pair (x, y) called coordinates."
+      "teks": "Coordinate geometry (also called analytic geometry) combines algebra and geometry using the coordinate plane. It allows us to represent geometric shapes algebraically and solve geometric problems using algebraic equations.\n\nThe Cartesian coordinate system consists of:\n- **x-axis**: Horizontal number line\n- **y-axis**: Vertical number line\n- **Origin**: Point $(0, 0)$ where axes intersect\n- **Quadrants**: Four regions created by the axes (I, II, III, IV)\n\nAny point in the plane can be represented by an ordered pair $(x, y)$ called coordinates."
     },
     {
       "judul": "Distance Formula",
@@ -34,17 +34,17 @@
     },
     {
       "judul": "Parabolas",
-      "teks": "A parabola is the set of points equidistant from a fixed point (focus) and a fixed line (directrix).\n\n### Standard Forms\n**Vertical axis**: $$(x - h)^2 = 4p(y - k)$$\n- Vertex: $(h, k)$\n- Focus: $(h, k + p)$\n- Directrix: $y = k - p$\n\n**Horizontal axis**: $$(y - k)^2 = 4p(x - h)$$\n- Vertex: $(h, k)$\n- Focus: $(h + p, k)$\n- Directrix: $x = h - p$\n\n### Quadratic Form\n$$y = ax^2 + bx + c$$\n- Vertex: $\\left(-\\frac{b}{2a}, f(-\\frac{b}{2a})\\right)$\n- Axis of symmetry: $x = -\\frac{b}{2a}$",
+      "teks": "A parabola is the set of points equidistant from a fixed point (focus) and a fixed line (directrix).\n\n### Standard Forms\n**Vertical axis**: $$(x - h)^2 = 4p(y - k)$$\n- Vertex: $(h, k)$\n- Focus: $(h, k + p)$\n- Directrix: $y = k - p$\n\n**Horizontal axis**: $$(y - k)^2 = 4p(x - h)$$\n- Vertex: $(h, k)$\n- Focus: $(h + p, k)$\n- Directrix: $x = h - p$\n\n### Quadratic Form\n$$y = ax^2 + bx + c$$\n- Vertex: $\\left(-\\frac{b}{2a}, f\\left(-\\frac{b}{2a}\\right)\\right)$\n- Axis of symmetry: $x = -\\frac{b}{2a}$",
       "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/parabola_elements.png",
       "gambarDeskripsi": "Parabola showing focus, directrix, vertex, and axis of symmetry"
     },
     {
       "judul": "Ellipses (Advanced Topic)",
-      "teks": "An ellipse is the set of points where the sum of distances to two fixed points (foci) is constant.\n\n### Standard Forms\n**Horizontal major axis**: $$\\frac{(x - h)^2}{a^2} + \\frac{(y - k)^2}{b^2} = 1$$\n- Center: $(h, k)$\n- Vertices: $(h ± a, k)$\n- Foci: $(h ± c, k)$ where $c^2 = a^2 - b^2$\n\n**Vertical major axis**: $$\\frac{(x - h)^2}{b^2} + \\frac{(y - k)^2}{a^2} = 1$$\n- Center: $(h, k)$\n- Vertices: $(h, k ± a)$\n- Foci: $(h, k ± c)$ where $c^2 = a^2 - b^2$\n\nEccentricity: $e = \\frac{c}{a}$ (0 < e < 1)"
+      "teks": "An ellipse is the set of points where the sum of distances to two fixed points (foci) is constant.\n\n### Standard Forms\n**Horizontal major axis**: $$\\frac{(x - h)^2}{a^2} + \\frac{(y - k)^2}{b^2} = 1$$\n- Center: $(h, k)$\n- Vertices: $(h \\pm a, k)$\n- Foci: $(h \\pm c, k)$ where $c^2 = a^2 - b^2$\n\n**Vertical major axis**: $$\\frac{(x - h)^2}{b^2} + \\frac{(y - k)^2}{a^2} = 1$$\n- Center: $(h, k)$\n- Vertices: $(h, k \\pm a)$\n- Foci: $(h, k \\pm c)$ where $c^2 = a^2 - b^2$\n\nEccentricity: $e = \\frac{c}{a}$ (0 < e < 1)"
     },
     {
       "judul": "Hyperbolas (Advanced Topic)",
-      "teks": "A hyperbola is the set of points where the difference of distances to two fixed points (foci) is constant.\n\n### Standard Forms\n**Horizontal transverse axis**: $$\\frac{(x - h)^2}{a^2} - \\frac{(y - k)^2}{b^2} = 1$$\n- Center: $(h, k)$\n- Vertices: $(h ± a, k)$\n- Foci: $(h ± c, k)$ where $c^2 = a^2 + b^2$\n- Asymptotes: $y - k = ±\\frac{b}{a}(x - h)$\n\n**Vertical transverse axis**: $$\\frac{(y - k)^2}{a^2} - \\frac{(x - h)^2}{b^2} = 1$$\n- Center: $(h, k)$\n- Vertices: $(h, k ± a)$\n- Foci: $(h, k ± c)$ where $c^2 = a^2 + b^2$\n- Asymptotes: $y - k = ±\\frac{a}{b}(x - h)$\n\nEccentricity: $e = \\frac{c}{a}$ (e > 1)"
+      "teks": "A hyperbola is the set of points where the difference of distances to two fixed points (foci) is constant.\n\n### Standard Forms\n**Horizontal transverse axis**: $$\\frac{(x - h)^2}{a^2} - \\frac{(y - k)^2}{b^2} = 1$$\n- Center: $(h, k)$\n- Vertices: $(h \\pm a, k)$\n- Foci: $(h \\pm c, k)$ where $c^2 = a^2 + b^2$\n- Asymptotes: $y - k = \\pm\\frac{b}{a}(x - h)$\n\n**Vertical transverse axis**: $$\\frac{(y - k)^2}{a^2} - \\frac{(x - h)^2}{b^2} = 1$$\n- Center: $(h, k)$\n- Vertices: $(h, k \\pm a)$\n- Foci: $(h, k \\pm c)$ where $c^2 = a^2 + b^2$\n- Asymptotes: $y - k = \\pm\\frac{a}{b}(x - h)$\n\nEccentricity: $e = \\frac{c}{a}$ (e > 1)"
     },
     {
       "judul": "Example Problems",
