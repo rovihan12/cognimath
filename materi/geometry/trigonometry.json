@@ -1,0 +1,30 @@
+{
+  "id": "trigonometry",
+  "title": "Trigonometry",
+  "subItems": [
+    {
+      "judul": "Right Triangle Trigonometry",
+      "teks": "Trigonometry is the study of the relationships between the sides and angles of triangles. In a right-angled triangle, we use three primary trigonometric ratios.\n\n### SOH-CAH-TOA\nThis is a mnemonic to remember the definitions of the sine, cosine, and tangent ratios for an acute angle $\\theta$ in a right triangle.\n\n- **SOH**: **S**ine = **O**pposite / **H**ypotenuse\n  $$ \\sin(\\theta) = \\frac{\\text{Opposite}}{\\text{Hypotenuse}} $$\n\n- **CAH**: **C**osine = **A**djacent / **H**ypotenuse\n  $$ \\cos(\\theta) = \\frac{\\text{Adjacent}}{\\text{Hypotenuse}} $$\n\n- **TOA**: **T**angent = **O**pposite / **A**djacent\n  $$ \\tan(\\theta) = \\frac{\\text{Opposite}}{\\text{Adjacent}} $$\n\nThe **hypotenuse** is the side opposite the right angle. The **opposite** side is across from the angle $\\theta$, and the **adjacent** side is next to it."
+    },
+    {
+      "judul": "The Unit Circle and Radian Measure",
+      "teks": "### The Unit Circle\nThe unit circle is a circle with a radius of 1 unit centered at the origin $(0, 0)$ in the Cartesian plane. It is used to extend the definitions of sine, cosine, and tangent to all angles, not just those in a right triangle.\n\nFor any point $(x, y)$ on the unit circle, the angle $\\theta$ is formed by the positive x-axis and the radius to that point. We can define the trigonometric functions based on the coordinates of this point:\n\n- $ \\cos(\\theta) = x $\n- $ \\sin(\\theta) = y $\n\n### Radian Measure\n**Radians** are an alternative unit for measuring angles. One radian is the angle subtended at the center of a circle by an arc equal in length to the radius of the circle.\n\n- To convert degrees to radians: $ \\text{radians} = \\text{degrees} \\cdot \\frac{\\pi}{180^\\circ} $\n- To convert radians to degrees: $ \\text{degrees} = \\text{radians} \\cdot \\frac{180^\\circ}{\\pi} $\n\nKey equivalences:\n- $ 360^\\circ = 2\\pi $ radians\n- $ 180^\\circ = \\pi $ radians\n- $ 90^\\circ = \\frac{\\pi}{2} $ radians"
+    },
+    {
+      "judul": "Graphing Trigonometric Functions",
+      "teks": "The graphs of trigonometric functions are periodic, meaning they repeat their values in a regular interval.\n\n- **Sine Function**: $ y = \\sin(x) $\n  - **Period**: $ 2\\pi $\n  - **Range**: $[-1, 1]$\n  - The graph is a smooth wave that starts at $(0, 0)$.\n\n- **Cosine Function**: $ y = \\cos(x) $\n  - **Period**: $ 2\\pi $\n  - **Range**: $[-1, 1]$\n  - The graph is a smooth wave that starts at $(0, 1)$.\n\n- **Tangent Function**: $ y = \\tan(x) $\n  - **Period**: $ \\pi $\n  - **Range**: $(-\\infty, +\\infty)$\n  - The graph has vertical asymptotes where $\\cos(x) = 0$, i.e., at $x = \\frac{\\pi}{2} + n\\pi$ for any integer $n$."
+    },
+    {
+      "judul": "Fundamental Trigonometric Identities",
+      "teks": "Trigonometric identities are equations that are true for all values of the variable for which both sides of the equation are defined. They are crucial for simplifying expressions and solving equations.\n\n### Pythagorean Identities\nDerived from the Pythagorean theorem on the unit circle ($x^2 + y^2 = 1$):\n\n- $ \\sin^2(\\theta) + \\cos^2(\\theta) = 1 $\n- $ 1 + \\tan^2(\\theta) = \\sec^2(\\theta) $\n- $ 1 + \\cot^2(\\theta) = \\csc^2(\\theta) $\n\n### Quotient Identities\n- $ \\tan(\\theta) = \\frac{\\sin(\\theta)}{\\cos(\\theta)} $\n- $ \\cot(\\theta) = \\frac{\\cos(\\theta)}{\\sin(\\theta)} $\n\n### Reciprocal Identities\n- $ \\csc(\\theta) = \\frac{1}{\\sin(\\theta)} $\n- $ \\sec(\\theta) = \\frac{1}{\\cos(\\theta)} $\n- $ \\cot(\\theta) = \\frac{1}{\\tan(\\theta)} $"
+    },
+    {
+      "judul": "Solving Trigonometric Equations",
+      "teks": "Solving a trigonometric equation means finding the value(s) of the variable that make the equation true. Due to the periodic nature of the functions, there are often infinitely many solutions.\n\n**Steps to solve:**\n1. Isolate the trigonometric function.\n2. Find the reference angle.\n3. Identify the quadrants where the function has the required sign.\n4. Find all solutions within one period (e.g., $[0, 2\\pi)$).\n5. Write the general solution by adding the period of the function ($2\\pi n$ for sine/cosine, $\\pi n$ for tangent) where $n$ is an integer."
+    },
+    {
+      "judul": "Advanced Topics: Law of Sines and Law of Cosines",
+      "teks": "### Law of Sines\nThe Law of Sines is used to solve for unknown sides or angles in **any** triangle (not just right triangles). The law states that the ratio of the length of a side to the sine of its opposite angle is constant.\n\n$$ \\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)} $$\n\n### Law of Cosines\nThe Law of Cosines is a generalization of the Pythagorean theorem. It relates the lengths of the sides of a triangle to the cosine of one of its angles. It is used when you know two sides and the included angle (SAS) or all three sides (SSS).\n\n$$ c^2 = a^2 + b^2 - 2ab \\cos(C) $$\n\nSimilar formulas can be written for $a^2$ and $b^2$."
+    }
+  ]
+}
