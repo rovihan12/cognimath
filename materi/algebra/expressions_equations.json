@@ -1,12 +1,12 @@
 {
   "id": "expressions_equations_inequalities",
-  "title": "",
+  "title": "Expressions, Equations, and Inequalities",
   "subItems": [
     {
       "judul": "Introduction to Algebraic Expressions",
       "teks": "Algebraic expressions are mathematical phrases that can contain numbers, variables, and operation symbols. They represent quantities without fixed values.\n\nExamples:\n- $3x + 5$ (linear expression)\n- $2x^2 - 4x + 7$ (quadratic expression)\n- $\\sqrt{x + 3}$ (radical expression)\n- $\\frac{x^2 + 1}{x - 2}$ (rational expression)\n\nKey terms:\n- **Variable**: A symbol (usually a letter) that represents an unknown value\n- **Coefficient**: The numerical factor of a term\n- **Constant**: A term with no variable\n- **Term**: A single mathematical expression separated by + or - signs"
     },
-    {
+    { 
       "judul": "Linear Equations",
       "teks": "Linear equations are equations of the first degree, meaning the highest exponent of the variable is 1.\n\nStandard form: $$ax + b = 0$$\n\nSolving linear equations:\n1. Simplify both sides of the equation (distribute, combine like terms)\n2. Move variable terms to one side and constants to the other\n3. Isolate the variable\n4. Check your solution\n\nExample: Solve $3(2x - 5) + 4 = 7 - (x + 2)$\n\n**Solution:**\n$6x - 15 + 4 = 7 - x - 2$\n$6x - 11 = 5 - x$\n$6x + x = 5 + 11$\n$7x = 16$\n$x = \\frac{16}{7}$"
     },
