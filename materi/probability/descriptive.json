@@ -1,1 +1,72 @@
-
+{
+  "id": "descriptive_statistics",
+  "title": "4.1. Descriptive Statistics",
+  "subItems": [
+    {
+      "judul": "Introduction to Descriptive Statistics",
+      "teks": "Descriptive statistics are methods for summarizing, organizing, and presenting data in a meaningful way without drawing conclusions or generalizations beyond the data.\n\nDescriptive statistics help us:\n- Understand the main features of a dataset\n- Identify patterns and trends\n- Detect outliers and anomalies\n- Prepare data for further analysis\n\nThese techniques are fundamental in all fields: science, business, economics, psychology, and social sciences."
+    },
+    {
+      "judul": "Measures of Central Tendency",
+      "teks": "Measures of central tendency describe the center or typical value of a dataset.\n\n### 1. Mean (Average)\n$$ \\text{Mean} = \\frac{\\sum_{i=1}^{n} x_i}{n} $$\n- The sum of all values divided by the number of values\n- Sensitive to extreme values (outliers)\n- Most commonly used measure of center\n\n### 2. Median\n- The middle value when data is ordered from smallest to largest\n- For odd number of values: the exact middle value\n- For even number of values: average of the two middle values\n- Not affected by extreme values\n\n### 3. Mode\n- The value that appears most frequently in a dataset\n- A dataset can have no mode, one mode, or multiple modes\n- Useful for categorical data\n\n**Example**: Data: 12, 15, 18, 22, 22, 25, 28\n- Mean: (12+15+18+22+22+25+28)/7 = 20.29\n- Median: 22 (the middle value)\n- Mode: 22 (appears twice)"
+    },
+    {
+      "judul": "Measures of Dispersion",
+      "teks": "Measures of dispersion describe how spread out the data values are.\n\n### 4. Range\n$$ \\text{Range} = \\text{Maximum value} - \\text{Minimum value} $$\n- Simplest measure of spread\n- Highly sensitive to outliers\n\n### 5. Standard Deviation\n$$ \\sigma = \\sqrt{\\frac{\\sum_{i=1}^{n} (x_i - \\mu)^2}{n}} \\quad \\text{(population)} $$\n$$ s = \\sqrt{\\frac{\\sum_{i=1}^{n} (x_i - \\bar{x})^2}{n-1}} \\quad \\text{(sample)} $$\n- Measures how far data points are from the mean\n- Larger standard deviation = more spread out data\n- Smaller standard deviation = data clustered around mean\n\n**Calculation steps**:\n1. Calculate the mean\n2. Subtract mean from each value\n3. Square each difference\n4. Sum all squared differences\n5. Divide by n (population) or n-1 (sample)\n6. Take the square root\n\n**Example**: Data: 4, 7, 9, 10, 15 (sample)\n- Mean = 9\n- Differences: -5, -2, 0, 1, 6\n- Squared differences: 25, 4, 0, 1, 36\n- Sum = 66\n- Variance = 66/4 = 16.5\n- Standard deviation = √16.5 ≈ 4.06"
+    },
+    {
+      "judul": "Data Visualization: Box Plots",
+      "teks": "Box plots (box-and-whisker plots) display the distribution of data based on a five-number summary:\n\n### Five-Number Summary:\n1. **Minimum**: Smallest value (excluding outliers)\n2. **First Quartile (Q1)**: 25th percentile\n3. **Median (Q2)**: 50th percentile\n4. **Third Quartile (Q3)**: 75th percentile\n5. **Maximum**: Largest value (excluding outliers)\n\n### Components of a Box Plot:\n- **Box**: Contains the middle 50% of data (from Q1 to Q3)\n- **Line inside box**: Median value\n- **Whiskers**: Extend to minimum and maximum values\n- **Outliers**: Points beyond 1.5 × IQR from Q1 or Q3\n\n### Interquartile Range (IQR):\n$$ \\text{IQR} = Q3 - Q1 $$\n- Measures the spread of the middle 50% of data\n- Used to identify outliers\n\nBox plots are excellent for comparing distributions across different groups.",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/box_plot_diagram.png",
+      "gambarDeskripsi": "Box plot diagram showing minimum, Q1, median, Q3, maximum, and outliers"
+    },
+    {
+      "judul": "Data Visualization: Histograms",
+      "teks": "Histograms display the distribution of continuous data using bars.\n\n### Characteristics:\n- **X-axis**: Numerical intervals (bins)\n- **Y-axis**: Frequency or density\n- **Bars touch each other** (unlike bar charts)\n\n### What Histograms Reveal:\n1. **Shape of distribution**:\n   - Bell-shaped (normal)\n   - Skewed right (tail to the right)\n   - Skewed left (tail to the left)\n   - Bimodal (two peaks)\n   - Uniform (equal frequencies)\n\n2. **Center**: Where the data is concentrated\n3. **Spread**: How variable the data is\n4. **Outliers**: Unusual values\n\n### Creating a Histogram:\n1. Determine the range of data\n2. Decide on number of bins (5-20 typically)\n3. Count how many values fall into each bin\n4. Draw bars with heights proportional to frequencies\n\nHistograms help us understand the underlying distribution of our data.",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/histogram_types.png",
+      "gambarDeskripsi": "Different types of histogram distributions: normal, skewed, bimodal"
+    },
+    {
+      "judul": "Data Visualization: Scatterplots",
+      "teks": "Scatterplots display the relationship between two quantitative variables.\n\n### Components:\n- **X-axis**: Independent variable\n- **Y-axis**: Dependent variable\n- **Points**: Each represents one observation\n\n### Types of Relationships:\n1. **Positive correlation**: As x increases, y tends to increase\n2. **Negative correlation**: As x increases, y tends to decrease\n3. **No correlation**: No apparent relationship\n4. **Non-linear relationship**: Curved pattern\n\n### Correlation Coefficient (r):\n- Measures the strength and direction of linear relationship\n- $-1 \\le r \\le 1$\n- $r = 1$: Perfect positive linear relationship\n- $r = -1$: Perfect negative linear relationship\n- $r = 0$: No linear relationship\n\n### Interpretation Guidelines:\n- $|r| > 0.7$: Strong relationship\n- $0.3 < |r| < 0.7$: Moderate relationship\n- $|r| < 0.3$: Weak relationship\n\n**Remember**: Correlation does not imply causation!",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/scatterplot_correlations.png",
+      "gambarDeskripsi": "Scatterplots showing positive, negative, and no correlation"
+    },
+    {
+      "judul": "Interpreting Descriptive Statistics",
+      "teks": "### Mean vs. Median Comparison:\n- **Mean ≈ Median**: Symmetric distribution\n- **Mean > Median**: Right-skewed distribution (tail to the right)\n- **Mean < Median**: Left-skewed distribution (tail to the left)\n\n### Standard Deviation Interpretation:\n- **Small standard deviation**: Data points are close to the mean\n- **Large standard deviation**: Data points are spread out over a wide range\n\n### Practical Example: Exam Scores\nData: 65, 70, 75, 78, 80, 82, 85, 88, 90, 95\n- **Mean**: 80.8\n- **Median**: 81\n- **Mode**: No mode (all values unique)\n- **Range**: 30\n- **Standard deviation**: ≈ 9.24\n\n**Interpretation**:\n- Mean and median are very close, suggesting a symmetric distribution\n- Standard deviation of 9.24 means most scores are within ±9.24 points of the mean\n- The range of 30 points shows considerable spread in performance"
+    },
+    {
+      "judul": "Practical Applications",
+      "teks": "Descriptive statistics are used in countless real-world applications:\n\n### Business & Economics:\n- Average sales, revenue trends\n- Customer satisfaction scores\n- Market research analysis\n\n### Education:\n- Test score analysis\n- Student performance tracking\n- Curriculum assessment\n\n### Healthcare:\n- Patient vital statistics\n- Treatment effectiveness\n- Epidemiology studies\n\n### Social Sciences:\n- Survey data analysis\n- Demographic studies\n- Behavioral research\n\n### Quality Control:\n- Manufacturing process monitoring\n- Product quality assessment\n- Defect rate analysis\n\nThese tools help transform raw data into actionable insights.",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/statistics_applications.png",
+      "gambarDeskripsi": "Various applications of descriptive statistics in different fields"
+    },
+    {
+      "judul": "Example Problems",
+      "teks": "Practice calculating and interpreting descriptive statistics:",
+      "subItems": [
+        {
+          "judul": "Example 1: Basic Calculations",
+          "teks": "Calculate mean, median, mode, range, and standard deviation for:\n12, 15, 18, 20, 22, 25, 28, 30, 35, 40\n\n**Solution:**\n- Mean: (12+15+18+20+22+25+28+30+35+40)/10 = 24.5\n- Median: (22+25)/2 = 23.5\n- Mode: No mode\n- Range: 40 - 12 = 28\n- Standard deviation: ≈ 8.76"
+        },
+        {
+          "judul": "Example 2: Box Plot Analysis",
+          "teks": "Create a five-number summary for:\n45, 48, 50, 52, 55, 58, 60, 65, 70, 85\n\n**Solution:**\n- Minimum: 45\n- Q1: 50\n- Median: (55+58)/2 = 56.5\n- Q3: 65\n- Maximum: 85\n- IQR: 65 - 50 = 15\n- Outlier check: 1.5 × IQR = 22.5\n  Lower limit: 50 - 22.5 = 27.5\n  Upper limit: 65 + 22.5 = 87.5\n  No outliers"
+        },
+        {
+          "judul": "Example 3: Correlation Interpretation",
+          "teks": "Identify the type of correlation:\n1. Hours studied vs. exam scores\n2. Temperature vs. heating bill\n3. Shoe size vs. intelligence\n\n**Solution:**\n1. Positive correlation (more studying → higher scores)\n2. Negative correlation (higher temperature → lower heating bill)\n3. No correlation (no relationship expected)"
+        }
+      ]
+    },
+    {
+      "judul": "Practice Exercises",
+      "teks": "1. Calculate all descriptive statistics for: 8, 12, 15, 18, 20, 22, 25, 30, 35, 42\n2. Create a five-number summary for: 22, 25, 28, 30, 32, 35, 38, 40, 45, 50, 55\n3. For the data: 10, 15, 20, 25, 30, 35, 40, 100\n   - Calculate mean and median\n   - Which measure better represents the \"typical\" value? Why?\n4. Identify what these scatterplots would show:\n   - Height vs. weight\n   - Hours of video games vs. grades\n   - Temperature vs. ice cream sales\n5. Create a histogram for this exam score data:\n   65, 68, 70, 72, 75, 78, 80, 82, 85, 88, 90, 92, 95\n   Use bins: 60-69, 70-79, 80-89, 90-99\n6. Interpret this result: Mean = 75, Median = 72, Standard deviation = 12"
+    },
+    {
+      "judul": "Key Concepts Summary",
+      "teks": "1. **Descriptive statistics**: Summarize and describe data characteristics\n2. **Measures of center**: Mean, median, mode - describe typical values\n3. **Measures of spread**: Range, standard deviation - describe data variability\n4. **Data visualization**: Box plots, histograms, scatterplots - reveal patterns visually\n5. **Distribution shapes**: Normal, skewed, bimodal - different patterns of data\n6. **Correlation**: Relationship between two variables (positive, negative, none)\n7. **Interpretation**: Mean vs. median comparison reveals distribution shape\n8. **Applications**: Used in all fields to understand and communicate data patterns\n\nThese fundamental concepts form the basis for more advanced statistical analysis and provide essential tools for data-driven decision making."
+    }
+  ]
+}
