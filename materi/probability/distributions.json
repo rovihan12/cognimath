@@ -1,1 +1,84 @@
-
+{
+  "id": "random_variables_distributions",
+  "title": "4.3. Random Variables and Distributions",
+  "subItems": [
+    {
+      "judul": "Introduction to Random Variables",
+      "teks": "A random variable is a variable whose value is determined by the outcome of a random phenomenon. It provides a numerical description of the outcome of a statistical experiment.\n\n### Types of Random Variables:\n1. **Discrete Random Variable**:\n   - Takes countable number of distinct values\n   - Examples: Number of heads in coin tosses, number of students in a class\n   - Represented by probability mass function (PMF)\n\n2. **Continuous Random Variable**:\n   - Takes infinitely many values in an interval\n   - Examples: Height, weight, time, temperature\n   - Represented by probability density function (PDF)\n\n### Key Concepts:\n- **Probability Distribution**: Describes how probabilities are distributed over values\n- **Expected Value**: Mean or average value of the random variable\n- **Variance**: Measure of spread or dispersion around the mean\n\nRandom variables form the foundation for statistical inference and probability theory."
+    },
+    {
+      "judul": "Discrete Random Variables",
+      "teks": "Discrete random variables take on countable values with specific probabilities.\n\n### Probability Mass Function (PMF):\n$$ P(X = x) = p(x) $$\nWhere:\n- $p(x) \\ge 0$ for all x\n- $\\sum p(x) = 1$\n\n### Expected Value (Mean):\n$$ E(X) = \\mu = \\sum x \\cdot p(x) $$\n\n### Variance:\n$$ Var(X) = \\sigma^2 = \\sum (x - \\mu)^2 \\cdot p(x) $$\n\n### Standard Deviation:\n$$ \\sigma = \\sqrt{Var(X)} $$\n\n**Example**: Number of heads in 2 coin tosses\n| x (Heads) | P(X = x) | x·P(x) | (x-μ)²·P(x) |\n|-----------|----------|--------|-------------|\n| 0         | 0.25     | 0      | (0-1)²×0.25 |\n| 1         | 0.50     | 0.5    | (1-1)²×0.50 |\n| 2         | 0.25     | 0.5    | (2-1)²×0.25 |\n\n$E(X) = 1$, $Var(X) = 0.5$, $\\sigma = \\sqrt{0.5} \\approx 0.707$"
+    },
+    {
+      "judul": "Continuous Random Variables",
+      "teks": "Continuous random variables take on infinitely many values in an interval.\n\n### Probability Density Function (PDF):\n$$ f(x) \\ge 0 $$\n$$ \\int_{-\\infty}^{\\infty} f(x) dx = 1 $$\n\n### Probability as Area:\n$$ P(a \\le X \\le b) = \\int_{a}^{b} f(x) dx $$\n\n### Expected Value (Mean):\n$$ E(X) = \\mu = \\int_{-\\infty}^{\\infty} x \\cdot f(x) dx $$\n\n### Variance:\n$$ Var(X) = \\sigma^2 = \\int_{-\\infty}^{\\infty} (x - \\mu)^2 \\cdot f(x) dx $$\n\n### Cumulative Distribution Function (CDF):\n$$ F(x) = P(X \\le x) = \\int_{-\\infty}^{x} f(t) dt $$\n\n**Key Properties**:\n- $P(X = a) = 0$ for any specific value a\n- Probabilities are measured over intervals\n- The total area under the PDF curve equals 1",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/continuous_distribution.png",
+      "gambarDeskripsi": "Probability density function showing area under curve representing probability"
+    },
+    {
+      "judul": "The Binomial Distribution",
+      "teks": "The binomial distribution models the number of successes in a fixed number of independent Bernoulli trials.\n\n### Conditions (BINS):\n1. **B**inary outcomes: Success or Failure\n2. **I**ndependent trials\n3. **N**umber of trials fixed\n4. **S**ame probability of success for each trial\n\n### Probability Mass Function:\n$$ P(X = k) = \\binom{n}{k} p^k (1-p)^{n-k} $$\nWhere:\n- $n$ = number of trials\n- $k$ = number of successes\n- $p$ = probability of success\n- $\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$ (binomial coefficient)\n\n### Mean and Variance:\n$$ \\mu = E(X) = n \\cdot p $$\n$$ \\sigma^2 = Var(X) = n \\cdot p \\cdot (1-p) $$\n$$ \\sigma = \\sqrt{n \\cdot p \\cdot (1-p)} $$\n\n**Example**: Coin toss (n=5, p=0.5)\n$P(3 \\text{ heads}) = \\binom{5}{3} (0.5)^3 (0.5)^2 = 10 \\times 0.125 \\times 0.25 = 0.3125$\n$\\mu = 5 \\times 0.5 = 2.5$, $\\sigma^2 = 5 \\times 0.5 \\times 0.5 = 1.25$",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/binomial_distribution.png",
+      "gambarDeskripsi": "Binomial distribution for different values of n and p"
+    },
+    {
+      "judul": "The Normal Distribution",
+      "teks": "The normal distribution (Gaussian distribution) is the most important continuous probability distribution.\n\n### Characteristics:\n- Bell-shaped curve\n- Symmetric about the mean\n- Mean = Median = Mode\n- Defined by two parameters: μ (mean) and σ (standard deviation)\n\n### Probability Density Function:\n$$ f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} e^{-\\frac{1}{2}\\left(\\frac{x-\\mu}{\\sigma}\\right)^2} $$\n\n### Properties:\n- Total area under curve = 1\n- Curve approaches but never touches x-axis\n- Inflection points at μ ± σ\n\n### Standard Normal Distribution:\n- Special case where μ = 0 and σ = 1\n- Denoted as Z ~ N(0, 1)\n- Used for calculations and tables\n\nMany natural phenomena follow normal distributions: heights, test scores, measurement errors.",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/normal_distribution.png",
+      "gambarDeskripsi": "Normal distribution curve showing mean, standard deviation, and area properties"
+    },
+    {
+      "judul": "Z-Scores and Standardization",
+      "teks": "Z-scores measure how many standard deviations a value is from the mean.\n\n### Z-Score Formula:\n$$ z = \\frac{x - \\mu}{\\sigma} $$\n\n### Interpretation:\n- z = 0: Value equals the mean\n- z > 0: Value above the mean\n- z < 0: Value below the mean\n- |z|: Distance from mean in standard deviations\n\n### Standardization Process:\n1. Subtract the mean: $x - \\mu$\n2. Divide by standard deviation: $\\frac{x - \\mu}{\\sigma}$\n\n### Properties of Z-Scores:\n- Mean of z-scores = 0\n- Standard deviation of z-scores = 1\n- Distribution shape remains the same\n\n### Applications:\n- Comparing values from different distributions\n- Identifying outliers (typically |z| > 3)\n- Calculating probabilities using standard normal tables\n\n**Example**: Test scores with μ = 75, σ = 10\nScore = 85: $z = \\frac{85-75}{10} = 1.0$ (1 standard deviation above mean)\nScore = 65: $z = \\frac{65-75}{10} = -1.0$ (1 standard deviation below mean)"
+    },
+    {
+      "judul": "The Empirical Rule (68-95-99.7 Rule)",
+      "teks": "For normal distributions, the empirical rule describes the percentage of data within certain standard deviations of the mean.\n\n### The Rule:\n- **68%** of data falls within μ ± 1σ\n- **95%** of data falls within μ ± 2σ\n- **99.7%** of data falls within μ ± 3σ\n\n### Visual Representation:\n$$ \n\\begin{array}{ccccccccc}\n& & & 68\\% & & & \\\\\n& & 95\\% & & & & \\\\\n& 99.7\\% & & & & & \\\\\n\\mu-3\\sigma & \\mu-2\\sigma & \\mu-1\\sigma & \\mu & \\mu+1\\sigma & \\mu+2\\sigma & \\mu+3\\sigma\n\\end{array}\n$$\n\n### Applications:\n- Quick probability estimates\n- Data quality checks (identifying outliers)\n- Understanding data spread\n\n**Example**: Heights with μ = 170 cm, σ = 10 cm\n- 68% between 160-180 cm\n- 95% between 150-190 cm  \n- 99.7% between 140-200 cm\n- Height = 200 cm: z = 3.0 (very unusual, top 0.15%)",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/empirical_rule.png",
+      "gambarDeskripsi": "Empirical rule diagram showing 68-95-99.7 percentages under normal curve"
+    },
+    {
+      "judul": "Working with Normal Probabilities",
+      "teks": "### Using Z-Tables:\nZ-tables provide cumulative probabilities for standard normal distribution:\n$$ P(Z \\le z) $$\n\n### Common Probability Calculations:\n1. $P(Z \\le z)$: Left-tail probability\n2. $P(Z \\ge z) = 1 - P(Z \\le z)$: Right-tail probability\n3. $P(a \\le Z \\le b) = P(Z \\le b) - P(Z \\le a)$: Interval probability\n\n### Steps for Calculation:\n1. Convert x to z-score: $z = \\frac{x - \\mu}{\\sigma}$\n2. Use z-table to find cumulative probability\n3. Interpret result based on question\n\n**Example**: Test scores ~ N(75, 10)\nFind P(score > 85)\n1. $z = \\frac{85-75}{10} = 1.0$\n2. $P(Z \\le 1.0) = 0.8413$ (from z-table)\n3. $P(Z > 1.0) = 1 - 0.8413 = 0.1587$\n\nAbout 15.87% of students scored above 85."
+    },
+    {
+      "judul": "Other Important Distributions",
+      "teks": "### Poisson Distribution:\n- Models number of events in fixed interval\n- Examples: calls per hour, defects per meter\n- Formula: $P(X = k) = \\frac{\\lambda^k e^{-\\lambda}}{k!}$\n\n### Exponential Distribution:\n- Models time between events\n- Examples: time between arrivals, lifespan\n- Memoryless property\n\n### Uniform Distribution:\n- All outcomes equally likely\n- Constant probability density\n- Examples: fair die, random number generator\n\n### Choosing the Right Distribution:\n- Count data: Binomial, Poisson\n- Measurement data: Normal\n- Time data: Exponential\n- Continuous uniform: when all values equally likely\n\nEach distribution has specific applications and assumptions.",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/probability_distributions.png",
+      "gambarDeskripsi": "Comparison of different probability distribution shapes"
+    },
+    {
+      "judul": "Example Problems",
+      "teks": "Practice problems with solutions:",
+      "subItems": [
+        {
+          "judul": "Example 1: Binomial Distribution",
+          "teks": "A multiple-choice test has 20 questions, each with 4 options. If guessing randomly:\na) Probability of exactly 5 correct?\nb) Expected number correct?\nc) Standard deviation?\n\n**Solution:**\nn=20, p=0.25\na) $P(X=5) = \\binom{20}{5} (0.25)^5 (0.75)^{15} \\approx 0.202$\nb) $\\mu = 20 \\times 0.25 = 5$\nc) $\\sigma = \\sqrt{20 \\times 0.25 \\times 0.75} = \\sqrt{3.75} \\approx 1.936$"
+        },
+        {
+          "judul": "Example 2: Normal Distribution",
+          "teks": "Heights ~ N(170, 10). Find:\na) P(height < 160)\nb) P(165 < height < 180)\nc) Height at 90th percentile\n\n**Solution:**\na) $z = \\frac{160-170}{10} = -1.0$, P(Z < -1.0) = 0.1587\nb) $z_1 = \\frac{165-170}{10} = -0.5$, $z_2 = \\frac{180-170}{10} = 1.0$\nP(-0.5 < Z < 1.0) = 0.8413 - 0.3085 = 0.5328\nc) z for 90th percentile = 1.28\nHeight = 170 + 1.28×10 = 182.8 cm"
+        },
+        {
+          "judul": "Example 3: Empirical Rule",
+          "teks": "IQ scores ~ N(100, 15). Using empirical rule:\na) What percentage between 85-115?\nb) What percentage above 130?\nc) What IQ score is 2 standard deviations above mean?\n\n**Solution:**\na) 85-115 = 100 ± 15 → μ ± 1σ → 68%\nb) 130 = 100 + 2×15 → above μ + 2σ → 2.5% (half of 5% beyond 2σ)\nc) 100 + 2×15 = 130"
+        }
+      ]
+    },
+    {
+      "judul": "Practice Exercises",
+      "teks": "1. Identify discrete vs. continuous random variables:\n   a) Number of cars passing an intersection\n   b) Time between customer arrivals\n   c) Temperature in degrees Celsius\n   d) Number of defective items in a batch\n\n2. Binomial: 60% of students pass statistics. In class of 25:\n   a) Probability exactly 15 pass?\n   b) Expected number who pass?\n   c) Standard deviation?\n\n3. Normal distribution: Test scores ~ N(75, 8)\n   a) P(score > 85)\n   b) P(70 < score < 80)\n   c) Score at 95th percentile\n\n4. Using empirical rule for N(50, 5):\n   a) What percentage between 45-55?\n   b) What percentage below 40?\n   c) What values contain middle 95%?\n\n5. Convert to z-scores (μ=100, σ=15):\n   a) 115\n   b) 85  \n   c) 130\n   d) 70\n\n6. If P(Z < z) = 0.85, find z and interpret\n\n7. Create PMF for number of heads in 3 coin tosses\n   Calculate mean and variance\n\n8. For exponential distribution with λ=0.5:\n   a) Mean time between events\n   b) P(time > 2)\n   c) Interpretation of results"
+    },
+    {
+      "judul": "Real-World Applications",
+      "teks": "### Quality Control:\n- Binomial: Defect rates in manufacturing\n- Normal: Product dimensions, weights\n\n### Healthcare:\n- Normal: Blood pressure, cholesterol levels\n- Exponential: Time between patient arrivals\n\n### Finance:\n- Normal: Stock returns, investment risks\n- Poisson: Number of transactions\n\n### Education:\n- Normal: Test scores, GPA distributions\n- Binomial: Pass/fail rates\n\n### Engineering:\n- Normal: Measurement errors, tolerances\n- Exponential: Component failure times\n\n### Social Sciences:\n- Normal: Survey responses, behavioral measurements\n- Poisson: Event counts in fixed time periods\n\nUnderstanding distributions helps model and analyze real-world phenomena.",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/distribution_applications.png",
+      "gambarDeskripsi": "Applications of probability distributions in various fields"
+    },
+    {
+      "judul": "Key Concepts Summary",
+      "teks": "1. **Random Variables**: Numerical outcomes of random processes\n2. **Discrete Variables**: Countable values with PMF\n3. **Continuous Variables**: Infinite values with PDF\n4. **Binomial Distribution**: Counts successes in fixed trials\n5. **Normal Distribution**: Bell-shaped, symmetric, ubiquitous\n6. **Z-Scores**: Standardized measures of distance from mean\n7. **Empirical Rule**: 68-95-99.7% within 1-2-3 standard deviations\n8. **Expected Value**: Mean or average outcome\n9. **Variance**: Measure of spread or dispersion\n10. **Applications**: Quality control, healthcare, finance, engineering\n\nThese concepts provide the mathematical foundation for statistical inference and data analysis across all disciplines."
+    }
+  ]
+}
