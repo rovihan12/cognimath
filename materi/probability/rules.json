@@ -1,1 +1,78 @@
-
+{
+  "id": "probability",
+  "title": "",
+  "subItems": [
+    {
+      "judul": "Introduction to Probability",
+      "teks": "Probability is the branch of mathematics that deals with the likelihood of events occurring. It provides a mathematical framework for quantifying uncertainty and making predictions about random phenomena.\n\n### Key Concepts:\n- **Experiment**: A process that produces outcomes (e.g., rolling a die)\n- **Sample Space**: The set of all possible outcomes (e.g., {1, 2, 3, 4, 5, 6})\n- **Event**: A subset of the sample space (e.g., rolling an even number: {2, 4, 6})\n- **Probability**: A number between 0 and 1 that measures the likelihood of an event\n\nProbability is used in statistics, science, engineering, economics, gaming, and everyday decision making."
+    },
+    {
+      "judul": "Basic Probability Rules",
+      "teks": "### 1. Probability of an Event\n$$ P(A) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of possible outcomes}} $$\n\n### 2. Range of Probability\n$$ 0 \\le P(A) \\le 1 $$\n- $P(A) = 0$: Impossible event\n- $P(A) = 1$: Certain event\n\n### 3. Complement Rule\n$$ P(A^c) = 1 - P(A) $$\nWhere $A^c$ is the complement of event A (all outcomes not in A)\n\n### 4. Addition Rule (for mutually exclusive events)\n$$ P(A \\cup B) = P(A) + P(B) $$\nIf events A and B cannot occur simultaneously\n\n### 5. General Addition Rule\n$$ P(A \\cup B) = P(A) + P(B) - P(A \\cap B) $$\nFor any two events A and B\n\n**Example**: Deck of cards (52 cards)\n- $P(\\text{Heart}) = \\frac{13}{52} = \\frac{1}{4}$\n- $P(\\text{Not Heart}) = 1 - \\frac{1}{4} = \\frac{3}{4}$\n- $P(\\text{Heart or King}) = \\frac{13}{52} + \\frac{4}{52} - \\frac{1}{52} = \\frac{16}{52}$"
+    },
+    {
+      "judul": "Independent vs. Dependent Events",
+      "teks": "### Independent Events\nTwo events are independent if the occurrence of one does not affect the probability of the other.\n\n**Multiplication Rule for Independent Events**:\n$$ P(A \\cap B) = P(A) \\times P(B) $$\n\n**Example**:\n- Tossing a coin twice: $P(\\text{Heads and Heads}) = \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$\n- Rolling a die and tossing a coin: $P(\\text{3 and Heads}) = \\frac{1}{6} \\times \\frac{1}{2} = \\frac{1}{12}$\n\n### Dependent Events\nTwo events are dependent if the occurrence of one affects the probability of the other.\n\n**Conditional Probability for Dependent Events**:\n$$ P(A|B) = \\frac{P(A \\cap B)}{P(B)} $$\n\n**Example**: Drawing cards without replacement\n- Deck of 52 cards (13 hearts)\n- $P(\\text{2nd Heart} | \\text{1st Heart}) = \\frac{12}{51}$\n- $P(\\text{Heart and Heart}) = \\frac{13}{52} \\times \\frac{12}{51} = \\frac{156}{2652}$"
+    },
+    {
+      "judul": "Conditional Probability",
+      "teks": "Conditional probability is the probability of an event occurring given that another event has already occurred.\n\n### Formula:\n$$ P(A|B) = \\frac{P(A \\cap B)}{P(B)} $$\nWhere $P(B) > 0$\n\n### Interpretation:\n- \"Probability of A given B\"\n- Measures how the probability of A changes when we know B has occurred\n\n### Properties:\n1. $0 \\le P(A|B) \\le 1$\n2. $P(B|B) = 1$\n3. If A and B are independent: $P(A|B) = P(A)$\n\n**Example**: Medical testing\n- Disease prevalence: $P(D) = 0.01$\n- Test accuracy: $P(\\text{Positive}|D) = 0.95$, $P(\\text{Negative}|\\text{Healthy}) = 0.90$\n- $P(D|\\text{Positive}) = \\frac{P(\\text{Positive}|D) \\times P(D)}{P(\\text{Positive})}$"
+    },
+    {
+      "judul": "Two-Way Tables",
+      "teks": "Two-way tables (contingency tables) organize data about two categorical variables.\n\n### Structure:\n- Rows: Categories of one variable\n- Columns: Categories of another variable\n- Cells: Counts or frequencies\n- Margins: Row and column totals\n\n### Probability Calculations:\n- **Joint Probability**: $P(A \\cap B) = \\frac{\\text{Cell count}}{\\text{Total}}$\n- **Marginal Probability**: $P(A) = \\frac{\\text{Row total}}{\\text{Total}}$\n- **Conditional Probability**: $P(A|B) = \\frac{P(A \\cap B)}{P(B)} = \\frac{\\text{Cell count}}{\\text{Column total}}$\n\n**Example**: Survey of 200 students\n| | Like Math | Dislike Math | Total |\n|-----------|-----------|--------------|-------|\n| Male      | 60        | 40           | 100   |\n| Female    | 70        | 30           | 100   |\n| Total     | 130       | 70           | 200   |\n\n- $P(\\text{Male}) = \\frac{100}{200} = 0.5$\n- $P(\\text{Like Math}) = \\frac{130}{200} = 0.65$\n- $P(\\text{Male} \\cap \\text{Like Math}) = \\frac{60}{200} = 0.3$\n- $P(\\text{Like Math}|\\text{Male}) = \\frac{60}{100} = 0.6$",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/two_way_table.png",
+      "gambarDeskripsi": "Two-way table example showing gender and math preference"
+    },
+    {
+      "judul": "Permutations",
+      "teks": "Permutations count the number of ways to arrange objects in a specific order.\n\n### Formula:\n$$ P(n, r) = \\frac{n!}{(n - r)!} $$\nWhere:\n- $n$ = total number of objects\n- $r$ = number of objects being arranged\n- $n!$ = n factorial ($n \\times (n-1) \\times ... \\times 1$)\n\n### When to Use:\n- Order matters\n- No repetition (unless specified)\n- Selecting and arranging items\n\n**Examples**:\n1. Arranging 3 books out of 5 on a shelf:\n   $P(5, 3) = \\frac{5!}{(5-3)!} = \\frac{120}{2} = 60$\n\n2. Gold, Silver, Bronze medals among 8 athletes:\n   $P(8, 3) = \\frac{8!}{5!} = 8 \\times 7 \\times 6 = 336$\n\n3. License plates with 3 different letters:\n   $P(26, 3) = 26 \\times 25 \\times 24 = 15,600$"
+    },
+    {
+      "judul": "Combinations",
+      "teks": "Combinations count the number of ways to select objects without regard to order.\n\n### Formula:\n$$ C(n, r) = \\binom{n}{r} = \\frac{n!}{r!(n - r)!} $$\nWhere:\n- $n$ = total number of objects\n- $r$ = number of objects being selected\n\n### When to Use:\n- Order doesn't matter\n- Selecting committees, groups, teams\n- Choosing subsets\n\n**Examples**:\n1. Choosing 3 students out of 10 for a committee:\n   $C(10, 3) = \\frac{10!}{3!7!} = \\frac{3628800}{6 \\times 5040} = 120$\n\n2. Lottery with 6 numbers out of 49:\n   $C(49, 6) = \\frac{49!}{6!43!} = 13,983,816$\n\n3. Pizza with 3 toppings out of 8 available:\n   $C(8, 3) = \\frac{8!}{3!5!} = 56$\n\n### Relationship with Permutations:\n$$ P(n, r) = C(n, r) \\times r! $$",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/combinations_vs_permutations.png",
+      "gambarDeskripsi": "Visual comparison of combinations vs permutations"
+    },
+    {
+      "judul": "Bayes' Theorem",
+      "teks": "Bayes' Theorem describes the probability of an event based on prior knowledge of conditions that might be related to the event.\n\n### Formula:\n$$ P(A|B) = \\frac{P(B|A) \\times P(A)}{P(B)} $$\n\n### Components:\n- $P(A|B)$: Posterior probability (what we want to find)\n- $P(B|A)$: Likelihood (probability of evidence given hypothesis)\n- $P(A)$: Prior probability (initial belief)\n- $P(B)$: Marginal probability (total probability of evidence)\n\n### Applications:\n- Medical diagnosis\n- Spam filtering\n- Machine learning\n- Risk assessment\n\n**Example**: Disease testing\n- Disease prevalence: $P(D) = 0.01$\n- Test sensitivity: $P(\\text{Positive}|D) = 0.95$\n- Test specificity: $P(\\text{Negative}|\\text{Healthy}) = 0.90$\n- $P(D|\\text{Positive}) = \\frac{0.95 \\times 0.01}{0.95 \\times 0.01 + 0.10 \\times 0.99} \\approx 0.0876$"
+    },
+    {
+      "judul": "Probability Distributions",
+      "teks": "### Discrete Probability Distribution\nA table or function that lists all possible values of a discrete random variable with their probabilities.\n\n**Properties**:\n1. $0 \\le P(x) \\le 1$ for all x\n2. $\\sum P(x) = 1$\n\n### Expected Value (Mean)\n$$ E(X) = \\mu = \\sum x \\cdot P(x) $$\n\n### Variance\n$$ Var(X) = \\sigma^2 = \\sum (x - \\mu)^2 \\cdot P(x) $$\n\n**Example**: Dice roll\n| x | P(x) | x·P(x) | (x-μ)²·P(x) |\n|---|------|--------|-------------|\n| 1 | 1/6  | 1/6    | (1-3.5)²/6  |\n| 2 | 1/6  | 2/6    | (2-3.5)²/6  |\n| 3 | 1/6  | 3/6    | (3-3.5)²/6  |\n| 4 | 1/6  | 4/6    | (4-3.5)²/6  |\n| 5 | 1/6  | 5/6    | (5-3.5)²/6  |\n| 6 | 1/6  | 6/6    | (6-3.5)²/6  |\n\n$E(X) = 3.5$, $Var(X) \\approx 2.92$"
+    },
+    {
+      "judul": "Example Problems",
+      "teks": "Practice problems with solutions:",
+      "subItems": [
+        {
+          "judul": "Example 1: Basic Probability",
+          "teks": "A bag contains 5 red, 3 blue, and 2 green marbles. What is the probability of:\n1. Drawing a red marble?\n2. Not drawing a blue marble?\n3. Drawing a red or green marble?\n\n**Solution:**\n1. $P(\\text{Red}) = \\frac{5}{10} = 0.5$\n2. $P(\\text{Not Blue}) = 1 - \\frac{3}{10} = 0.7$\n3. $P(\\text{Red or Green}) = \\frac{5}{10} + \\frac{2}{10} = 0.7$"
+        },
+        {
+          "judul": "Example 2: Conditional Probability",
+          "teks": "In a class of 30 students: 18 study Math, 15 study Physics, and 10 study both.\nWhat is the probability that a student studies Physics given they study Math?\n\n**Solution:**\n$P(\\text{Physics}|\\text{Math}) = \\frac{P(\\text{Physics} \\cap \\text{Math})}{P(\\text{Math})} = \\frac{10/30}{18/30} = \\frac{10}{18} \\approx 0.556$"
+        },
+        {
+          "judul": "Example 3: Combinations/Permutations",
+          "teks": "1. How many ways to arrange 4 books out of 7 on a shelf?\n2. How many ways to choose 3 committee members from 8 people?\n\n**Solution:**\n1. $P(7, 4) = \\frac{7!}{3!} = 7 \\times 6 \\times 5 \\times 4 = 840$\n2. $C(8, 3) = \\frac{8!}{3!5!} = \\frac{40320}{6 \\times 120} = 56$"
+        }
+      ]
+    },
+    {
+      "judul": "Practice Exercises",
+      "teks": "1. A fair coin is tossed 3 times. What is the probability of:\n   a) Exactly 2 heads?\n   b) At least 1 tail?\n   c) All heads or all tails?\n\n2. From a standard deck of 52 cards, find:\n   a) $P(\\text{Ace})$\n   b) $P(\\text{Heart or King})$\n   c) $P(\\text{Queen}|\\text{Face Card})$\n\n3. How many different:\n   a) 4-digit PIN codes can be created?\n   b) 5-card poker hands are possible?\n   c) Ways to arrange the letters in \"PROBABILITY\"?\n\n4. Two dice are rolled. Find:\n   a) $P(\\text{sum} = 7)$\n   b) $P(\\text{sum} > 9)$\n   c) $P(\\text{double})$\n\n5. Create a two-way table for this data:\n   - 120 people surveyed about coffee and tea preference\n   - 80 like coffee, 60 like tea, 30 like both\n   - Calculate all joint, marginal, and conditional probabilities\n\n6. A test is 95% accurate for disease detection. If 1% of population has the disease,\n   what is the probability that a positive test result is correct?"
+    },
+    {
+      "judul": "Real-World Applications",
+      "teks": "Probability theory has numerous practical applications:\n\n### 1. Statistics & Data Science\n- Hypothesis testing\n- Confidence intervals\n- Predictive modeling\n\n### 2. Finance & Economics\n- Risk assessment\n- Stock market analysis\n- Insurance pricing\n\n### 3. Science & Engineering\n- Quantum mechanics\n- Reliability engineering\n- Signal processing\n\n### 4. Computer Science\n- Algorithm analysis\n- Cryptography\n- Artificial intelligence\n\n### 5. Everyday Life\n- Weather forecasting\n- Sports statistics\n- Game theory\n\nUnderstanding probability helps make informed decisions in uncertain situations.",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/probability_applications.png",
+      "gambarDeskripsi": "Various real-world applications of probability theory"
+    },
+    {
+      "judul": "Key Concepts Summary",
+      "teks": "1. **Probability**: Measures likelihood of events (0 to 1)\n2. **Basic Rules**: Complement, addition, multiplication rules\n3. **Independent Events**: Occurrence doesn't affect each other\n4. **Dependent Events**: Occurrence affects probabilities\n5. **Conditional Probability**: $P(A|B)$ - probability of A given B\n6. **Two-Way Tables**: Organize data for probability calculations\n7. **Permutations**: Arrangements where order matters: $P(n, r) = \\frac{n!}{(n-r)!}$\n8. **Combinations**: Selections where order doesn't matter: $C(n, r) = \\frac{n!}{r!(n-r)!}$\n9. **Bayes' Theorem**: Updates probabilities based on new evidence\n10. **Expected Value**: Average outcome of random variable\n\nThese concepts provide the foundation for statistical inference and decision-making under uncertainty."
+    }
+  ]
+}
