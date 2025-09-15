@@ -1,1 +1,72 @@
-
+{
+  "id": "logic_set_theory",
+  "title": "",
+  "subItems": [
+    {
+      "judul": "Introduction to Logic and Set Theory",
+      "teks": "Logic and set theory form the foundation of modern mathematics and computer science. Logic provides the rules for valid reasoning and argumentation, while set theory deals with collections of objects and their relationships.\n\n### Importance in Mathematics\n- Logic ensures mathematical proofs are valid and sound\n- Set theory provides a common language for defining mathematical objects\n- Both are essential for computer science, particularly in algorithms and database theory\n- They form the basis for probability theory and statistics\n\n### Historical Context\nLogic has been studied since ancient times (Aristotle), while modern set theory was developed by Georg Cantor in the late 19th century. These fields continue to evolve and find new applications in artificial intelligence and formal verification."
+    },
+    {
+      "judul": "Logical Operators (AND, OR, NOT)",
+      "teks": "Logical operators are the building blocks of logical expressions and form the basis of Boolean algebra.\n\n### Basic Logical Operators\n\n**AND (Conjunction)** - Symbol: $\\land$ or $\\&$\n- True only when both propositions are true\n- Example: \"It is raining AND I have an umbrella\"\n\n**OR (Disjunction)** - Symbol: $\\lor$ or $|$\n- True when at least one proposition is true\n- Example: \"I will take a bus OR I will walk\"\n\n**NOT (Negation)** - Symbol: $\\lnot$ or $\\sim$\n- Reverses the truth value of a proposition\n- Example: \"It is NOT raining\"\n\n### Additional Operators\n**IMPLIES (Conditional)** - Symbol: $\\rightarrow$ or $\\Rightarrow$\n- \"If P then Q\" - False only when P is true and Q is false\n\n**IF AND ONLY IF (Biconditional)** - Symbol: $\\leftrightarrow$ or $\\Leftrightarrow$\n- True when both propositions have the same truth value\n\nThese operators form the basis for constructing complex logical statements and are fundamental to computer programming and circuit design.",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/logical_operators.png",
+      "gambarDeskripsi": "Visual representation of basic logical operations"
+    },
+    {
+      "judul": "Truth Tables",
+      "teks": "Truth tables provide a systematic way to determine the truth value of logical expressions for all possible combinations of input values.\n\n### Purpose of Truth Tables\n- Verify logical equivalences\n- Analyze complex logical expressions\n- Prove mathematical theorems\n- Design digital circuits\n\n### Constructing Truth Tables\n1. List all possible combinations of truth values for the input variables\n2. Calculate the truth value for each component of the expression\n3. Determine the final truth value for each combination\n\n### Example: Basic Operators\n\n**NOT Truth Table**\n| P | ¬P |\n|---|---|\n| T | F  |\n| F | T  |\n\n**AND Truth Table**\n| P | Q | P ∧ Q |\n|---|---|-------|\n| T | T |   T   |\n| T | F |   F   |\n| F | T |   F   |\n| F | F |   F   |\n\n**OR Truth Table**\n| P | Q | P ∨ Q |\n|---|---|-------|\n| T | T |   T   |\n| T | F |   T   |\n| F | T |   T   |\n| F | F |   F   |\n\nTruth tables are essential tools for understanding and working with logical expressions."
+    },
+    {
+      "judul": "Set Notation and Basic Concepts",
+      "teks": "Set theory provides a fundamental language for mathematics, dealing with collections of objects called sets.\n\n### Basic Definitions\n**Set**: A collection of distinct objects called elements\n**Element**: An object that belongs to a set\n**Empty Set**: The set with no elements, denoted by $\\emptyset$ or {}\n\n### Set Notation\n- **Roster Method**: Listing elements: {1, 2, 3, 4}\n- **Set-Builder Notation**: {x | x has property P}\n- **Interval Notation**: (a, b), [a, b], (a, b], [a, b)\n\n### Common Number Sets\n- **Natural Numbers**: $\\mathbb{N}$ = {1, 2, 3, 4, ...}\n- **Integers**: $\\mathbb{Z}$ = {..., -3, -2, -1, 0, 1, 2, 3, ...}\n- **Rational Numbers**: $\\mathbb{Q}$ = {p/q | p, q ∈ ℤ, q ≠ 0}\n- **Real Numbers**: $\\mathbb{R}$ (all numbers on the number line)\n- **Complex Numbers**: $\\mathbb{C}$ = {a + bi | a, b ∈ ℝ}\n\n### Cardinality\nThe number of elements in a set A is denoted by |A| or n(A)\n\nExample: If A = {1, 2, 3}, then |A| = 3"
+    },
+    {
+      "judul": "Set Operations",
+      "teks": "Set operations allow us to combine and manipulate sets in various ways.\n\n### Basic Set Operations\n\n**Union** - Symbol: $\\cup$\n$A \\cup B = \\{x \\mid x \\in A \\text{ or } x \\in B\\}$\n\nThe set of all elements that are in A or B or both\n\n**Intersection** - Symbol: $\\cap$\n$A \\cap B = \\{x \\mid x \\in A \\text{ and } x \\in B\\}$\n\nThe set of elements common to both A and B\n\n**Complement** - Symbol: $A^c$ or $A'$\n$A^c = \\{x \\mid x \\notin A\\}$\n\nAll elements not in A (relative to some universal set)\n\n**Difference** - Symbol: $A - B$ or $A \\setminus B$\n$A - B = \\{x \\mid x \\in A \\text{ and } x \\notin B\\}$\n\nElements in A but not in B\n\n### Properties of Set Operations\n- Commutative: $A \\cup B = B \\cup A$, $A \\cap B = B \\cap A$\n- Associative: $(A \\cup B) \\cup C = A \\cup (B \\cup C)$\n- Distributive: $A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)$\n- De Morgan's Laws: $(A \\cup B)^c = A^c \\cap B^c$, $(A \\cap B)^c = A^c \\cup B^c$",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/set_operations.png",
+      "gambarDeskripsi": "Diagram showing union, intersection, and difference of sets"
+    },
+    {
+      "judul": "Venn Diagrams",
+      "teks": "Venn diagrams provide a visual representation of sets and their relationships, making complex set operations easier to understand.\n\n### Purpose of Venn Diagrams\n- Visualize relationships between sets\n- Solve problems involving set operations\n- Verify set identities and properties\n- Understand probability concepts\n\n### Drawing Venn Diagrams\n1. Draw a rectangle representing the universal set\n2. Draw overlapping circles for each set\n3. Shade regions to represent different set operations\n4. Label each region with appropriate set notation\n\n### Common Venn Diagram Configurations\n\n**Two Sets**\n- Shows all possible relationships between two sets\n- Four distinct regions: A only, B only, A∩B, neither\n\n**Three Sets**\n- Shows relationships between three sets\n- Eight distinct regions representing all combinations\n- More complex but very powerful for problem-solving\n\n### Applications\n- Probability: Visualizing compound events\n- Logic: Showing logical relationships\n- Database theory: Representing data relationships\n- Statistics: Understanding sample spaces\n\nVenn diagrams turn abstract set concepts into concrete visual representations that are easier to work with."
+    },
+    {
+      "judul": "Relations Between Logic and Set Theory",
+      "teks": "There is a deep connection between logical operators and set operations, often called the analogy between logic and set theory.\n\n### The Fundamental Analogy\n| Logic Operation | Set Operation |\n|-----------------|---------------|\n| Conjunction (AND, ∧) | Intersection (∩) |\n| Disjunction (OR, ∨) | Union (∪) |\n| Negation (NOT, ¬) | Complement (ᶜ) |\n| Implication (→) | Subset (⊆) |\n| Equivalence (↔) | Equality (=) |\n\n### Why This Analogy Works\n- Both deal with membership: \"x is in set A\" vs. \"proposition P is true\"\n- Both follow similar algebraic rules\n- Truth values correspond to set membership\n\n### Practical Implications\nThis analogy allows us to:\n- Translate logical problems into set problems and vice versa\n- Use Venn diagrams to solve logical puzzles\n- Apply set operations to simplify logical expressions\n- Understand both fields more deeply through their connections\n\nExample: The logical statement \"P ∧ Q\" corresponds to the set operation \"A ∩ B\" where A = {x | P(x) is true} and B = {x | Q(x) is true}"
+    },
+    {
+      "judul": "Example Problems",
+      "teks": "Practice problems with logic and set theory:",
+      "subItems": [
+        {
+          "judul": "Example 1: Truth Table Construction",
+          "teks": "Construct a truth table for the expression: (P ∧ Q) ∨ ¬P\n\n**Solution:**\n| P | Q | P ∧ Q | ¬P | (P ∧ Q) ∨ ¬P |\n|---|---|-------|----|-------------|\n| T | T |   T   | F  |      T      |\n| T | F |   F   | F  |      F      |\n| F | T |   F   | T  |      T      |\n| F | F |   F   | T  |      T      |"
+        },
+        {
+          "judul": "Example 2: Set Operations",
+          "teks": "Given A = {1, 2, 3, 4}, B = {3, 4, 5, 6}, find:\na) A ∪ B\nb) A ∩ B\nc) A - B\n\n**Solution:**\na) A ∪ B = {1, 2, 3, 4, 5, 6}\nb) A ∩ B = {3, 4}\nc) A - B = {1, 2}"
+        },
+        {
+          "judul": "Example 3: Venn Diagram Problem",
+          "teks": "In a class of 30 students:\n- 15 study Math\n- 12 study Physics\n- 8 study both\nHow many study neither subject?\n\n**Solution:**\nUsing the principle of inclusion-exclusion:\nMath only: 15 - 8 = 7\nPhysics only: 12 - 8 = 4\nBoth: 8\nTotal studying: 7 + 4 + 8 = 19\nNeither: 30 - 19 = 11 students"
+        },
+        {
+          "judul": "Example 4: Logical Equivalence",
+          "teks": "Show that ¬(P ∧ Q) is logically equivalent to ¬P ∨ ¬Q using truth tables\n\n**Solution:**\n| P | Q | P ∧ Q | ¬(P ∧ Q) | ¬P | ¬Q | ¬P ∨ ¬Q |\n|---|---|-------|----------|----|----|---------|\n| T | T |   T   |    F     | F  | F  |    F    |\n| T | F |   F   |    T     | F  | T  |    T    |\n| F | T |   F   |    T     | T  | F  |    T    |\n| F | F |   F   |    T     | T  | T  |    T    |\n\nThe columns for ¬(P ∧ Q) and ¬P ∨ ¬Q are identical, so they are equivalent."
+        },
+        {
+          "judul": "Example 5: Set Identity Proof",
+          "teks": "Prove that A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C) using Venn diagrams\n\n**Solution:**\nShade A ∩ (B ∪ C) and (A ∩ B) ∪ (A ∩ C) in separate Venn diagrams. Both will show the same shaded region: the part of A that is also in either B or C or both. This visual proof demonstrates the distributive property of intersection over union."
+        }
+      ]
+    },
+    {
+      "judul": "Practice Exercises",
+      "teks": "1. Construct truth tables for:\n   a) P → Q\n   b) P ↔ Q\n   c) (P ∨ Q) ∧ ¬P\n\n2. Given U = {1, 2, 3, 4, 5, 6, 7, 8}, A = {2, 4, 6, 8}, B = {1, 3, 5, 7}, C = {1, 2, 3, 4}\n   Find: a) A ∪ B, b) A ∩ C, c) B - C, d) Cᶜ\n\n3. Use Venn diagrams to verify De Morgan's Laws for sets\n\n4. Translate to set notation: \"Students who like math or science but not both\"\n\n5. In a survey of 100 people:\n   - 60 like coffee\n   - 40 like tea\n   - 20 like both\n   How many like neither coffee nor tea?\n\n6. Prove using truth tables: P → Q ≡ ¬P ∨ Q\n\n7. Draw Venn diagrams for:\n   a) A ∩ (B ∪ C)\n   b) (A ∩ B) ∪ (A ∩ C)\n   c) Show they are equal\n\n8. Write the set-builder notation for: \"Even integers greater than 10\"\n\n9. Simplify the logical expression: ¬(P ∨ ¬Q) ∧ P\n\n10. If A ⊆ B, what is A ∪ B? What is A ∩ B?"
+    },
+    {
+      "judul": "Key Formulas and Concepts",
+      "teks": "### Logical Operators\n- AND (∧): True only when both true\n- OR (∨): True when at least one true\n- NOT (¬): Reverses truth value\n- IMPLIES (→): False only when P true and Q false\n- IFF (↔): True when both have same truth value\n\n### Set Operations\n- Union (∪): A ∪ B = {x | x ∈ A or x ∈ B}\n- Intersection (∩): A ∩ B = {x | x ∈ A and x ∈ B}\n- Complement (ᶜ): Aᶜ = {x | x ∉ A}\n- Difference (-): A - B = {x | x ∈ A and x ∉ B}\n\n### Important Properties\n- Commutative: A ∪ B = B ∪ A, A ∩ B = B ∩ A\n- Associative: (A ∪ B) ∪ C = A ∪ (B ∪ C)\n- Distributive: A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)\n- De Morgan's Laws: (A ∪ B)ᶜ = Aᶜ ∩ Bᶜ, (A ∩ B)ᶜ = Aᶜ ∪ Bᶜ\n\n### Venn Diagrams\n- Visual representation of sets and operations\n- Useful for solving problems and verifying properties\n- Show relationships between 2 or 3 sets clearly\n\nThese fundamental concepts form the basis for advanced mathematics, computer science, and logical reasoning across many disciplines."
+    }
+  ]
+}
