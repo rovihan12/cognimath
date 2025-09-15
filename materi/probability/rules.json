@@ -52,7 +52,7 @@
         },
         {
           "judul": "Example 2: Conditional Probability",
-          "teks": "In a class of 30 students: 18 study Math, 15 study Physics, and 10 study both.\nWhat is the probability that a student studies Physics given they study Math?\n\n**Solution:**\n$P(\\text{Physics}|\\text{Math}) = \\frac{P(\\text{Physics} \\cap \\text{Math})}{P(\\text{Math})} = \\frac{10/30}{18/30} = \\frac{10}{18} \\approx 0.556$"
+          "teks": "In a class of 30 students: 18 study Math, 15 study Physics, and 10 study both.\nWhat is the probability that a student studies Physics given they study Math?\n\n**Solution:**\n$P(\\text{Physics}|\\text{Math}) = \\frac{P(\\text{Physics} \\cap \\text{Math})}{P(\\text{Math})} = \\frac{10/30}{18/30} = \\frac{10}{18} \n \\approx 0.556$"
         },
         {
           "judul": "Example 3: Combinations/Permutations",
