@@ -28,7 +28,7 @@
     },
     {
       "judul": "Linear Inequalities",
-      "teks": "Linear inequalities compare two expressions using inequality symbols: <, >, \\leq, \\geq.\n\nSolving linear inequalities is similar to solving equations, with one crucial difference:\n\n**When multiplying or dividing by a negative number, reverse the inequality sign.**\n\nExample: Solve $-3x + 5 \\geq 11$\n\n**Solution:**\n$-3x \\geq 6$\n$x \\leq -2$ (inequality reversed because we divided by -3)\n\nGraphing solutions on a number line:\n- Open circle for < or >\n- Closed circle for \\leq or \\geq\n- Arrow indicating all numbers that satisfy the inequality",
+      "teks": "Linear inequalities compare two expressions using inequality symbols: <, >, &le, &ge.\n\nSolving linear inequalities is similar to solving equations, with one crucial difference:\n\n**When multiplying or dividing by a negative number, reverse the inequality sign.**\n\nExample: Solve $-3x + 5 \\geq 11$\n\n**Solution:**\n$-3x \\geq 6$\n$x \\leq -2$ (inequality reversed because we divided by -3)\n\nGraphing solutions on a number line:\n- Open circle for < or >\n- Closed circle for \\leq or \\geq\n- Arrow indicating all numbers that satisfy the inequality",
       "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/number_line_inequality.png",
       "gambarDeskripsi": "Number line showing x ≤ -2"
     },
