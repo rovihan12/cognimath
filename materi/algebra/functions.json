@@ -43,7 +43,7 @@
     {
       "judul": "Graph Transformations",
       "teks": "Transformations modify the basic graph of a function.\n\nFor function $y = f(x)$:\n\n### Vertical Transformations\n- $y = f(x) + k$: Vertical shift (up if k > 0, down if k < 0)\n- $y = af(x)$: Vertical stretch (|a| > 1) or compression (0 < |a| < 1)\n- If a < 0: Reflection across x-axis\n\n### Horizontal Transformations\n- $y = f(x - h)$: Horizontal shift (right if h > 0, left if h < 0)\n- $y = f(bx)$: Horizontal stretch (0 < |b| < 1) or compression (|b| > 1)\n- If b < 0: Reflection across y-axis\n\nCombination: $$y = af(b(x - h)) + k$$",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/graph_transformations%202.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/graph_transformations%203.png",
       "gambarDeskripsi": "Examples of graph transformations showing shifts, stretches, and reflections"
     },
     {
