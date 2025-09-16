@@ -20,7 +20,7 @@
     },
     {
       "judul": "Factor Theorem",
-      "teks": "The Factor Theorem is a special case of the Remainder Theorem:\n\n$(x - c)$ is a factor of polynomial $P(x)$ if and only if $P(c) = 0$.\n\nThis means if $c$ is a root (zero) of the polynomial, then $(x - c)$ is a factor.\n\nExample: Show that $(x + 3)$ is a factor of $P(x) = x^3 + 2x^2 - 5x - 6$\n\n**Solution:**\n$P(-3) = (-3)^3 + 2(-3)^2 - 5(-3) - 6 = -27 + 18 + 15 - 6 = 0$\n\nSince $P(-3) = 0$, $(x + 3)$ is a factor.\n\nWe can then factor completely:\n$x^3 + 2x^2 - 5x - 6 = (x + 3)(x^2 - x - 2) = (x + 3)(x - 2)(x + 1)$",
+      "teks": "The Factor Theorem is a special case of the Remainder Theorem:\n\n$(x - c)$ is a factor of polynomial $P(x)$ if P(x) is polynomial, and P(a) =0, then (x-a) is a factor of P(x). \n\nExample: Show that $(x + 3)$ is a factor of $P(x) = x^3 + 2x^2 - 5x - 6$\n\n**Solution:**\n$P(-3) = (-3)^3 + 2(-3)^2 - 5(-3) - 6 = -27 + 18 + 15 - 6 = 0$\n\nSince $P(-3) = 0$, $(x + 3)$ is a factor.\n\nWe can then factor completely:\n$x^3 + 2x^2 - 5x - 6 = (x + 3)(x^2 - x - 2) = (x + 3)(x - 2)(x + 1)$",
       "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/roots_and_factors_2.png",
       "gambarDeskripsi": "Visual representation of the Factor Theorem showing roots and factors"
     },
