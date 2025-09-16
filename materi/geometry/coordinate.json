@@ -21,7 +21,7 @@
     {
       "judul": "Equations of Lines",
       "teks": "### Slope-Intercept Form\n$$y = mx + b$$\n- $m$ = slope\n- $b$ = y-intercept\n\n### Point-Slope Form\n$$y - y_1 = m(x - x_1)$$\n- $m$ = slope\n- $(x_1, y_1)$ = point on the line\n\n### Standard Form\n$$Ax + By = C$$\n- A, B, C are integers (usually)\n- A should be positive\n\n### Horizontal and Vertical Lines\n- Horizontal: $y = k$\n- Vertical: $x = k$\n\nExample: Find equation of line through (2, 5) with slope 3\n\n**Solution (point-slope):**\n$y - 5 = 3(x - 2)$\n**Solution (slope-intercept):**\n$y = 3x - 1$",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/line_equations.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/form_linear_equation.png",
       "gambarDeskripsi": "Graph showing different forms of linear equations"
     },
     {
