@@ -1,7 +1,7 @@
 {
   "id": "functions",
   "title": "",
-  "subItems": [
+  "subItems": [ 
     {
       "judul": "Introduction to Functions",
       "teks": "A function is a relation between sets that associates every element of a first set (domain) to exactly one element of a second set (codomain).\n\nFunction notation: $$f: X \\to Y$$\n- $f$ is the function name\n- $X$ is the domain (input set)\n- $Y$ is the codomain (possible output set)\n\nIf $x$ is an element of $X$, then $f(x)$ denotes the output value corresponding to input $x$.\n\nVertical Line Test: A graph represents a function if and only if no vertical line intersects the graph more than once."
