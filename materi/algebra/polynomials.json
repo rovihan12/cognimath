@@ -31,7 +31,7 @@
     {
       "judul": "Graphing Polynomial Functions",
       "teks": "### Key Features of Polynomial Graphs:\n\n1. **End Behavior**: Determined by leading term\n   - Even degree, positive LC: ↑ both ends\n   - Even degree, negative LC: ↓ both ends\n   - Odd degree, positive LC: ↓ left, ↑ right\n   - Odd degree, negative LC: ↑ left, ↓ right\n\n 2. **Intercepts**:\n   - x-intercepts: Real zeros (roots)\n   - y-intercept: $P(0)$\n\n 3. **Turning Points**: A degree n polynomial has at most (n - 1) turning points\n\n 4. **Multiplicity Behavior**:\n   - Odd multiplicity: Graph crosses x-axis\n   - Even multiplicity: Graph touches x-axis and turns around\n\n### Graphing Steps:\n1. Determine end behavior from leading term\n2. Find and plot intercepts\n3. Determine behavior at each x-intercept (multiplicity)\n4. Find additional points if needed\n5. Sketch smooth curve through points\n\nExample: Graph $P(x) = (x + 1)^2(x - 2)$",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/polynomial_graph.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/polynomial_roots_turning_points.png",
       "gambarDeskripsi": "Graph showing polynomial with roots and turning points"
     },
     {
