@@ -35,7 +35,7 @@
     {
       "judul": "Parabolas",
       "teks": "A parabola is the set of points equidistant from a fixed point (focus) and a fixed line (directrix).\n\n### Standard Forms\n**Vertical axis**: $$(x - h)^2 = 4p(y - k)$$\n- Vertex: $(h, k)$\n- Focus: $(h, k + p)$\n- Directrix: $y = k - p$\n\n**Horizontal axis**: $$(y - k)^2 = 4p(x - h)$$\n- Vertex: $(h, k)$\n- Focus: $(h + p, k)$\n- Directrix: $x = h - p$\n\n### Quadratic Form\n$$y = ax^2 + bx + c$$\n- Vertex: $\\left(-\\frac{b}{2a}, f\\left(-\\frac{b}{2a}\\right)\\right)$\n- Axis of symmetry: $x = -\\frac{b}{2a}$",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/parabola_elements.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/Parabola.png",
       "gambarDeskripsi": "Parabola showing focus, directrix, vertex, and axis of symmetry"
     },
     {
