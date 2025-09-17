@@ -9,7 +9,7 @@
     {
       "judul": "Properties of Triangles",
       "teks": "A triangle is a three-sided polygon with three angles.\n\n### Triangle Classification by Sides:\n- **Equilateral**: All sides equal, all angles = $60^{\\circ}$\n- **Isosceles**: Two sides equal, two angles equal\n- **Scalene**: All sides different, all angles different\n\n### Triangle Classification by Angles:\n- **Acute**: All angles < $90^{\\circ}$\n- **Right**: One angle = $90^{\\circ}$\n- **Obtuse**: One angle > $90^{\\circ}$\n\n### Important Properties:\n- Sum of interior angles = $180^{\\circ}$\n- Sum of exterior angles = $360^{\\circ}$\n- Triangle inequality: Sum of any two sides > third side\n- Pythagorean theorem (right triangles): $a^2 + b^2 = c^2$\n\n### Special Segments:\n- **Median**: From vertex to midpoint of opposite side\n- **Altitude**: From vertex perpendicular to opposite side\n- **Angle bisector**: Divides angle into two equal angles\n- **Perpendicular bisector**: Perpendicular to side at its midpoint",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/triangle_types.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/1758108347947.jpg",
       "gambarDeskripsi": "Different types of triangles classified by sides and angles"
     },
     {
