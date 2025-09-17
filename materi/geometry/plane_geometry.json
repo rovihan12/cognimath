@@ -19,7 +19,7 @@
     {
       "judul": "Properties of Circles",
       "teks": "A circle is the set of all points equidistant from a fixed point (center).\n\n### Circle Terminology:\n- **Center**: Fixed point ($O$)\n- **Radius**: Distance from center to any point on circle ($r$)\n- **Diameter**: Distance across through center ($d = 2r$)\n- **Chord**: Segment with endpoints on circle\n- **Arc**: Part of circumference\n- **Sector**: Region bounded by two radii and arc\n- **Segment**: Region bounded by chord and arc\n- **Tangent**: Line that touches circle at exactly one point\n- **Secant**: Line that intersects circle at two points\n\n### Important Properties:\n- All radii of a circle are equal\n- Diameter is the longest chord\n- Tangent is perpendicular to radius at point of tangency\n- Central angle = measure of intercepted arc\n- Inscribed angle = $\\frac{1}{2}$ measure of intercepted arc\n- Angle in semicircle = $90^{\\circ}$",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/circle_parts.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/1758109246403.jpg",
       "gambarDeskripsi": "Circle showing center, radius, diameter, chord, arc, and tangent"
     },
     {
