@@ -9,7 +9,7 @@
     {
       "judul": "Right Triangle Trigonometry: SOH-CAH-TOA",
       "teks": "In right triangles, trigonometric ratios relate angles to side lengths:\n\n### SOH-CAH-TOA Mnemonic:\n- **SOH**: Sine = Opposite / Hypotenuse\n- **CAH**: Cosine = Adjacent / Hypotenuse\n- **TOA**: Tangent = Opposite / Adjacent\n\nFor a right triangle with angle $\\theta$:\n$$ \\sin\\theta = \\frac{\\text{opposite}}{\\text{hypotenuse}} $$\n$$ \\cos\\theta = \\frac{\\text{adjacent}}{\\text{hypotenuse}} $$\n$$ \\tan\\theta = \\frac{\\text{opposite}}{\\text{adjacent}} $$\n\nThe reciprocal functions:\n$$ \\csc\\theta = \\frac{1}{\\sin\\theta} = \\frac{\\text{hypotenuse}}{\\text{opposite}} $$\n$$ \\sec\\theta = \\frac{1}{\\cos\\theta} = \\frac{\\text{hypotenuse}}{\\text{adjacent}} $$\n$$ \\cot\\theta = \\frac{1}{\\tan\\theta} = \\frac{\\text{adjacent}}{\\text{opposite}} $$\n\nThese ratios only apply to right triangles.",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/right_triangle_trig.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/tri_def1819402658540204768.jpg",
       "gambarDeskripsi": "Right triangle showing opposite, adjacent, and hypotenuse sides relative to angle θ"
     },
     {
