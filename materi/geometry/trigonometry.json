@@ -27,7 +27,7 @@
     {
       "judul": "Graphing Tangent Function",
       "teks": "The tangent function has different properties from sine and cosine.\n\n### General Form:\n$$y = A\\tan(B(x - C)) + D$$\n\n### Properties:\n- **Domain**: All real numbers except where $\\cos x = 0$\n- **Range**: All real numbers\n- **Period**: $\\pi$ (not $2\\pi$ like sine/cosine)\n- **Asymptotes**: Vertical lines where the function is undefined\n- **No amplitude**: Function extends to $\\pm\\infty$\n\n### Behavior:\n- The tangent function is periodic with period $\\pi$\n- It has vertical asymptotes at $x = \\pi/2 + k\\pi$, where $k$ is any integer\n- The function increases from $-\\infty$ to $\\infty$ between each pair of asymptotes\n- It's an odd function: $\\tan(-x) = -\\tan(x)$\n\nUnlike sine and cosine, tangent doesn't have a maximum or minimum value.",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/tangent_graph.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/tan38155360018730577690%20(1).png",
       "gambarDeskripsi": "Graph of tangent function showing asymptotes and periodic behavior"
     },
     {
