@@ -21,7 +21,7 @@
     {
       "judul": "Graphing Sine and Cosine Functions",
       "teks": "Sine and cosine functions are periodic functions that oscillate between -1 and 1.\n\n### General Forms:\n$$ y = A\\sin(B(x - C)) + D $$\n$$ y = A\\cos(B(x - C)) + D $$\n\nWhere:\n- **A** = amplitude (vertical stretch)\n- **B** affects the period (period = $2\\pi/|B|$)\n- **C** = phase shift (horizontal shift)\n- **D** = vertical shift\n\n### Properties:\n- **Sine function**: $y = \\sin x$\n  - Domain: all real numbers\n  - Range: [-1, 1]\n  - Period: $2\\pi$\n  - Starts at origin (0, 0)\n\n- **Cosine function**: $y = \\cos x$\n  - Domain: all real numbers\n  - Range: [-1, 1]\n  - Period: $2\\pi$\n  - Starts at maximum (0, 1)\n\nBoth functions are periodic with period $2\\pi$ and have amplitude 1 in their basic forms.",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/sine_cosine_graph.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/CNX_Precalc_Figure_06_01_005.jpg",
       "gambarDeskripsi": "Graphs of sine and cosine functions showing their periodic nature"
     },
     {
