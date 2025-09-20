@@ -13,7 +13,7 @@
     {
       "judul": "Arithmetic Series",
       "teks": "An arithmetic series is the sum of the terms of an arithmetic sequence.\n\n### Sum of First n Terms\n$$S_n = \\frac{n}{2}(a_1 + a_n)$$\nor\n$$S_n = \\frac{n}{2}[2a_1 + (n - 1)d]$$\n\n### Derivation\nThe formula comes from pairing terms:\n$S_n = a_1 + a_2 + \\cdots + a_n$\n$S_n = a_n + a_{n-1} + \\cdots + a_1$\nAdding both: $2S_n = n(a_1 + a_n)$\n\n### Properties\n- The sum of an arithmetic series grows quadratically with n\n- The average of the first and last terms equals the average of all terms\n\nExample: Sum of first 10 terms of 2, 5, 8, 11, ...\n$S_{10} = \\frac{10}{2}(2 + a_{10}) = 5(2 + 29) = 155$\n($a_{10} = 2 + 9 \\times 3 = 29$)",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/arithmetic_sequence.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/bar%201.png",
       "gambarDeskripsi": "Visual representation of arithmetic sequence showing constant difference"
     },
     {
