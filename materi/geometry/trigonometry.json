@@ -45,7 +45,7 @@
     {
       "judul": "Law of Cosines (Advanced Topic)",
       "teks": "The Law of Cosines generalizes the Pythagorean theorem to any triangle.\n\n### Formulas:\n$$ a^2 = b^2 + c^2 - 2bc\\cos A $$\n$$ b^2 = a^2 + c^2 - 2ac\\cos B $$\n$$ c^2 = a^2 + b^2 - 2ab\\cos C $$\n\n### Applications:\n1. **SAS** (Side-Angle-Side): Find the third side\n2. **SSS** (Side-Side-Side): Find the angles\n\n### Special Cases:\n- When angle A = 90°, $\\cos A = 0$, so $a^2 = b^2 + c^2$ (Pythagorean theorem)\n- When angle A = 0°, $\\cos A = 1$, so $a^2 = (b - c)^2$\n- When angle A = 180°, $\\cos A = -1$, so $a^2 = (b + c)^2$\n\nThe Law of Cosines is essential for solving triangles that don't contain a right angle.",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/law_of_cosines.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/tan38155360018730577690%20(1).png",
       "gambarDeskripsi": "Triangle showing sides and angles for Law of Cosines application"
     },
     {
