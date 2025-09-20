@@ -27,8 +27,7 @@
     {
       "judul": "Summation Notation (Sigma Notation)",
       "teks": "Summation notation provides a compact way to represent series.\n\n### Sigma Notation\n$$\\sum_{k=m}^{n} a_k = a_m + a_{m+1} + a_{m+2} + \\cdots + a_n$$\n\nWhere:\n- $\\sum$ (sigma) means \"sum\"\n- $k$ is the index of summation\n- $m$ is the lower limit (starting index)\n- $n$ is the upper limit (ending index)\n- $a_k$ is the general term\n\n### Properties of Summation\n1. **Constant multiple**: $\\sum_{k=1}^{n} ca_k = c\\sum_{k=1}^{n} a_k$\n2. **Sum/difference**: $\\sum_{k=1}^{n} (a_k \\pm b_k) = \\sum_{k=1}^{n} a_k \\pm \\sum_{k=1}^{n} b_k$\n3. **Change of index**: $\\sum_{k=m}^{n} a_k = \\sum_{j=m}^{n} a_j$\n4. **Splitting**: $\\sum_{k=1}^{n} a_k = \\sum_{k=1}^{m} a_k + \\sum_{k=m+1}^{n} a_k$\n\n### Useful Summation Formulas\n- $\\sum_{k=1}^{n} 1 = n$\n- $\\sum_{k=1}^{n} k = \\frac{n(n+1)}{2}$\n- $\\sum_{k=1}^{n} k^2 = \\frac{n(n+1)(2n+1)}{6}$\n- $\\sum_{k=1}^{n} k^3 = \\left[\\frac{n(n+1)}{2}\\right]^2$\n- $\\sum_{k=0}^{n} r^k = \\frac{1 - r^{n+1}}{1 - r}$ (for $r \\neq 1$)",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/sigma_notation.png",
-      "gambarDeskripsi": "Visual explanation of sigma notation components"
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/bar%207%20(2).png"
     },
     {
       "judul": "Applications of Sequences and Series",
