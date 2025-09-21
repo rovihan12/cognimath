@@ -23,7 +23,7 @@
     {
       "judul": "Data Visualization: Histograms",
       "teks": "Histograms display the distribution of continuous data using bars.\n\n### Characteristics:\n- **X-axis**: Numerical intervals (bins)\n- **Y-axis**: Frequency or density\n- **Bars touch each other** (unlike bar charts)\n\n### What Histograms Reveal:\n1. **Shape of distribution**:\n   - Bell-shaped (normal)\n   - Skewed right (tail to the right)\n   - Skewed left (tail to the left)\n   - Bimodal (two peaks)\n   - Uniform (equal frequencies)\n\n2. **Center**: Where the data is concentrated\n3. **Spread**: How variable the data is\n4. **Outliers**: Unusual values\n\n### Creating a Histogram:\n1. Determine the range of data\n2. Decide on number of bins (5-20 typically)\n3. Count how many values fall into each bin\n4. Draw bars with heights proportional to frequencies\n\nHistograms help us understand the underlying distribution of our data.",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/image.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/histogram.png",
       "gambarDeskripsi": "Different types of histogram distributions: normal, skewed, bimodal"
     },
     {
