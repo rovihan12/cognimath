@@ -27,7 +27,7 @@
     {
       "judul": "Infinite Limits and Vertical Asymptotes",
       "teks": "Infinite limits occur when function values grow without bound near a point.\n\n### Definition\n$$\\lim_{x \\to a} f(x) = \\infty$$\nmeans $f(x)$ becomes arbitrarily large as $x$ approaches $a$.\n\n### Vertical Asymptotes\nIf $\\lim_{x \\to a} f(x) = \\pm\\infty$, then $x = a$ is a vertical asymptote.\n\n### Finding Vertical Asymptotes\nFor rational functions $\\frac{p(x)}{q(x)}$:\n- Find where denominator $q(x) = 0$\n- Check that numerator $p(x) \\neq 0$ at those points\n- Verify the limit is infinite\n\n### Behavior Near Vertical Asymptotes\n- Both sides may go to $+\\infty$ or $-\\infty$\n- Different sides may have different behaviors\n- Use test points to determine sign\n\n### Example\n$f(x) = \\frac{1}{x-2}$ has vertical asymptote at $x = 2$\n$\\lim_{x \\to 2^-} f(x) = -\\infty$, $\\lim_{x \\to 2^+} f(x) = +\\infty$",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/vertical_asymptote.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/x%3D2.png",
       "gambarDeskripsi": "Graph showing function behavior near vertical asymptote at x=2"
     },
     {
