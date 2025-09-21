@@ -13,7 +13,7 @@
     {
       "judul": "Evaluating Limits Graphically",
       "teks": "Graphical analysis provides visual intuition for understanding limits.\n\n### Steps for Graphical Evaluation\n1. Identify the point $x = a$ on the x-axis\n2. Trace the graph from both sides toward $x = a$\n3. Observe what y-value the function approaches\n4. Check if both sides approach the same value\n\n### Common Graphical Behaviors\n1. **Continuous at point**: Graph passes through $(a, f(a))$ with no break\n2. **Hole (removable discontinuity**: Limit exists but $f(a)$ is undefined or different\n3. **Jump discontinuity**: Left and right limits exist but are different\n4. **Infinite discontinuity**: Function approaches $\\pm\\infty$\n5. **Oscillatory behavior**: Function oscillates without settling on a value\n\n### Interpretation Tips\n- Look for open circles (holes) and closed circles (defined points)\n- Note vertical asymptotes (infinite limits)\n- Watch for sharp corners or cusps\nGraphical analysis helps build intuition before algebraic techniques.",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/limit_graphical.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/image.png",
       "gambarDeskripsi": "Graph showing different types of limit behaviors: continuity, holes, jumps, and asymptotes"
     },
     {
