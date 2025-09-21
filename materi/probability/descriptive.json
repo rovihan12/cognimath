@@ -17,13 +17,13 @@
     {
       "judul": "Data Visualization: Box Plots",
       "teks": "Box plots (box-and-whisker plots) display the distribution of data based on a five-number summary:\n\n### Five-Number Summary:\n1. **Minimum**: Smallest value (excluding outliers)\n2. **First Quartile (Q1)**: 25th percentile\n3. **Median (Q2)**: 50th percentile\n4. **Third Quartile (Q3)**: 75th percentile\n5. **Maximum**: Largest value (excluding outliers)\n\n### Components of a Box Plot:\n- **Box**: Contains the middle 50% of data (from Q1 to Q3)\n- **Line inside box**: Median value\n- **Whiskers**: Extend to minimum and maximum values\n- **Outliers**: Points beyond 1.5 × IQR from Q1 or Q3\n\n### Interquartile Range (IQR):\n$$ \\text{IQR} = Q3 - Q1 $$\n- Measures the spread of the middle 50% of data\n- Used to identify outliers\n\nBox plots are excellent for comparing distributions across different groups.",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/box_plot_diagram.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/box_plot1.png",
       "gambarDeskripsi": "Box plot diagram showing minimum, Q1, median, Q3, maximum, and outliers"
     },
     {
       "judul": "Data Visualization: Histograms",
       "teks": "Histograms display the distribution of continuous data using bars.\n\n### Characteristics:\n- **X-axis**: Numerical intervals (bins)\n- **Y-axis**: Frequency or density\n- **Bars touch each other** (unlike bar charts)\n\n### What Histograms Reveal:\n1. **Shape of distribution**:\n   - Bell-shaped (normal)\n   - Skewed right (tail to the right)\n   - Skewed left (tail to the left)\n   - Bimodal (two peaks)\n   - Uniform (equal frequencies)\n\n2. **Center**: Where the data is concentrated\n3. **Spread**: How variable the data is\n4. **Outliers**: Unusual values\n\n### Creating a Histogram:\n1. Determine the range of data\n2. Decide on number of bins (5-20 typically)\n3. Count how many values fall into each bin\n4. Draw bars with heights proportional to frequencies\n\nHistograms help us understand the underlying distribution of our data.",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/histogram_types.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/image.png",
       "gambarDeskripsi": "Different types of histogram distributions: normal, skewed, bimodal"
     },
     {
