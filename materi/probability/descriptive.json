@@ -29,7 +29,7 @@
     {
       "judul": "Data Visualization: Scatterplots",
       "teks": "Scatterplots display the relationship between two quantitative variables.\n\n### Components:\n- **X-axis**: Independent variable\n- **Y-axis**: Dependent variable\n- **Points**: Each represents one observation\n\n### Types of Relationships:\n1. **Positive correlation**: As x increases, y tends to increase\n2. **Negative correlation**: As x increases, y tends to decrease\n3. **No correlation**: No apparent relationship\n4. **Non-linear relationship**: Curved pattern\n\n### Correlation Coefficient (r):\n- Measures the strength and direction of linear relationship\n- $-1 \\le r \\le 1$\n- $r = 1$: Perfect positive linear relationship\n- $r = -1$: Perfect negative linear relationship\n- $r = 0$: No linear relationship\n\n### Interpretation Guidelines:\n- $|r| > 0.7$: Strong relationship\n- $0.3 < |r| < 0.7$: Moderate relationship\n- $|r| < 0.3$: Weak relationship\n\n**Remember**: Correlation does not imply causation!",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/scatterplot_correlations.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/scatter.png",
       "gambarDeskripsi": "Scatterplots showing positive, negative, and no correlation"
     },
     {
