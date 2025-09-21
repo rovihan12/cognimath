@@ -9,7 +9,7 @@
     {
       "judul": "Power Rule for Derivatives",
       "teks": "The power rule is one of the most basic and frequently used differentiation rules.\n\n### Power Rule Formula\nIf $f(x) = x^n$, where $n$ is a real number, then:\n$$f'(x) = nx^{n-1}$$\n\n### Examples\n1. $f(x) = x^3$ → $f'(x) = 3x^2$\n2. $f(x) = x^5$ → $f'(x) = 5x^4$\n3. $f(x) = \\sqrt{x} = x^{1/2}$ → $f'(x) = \\frac{1}{2}x^{-1/2} = \\frac{1}{2\\sqrt{x}}$\n4. $f(x) = \\frac{1}{x} = x^{-1}$ → $f'(x) = -x^{-2} = -\\frac{1}{x^2}$\n\n### Extended Power Rule\nFor functions of the form $f(x) = kx^n$, where $k$ is a constant:\n$$f'(x) = k \\cdot nx^{n-1}$$\n\nExample: $f(x) = 4x^3$ → $f'(x) = 12x^2$",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/power_rule_derivative.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/power-rule-formula.png",
       "gambarDeskripsi": "Visual representation of power rule derivatives for different functions"
     },
     {
