@@ -23,7 +23,7 @@
     {
       "judul": "Finding Equations of Tangent Lines",
       "teks": "The derivative provides a powerful tool for finding the equation of the tangent line to a curve at a specific point.\n\n### Tangent Line Equation\nGiven a function $f(x)$ and a point $(a, f(a))$:\n$$y - f(a) = f'(a)(x - a)$$\n\nWhere:\n- $f(a)$ is the y-coordinate of the point of tangency\n- $f'(a)$ is the slope of the tangent line at $x = a$\n\n### Step-by-Step Procedure\n1. Find $f'(x)$ (the derivative)\n2. Evaluate $f'(a)$ to get the slope\n3. Evaluate $f(a)$ to get the y-coordinate\n4. Substitute into point-slope form\n5. Simplify to slope-intercept form if desired\n\n### Example\nFind the tangent line to $f(x) = x^2$ at $x = 3$\n\n1. $f'(x) = 2x$\n2. $f'(3) = 6$ (slope)\n3. $f(3) = 9$ (point is (3, 9))\n4. $y - 9 = 6(x - 3)$\n5. $y = 6x - 18 + 9 = 6x - 9$\n\nThe tangent line is $y = 6x - 9$",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/tangent_line_derivative.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/image.png",
       "gambarDeskripsi": "Graph showing function curve and its tangent line at a specific point"
     },
     {
