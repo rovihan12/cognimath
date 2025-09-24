@@ -19,7 +19,7 @@
     {
       "judul": "The Binomial Distribution",
       "teks": "The binomial distribution models the number of successes in a fixed number of independent Bernoulli trials.\n\n### Conditions (BINS):\n1. **B**inary outcomes: Success or Failure\n2. **I**ndependent trials\n3. **N**umber of trials fixed\n4. **S**ame probability of success for each trial\n\n### Probability Mass Function:\n$$ P(X = k) = \\binom{n}{k} p^k (1-p)^{n-k} $$\nWhere:\n- $n$ = number of trials\n- $k$ = number of successes\n- $p$ = probability of success\n- $\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$ (binomial coefficient)\n\n### Mean and Variance:\n$$ \\mu = E(X) = n \\cdot p $$\n$$ \\sigma^2 = Var(X) = n \\cdot p \\cdot (1-p) $$\n$$ \\sigma = \\sqrt{n \\cdot p \\cdot (1-p)} $$\n\n**Example**: Coin toss (n=5, p=0.5)\n$P(3 \\text{ heads}) = \\binom{5}{3} (0.5)^3 (0.5)^2 = 10 \\times 0.125 \\times 0.25 = 0.3125$\n$\\mu = 5 \\times 0.5 = 2.5$, $\\sigma^2 = 5 \\times 0.5 \\times 0.5 = 1.25$",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/binomial_distribution.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/Binomial%20distribution%20for%20different%20values%20of%20n%20and%20p.png",
       "gambarDeskripsi": "Binomial distribution for different values of n and p"
     },
     {
