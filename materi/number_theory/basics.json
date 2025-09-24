@@ -9,7 +9,7 @@
     {
       "judul": "Logical Operators (AND, OR, NOT)",
       "teks": "Logical operators are the building blocks of logical expressions and form the basis of Boolean algebra.\n\n### Basic Logical Operators\n\n**AND (Conjunction)** - Symbol: $\\land$ or $\\&$\n- True only when both propositions are true\n- Example: \"It is raining AND I have an umbrella\"\n\n**OR (Disjunction)** - Symbol: $\\lor$ or $|$\n- True when at least one proposition is true\n- Example: \"I will take a bus OR I will walk\"\n\n**NOT (Negation)** - Symbol: $\\lnot$ or $\\sim$\n- Reverses the truth value of a proposition\n- Example: \"It is NOT raining\"\n\n### Additional Operators\n**IMPLIES (Conditional)** - Symbol: $\\rightarrow$ or $\\Rightarrow$\n- \"If P then Q\" - False only when P is true and Q is false\n\n**IF AND ONLY IF (Biconditional)** - Symbol: $\\leftrightarrow$ or $\\Leftrightarrow$\n- True when both propositions have the same truth value\n\nThese operators form the basis for constructing complex logical statements and are fundamental to computer programming and circuit design.",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/logical_operators.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/logicsymbols.jpg"
       "gambarDeskripsi": "Visual representation of basic logical operations"
     },
     {
