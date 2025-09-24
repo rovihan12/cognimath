@@ -45,7 +45,7 @@
     {
       "judul": "Other Important Distributions",
       "teks": "### Poisson Distribution:\n- Models number of events in fixed interval\n- Examples: calls per hour, defects per meter\n- Formula: $P(X = k) = \\frac{\\lambda^k e^{-\\lambda}}{k!}$\n\n### Exponential Distribution:\n- Models time between events\n- Examples: time between arrivals, lifespan\n- Memoryless property\n\n### Uniform Distribution:\n- All outcomes equally likely\n- Constant probability density\n- Examples: fair die, random number generator\n\n### Choosing the Right Distribution:\n- Count data: Binomial, Poisson\n- Measurement data: Normal\n- Time data: Exponential\n- Continuous uniform: when all values equally likely\n\nEach distribution has specific applications and assumptions.",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/probability_distributions.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/distribution%20shapes.png",
       "gambarDeskripsi": "Comparison of different probability distribution shapes"
     },
     {
