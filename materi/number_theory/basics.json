@@ -23,7 +23,7 @@
     {
       "judul": "Set Operations",
       "teks": "Set operations allow us to combine and manipulate sets in various ways.\n\n### Basic Set Operations\n\n**Union** - Symbol: $\\cup$\n$A \\cup B = \\{x \\mid x \\in A \\text{ or } x \\in B\\}$\n\nThe set of all elements that are in A or B or both\n\n**Intersection** - Symbol: $\\cap$\n$A \\cap B = \\{x \\mid x \\in A \\text{ and } x \\in B\\}$\n\nThe set of elements common to both A and B\n\n**Complement** - Symbol: $A^c$ or $A'$\n$A^c = \\{x \\mid x \\notin A\\}$\n\nAll elements not in A (relative to some universal set)\n\n**Difference** - Symbol: $A - B$ or $A \\setminus B$\n$A - B = \\{x \\mid x \\in A \\text{ and } x \\notin B\\}$\n\nElements in A but not in B\n\n### Properties of Set Operations\n- Commutative: $A \\cup B = B \\cup A$, $A \\cap B = B \\cap A$\n- Associative: $(A \\cup B) \\cup C = A \\cup (B \\cup C)$\n- Distributive: $A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)$\n- De Morgan's Laws: $(A \\cup B)^c = A^c \\cap B^c$, $(A \\cap B)^c = A^c \\cup B^c$",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/set_operations.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/Screenshot_20250924_214332_Chrome.jpg",
       "gambarDeskripsi": "Diagram showing union, intersection, and difference of sets"
     },
     {
