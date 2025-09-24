@@ -25,7 +25,7 @@
     {
       "judul": "The Normal Distribution",
       "teks": "The normal distribution (Gaussian distribution) is the most important continuous probability distribution.\n\n### Characteristics:\n- Bell-shaped curve\n- Symmetric about the mean\n- Mean = Median = Mode\n- Defined by two parameters: μ (mean) and σ (standard deviation)\n\n### Probability Density Function:\n$$ f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} e^{-\\frac{1}{2}\\left(\\frac{x-\\mu}{\\sigma}\\right)^2} $$\n\n### Properties:\n- Total area under curve = 1\n- Curve approaches but never touches x-axis\n- Inflection points at μ ± σ\n\n### Standard Normal Distribution:\n- Special case where μ = 0 and σ = 1\n- Denoted as Z ~ N(0, 1)\n- Used for calculations and tables\n\nMany natural phenomena follow normal distributions: heights, test scores, measurement errors.",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/normal_distribution.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/Normal%20distribution%20curve%20showing%20mean%2C%20standard%20deviation%2C%20and%20area%20properties.png",
       "gambarDeskripsi": "Normal distribution curve showing mean, standard deviation, and area properties"
     },
     {
