@@ -13,7 +13,7 @@
     {
       "judul": "Continuous Random Variables",
       "teks": "Continuous random variables take on infinitely many values in an interval.\n\n### Probability Density Function (PDF):\n$$ f(x) \\ge 0 $$\n$$ \\int_{-\\infty}^{\\infty} f(x) dx = 1 $$\n\n### Probability as Area:\n$$ P(a \\le X \\le b) = \\int_{a}^{b} f(x) dx $$\n\n### Expected Value (Mean):\n$$ E(X) = \\mu = \\int_{-\\infty}^{\\infty} x \\cdot f(x) dx $$\n\n### Variance:\n$$ Var(X) = \\sigma^2 = \\int_{-\\infty}^{\\infty} (x - \\mu)^2 \\cdot f(x) dx $$\n\n### Cumulative Distribution Function (CDF):\n$$ F(x) = P(X \\le x) = \\int_{-\\infty}^{x} f(t) dt $$\n\n**Key Properties**:\n- $P(X = a) = 0$ for any specific value a\n- Probabilities are measured over intervals\n- The total area under the PDF curve equals 1",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/Pdf.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/Probability%20density%20function%20showing%20area%20under%20curve%20representing%20probability.png",
       "gambarDeskripsi": "Probability density function showing area under curve representing probability"
     },
     {
