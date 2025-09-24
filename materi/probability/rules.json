@@ -31,7 +31,7 @@
     {
       "judul": "Combinations",
       "teks": "Combinations count the number of ways to select objects without regard to order.\n\n### Formula:\n$$ C(n, r) = \\binom{n}{r} = \\frac{n!}{r!(n - r)!} $$\nWhere:\n- $n$ = total number of objects\n- $r$ = number of objects being selected\n\n### When to Use:\n- Order doesn't matter\n- Selecting committees, groups, teams\n- Choosing subsets\n\n**Examples**:\n1. Choosing 3 students out of 10 for a committee:\n   $C(10, 3) = \\frac{10!}{3!7!} = \\frac{3628800}{6 \\times 5040} = 120$\n\n2. Lottery with 6 numbers out of 49:\n   $C(49, 6) = \\frac{49!}{6!43!} = 13,983,816$\n\n3. Pizza with 3 toppings out of 8 available:\n   $C(8, 3) = \\frac{8!}{3!5!} = 56$\n\n### Relationship with Permutations:\n$$ P(n, r) = C(n, r) \\times r! $$",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/combinations_vs_permutations.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/Visual%20comparison%20of%20combinations%20vs%20permutations.png",
       "gambarDeskripsi": "Visual comparison of combinations vs permutations"
     },
     {
