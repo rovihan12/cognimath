@@ -73,7 +73,7 @@
     {
       "judul": "Real-World Applications",
       "teks": "### Quality Control:\n- Binomial: Defect rates in manufacturing\n- Normal: Product dimensions, weights\n\n### Healthcare:\n- Normal: Blood pressure, cholesterol levels\n- Exponential: Time between patient arrivals\n\n### Finance:\n- Normal: Stock returns, investment risks\n- Poisson: Number of transactions\n\n### Education:\n- Normal: Test scores, GPA distributions\n- Binomial: Pass/fail rates\n\n### Engineering:\n- Normal: Measurement errors, tolerances\n- Exponential: Component failure times\n\n### Social Sciences:\n- Normal: Survey responses, behavioral measurements\n- Poisson: Event counts in fixed time periods\n\nUnderstanding distributions helps model and analyze real-world phenomena.",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/distribution_applications.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/Aplication%20probability.png",
       "gambarDeskripsi": "Applications of probability distributions in various fields"
     },
     {
