@@ -21,7 +21,7 @@
     {
       "judul": "Two-Way Tables",
       "teks": "Two-way tables (contingency tables) organize data about two categorical variables.\n\n### Structure:\n- Rows: Categories of one variable\n- Columns: Categories of another variable\n- Cells: Counts or frequencies\n- Margins: Row and column totals\n\n### Probability Calculations:\n- **Joint Probability**: $P(A \\cap B) = \\frac{\\text{Cell count}}{\\text{Total}}$\n- **Marginal Probability**: $P(A) = \\frac{\\text{Row total}}{\\text{Total}}$\n- **Conditional Probability**: $P(A|B) = \\frac{P(A \\cap B)}{P(B)} = \\frac{\\text{Cell count}}{\\text{Column total}}$\n\n**Example**: Survey of 200 students\n| | Like Math | Dislike Math | Total |\n|-----------|-----------|--------------|-------|\n| Male      | 60        | 40           | 100   |\n| Female    | 70        | 30           | 100   |\n| Total     | 130       | 70           | 200   |\n\n- $P(\\text{Male}) = \\frac{100}{200} = 0.5$\n- $P(\\text{Like Math}) = \\frac{130}{200} = 0.65$\n- $P(\\text{Male} \\cap \\text{Like Math}) = \\frac{60}{200} = 0.3$\n- $P(\\text{Like Math}|\\text{Male}) = \\frac{60}{100} = 0.6$",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/two_way_table.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/two_table.png",
       "gambarDeskripsi": "Two-way table example showing gender and math preference"
     },
     {
