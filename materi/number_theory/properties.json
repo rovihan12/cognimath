@@ -9,7 +9,7 @@
     {
       "judul": "Prime Numbers",
       "teks": "Prime numbers are the fundamental building blocks of number theory.\n\n### Definition\nA prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.\n\n### Properties of Prime Numbers\n- There are infinitely many prime numbers (proved by Euclid)\n- Every natural number greater than 1 is either prime or can be uniquely factored into primes (Fundamental Theorem of Arithmetic)\n- The only even prime number is 2\n- Prime numbers become less frequent as numbers get larger (Prime Number Theorem)\n\n### Examples\nPrime numbers: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, ...\nComposite numbers (non-prime): 4, 6, 8, 9, 10, 12, 14, 15, ...\n\n### Sieve of Eratosthenes\nAn ancient algorithm for finding all prime numbers up to any given limit by iteratively marking the multiples of each prime starting from 2.",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/prime_numbers.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/Screenshot_20250924_213210_Chrome.jpg",
       "gambarDeskripsi": "Sieve of Eratosthenes method for finding prime numbers"
     },
     {
@@ -23,7 +23,7 @@
     {
       "judul": "Greatest Common Divisor (GCD)",
       "teks": "The Greatest Common Divisor (GCD), also known as the Greatest Common Factor (GCF), is a fundamental concept in number theory.\n\n### Definition\nThe GCD of two or more integers is the largest positive integer that divides each of the numbers without leaving a remainder.\n\n### Notation\nGCD$(a, b)$ or sometimes written as $(a, b)$\n\n### Properties\n- GCD$(a, b)$ = GCD$(b, a)$ (commutative)\n- GCD$(a, 0)$ = $|a|$ for $a \\neq 0$\n- GCD$(a, 1)$ = 1\n- If GCD$(a, b)$ = 1, then $a$ and $b$ are called coprime or relatively prime\n\n### Methods to Find GCD\n1. **Listing factors**: List all factors and find the largest common one\n2. **Prime factorization**: Express numbers as products of primes and multiply common primes with lowest exponents\n3. **Euclidean algorithm**: Efficient algorithm based on the property that GCD$(a, b)$ = GCD$(b, a \\mod b)$\n\nExample: GCD(48, 18) = 6",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/main/images/euclidean_algorithm.png",
+      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/euklidalgoriterativnieng_orig.png",
       "gambarDeskripsi": "Visual representation of the Euclidean algorithm process"
     },
     {
