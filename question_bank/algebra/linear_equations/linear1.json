@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "question": "Solve the equation: $$2x + 3 = 11$$",
+    "question": "Solve the equation: $2x + 3 = 11$",
     "options": [
       "x = 4",
       "x = 5", 
@@ -17,7 +17,7 @@
   },
   {
     "id": 2,
-    "question": "What is the solution to: $$\\frac{x}{2} - 4 = 6$$?",
+    "question": "What is the solution to: $\\frac{x}{2} - 4 = 6$?",
     "options": [
       "x = 10",
       "x = 15",
