@@ -1,1 +1,34 @@
-
+[
+  {
+    "id": 1,
+    "question": "What is the area of a triangle with base 8 cm and height 5 cm?",
+    "options": [
+      "15 cm²",
+      "20 cm²",
+      "25 cm²", 
+      "40 cm²"
+    ],
+    "image": null,
+    "solutionImage": null,
+    "optionImage": null,
+    "answer": "B",
+    "explanation": "Area = ½ × base × height = ½ × 8 × 5 = 20 cm².",
+    "url": "https://raw.githubusercontent.com/rovihan12/cognimath/main/question_bank/geometry_trigonometry/plane_geometry/plane1.json"
+  },
+  {
+    "id": 2,
+    "question": "The circumference of a circle is 31.4 cm. What is its radius? (Use π = 3.14)",
+    "options": [
+      "5 cm",
+      "6 cm",
+      "7 cm",
+      "8 cm"
+    ],
+    "image": null,
+    "solutionImage": null,
+    "optionImage": null,
+    "answer": "A",
+    "explanation": "Circumference = 2πr, so 31.4 = 2 × 3.14 × r ⇒ r = 31.4 / 6.28 = 5 cm.",
+    "url": "https://raw.githubusercontent.com/rovihan12/cognimath/main/question_bank/geometry_trigonometry/plane_geometry/plane1.json"
+  }
+]
