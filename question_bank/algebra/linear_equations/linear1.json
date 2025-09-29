@@ -12,5 +12,12 @@
     "options": ["\\(x = 10\\)", "\\(x = 15\\)", "\\(x = 20\\)", "\\(x = 25\\)", "\\(x = 30\\)"],
     "answer": "C",
     "explanation": "Add 4 to both sides: \\(\\frac{x}{2} = 10\\). Then multiply by 2: \\(x = 20\\)."
+  },
+  {
+    "id": 3,
+    "question": "Find the value of \\(y\\) if \\(3y - 7 = 14\\)",
+    "options": ["\\(y = 5\\)", "\\(y = 6\\)", "\\(y = 7\\)", "\\(y = 8\\)", "\\(y = 9\\)"],
+    "answer": "C",
+    "explanation": "Add 7 to both sides: \\(3y = 21\\). Then divide by 3: \\(y = 7\\)."
   }
 ]
