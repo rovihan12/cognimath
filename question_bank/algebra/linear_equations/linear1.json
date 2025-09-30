@@ -1,23 +1,35 @@
-[
-  {
-    "id": 1,
-    "question": "Solve the equation: \\(2x + 3 = 11\\)",
-    "options": ["\\(x = 4\\)", "\\(x = 5\\)", "\\(x = 6\\)", "\\(x = 7\\)", "\\(x = 8\\)"],
-    "answer": "A",
-    "explanation": "Subtract 3 from both sides: \\(2x = 8\\). Then divide by 2: \\(x = 4\\)."
-  },
-  {
-    "id": 2,
-    "question": "What is the solution to: \\(\\frac{x}{2} - 4 = 6\\)?",
-    "options": ["\\(x = 10\\)", "\\(x = 15\\)", "\\(x = 20\\)", "\\(x = 25\\)", "\\(x = 30\\)"],
-    "answer": "C",
-    "explanation": "Add 4 to both sides: \\(\\frac{x}{2} = 10\\). Then multiply by 2: \\(x = 20\\)."
-  },
-  {
-    "id": 3,
-    "question": "Find the value of \\(y\\) if \\(3y - 7 = 14\\)",
-    "options": ["\\(y = 5\\)", "\\(y = 6\\)", "\\(y = 7\\)", "\\(y = 8\\)", "\\(y = 9\\)"],
-    "answer": "C",
-    "explanation": "Add 7 to both sides: \\(3y = 21\\). Then divide by 3: \\(y = 7\\)."
-  }
-]
+// File: linear_equations_set1.json
+{
+  "setName": "Linear Equations - Set 1",
+  "description": "Basic linear equation problems",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Solve the equation: $2x + 3 = 11$",
+      "options": ["x = 4", "x = 5", "x = 6", "x = 7", "x = 8"],
+      "answer": "A",
+      "explanation": "Subtract 3 from both sides: 2x = 8. Then divide by 2: x = 4."
+    },
+    {
+      "id": 2,
+      "question": "What is the solution to: $\\frac{x}{2} - 4 = 6$?",
+      "options": ["x = 10", "x = 15", "x = 20", "x = 25", "x = 30"],
+      "answer": "C",
+      "explanation": "Add 4 to both sides: x/2 = 10. Then multiply by 2: x = 20."
+    },
+    {
+      "id": 3,
+      "question": "Find the value of y if: $3y - 7 = 14$",
+      "options": ["y = 5", "y = 6", "y = 7", "y = 8", "y = 9"],
+      "answer": "C",
+      "explanation": "Add 7 to both sides: 3y = 21. Then divide by 3: y = 7."
+    },
+    {
+      "id": 4,
+      "question": "Solve for x: $5(x - 3) = 20$",
+      "options": ["x = 5", "x = 6", "x = 7", "x = 8", "x = 9"],
+      "answer": "C",
+      "explanation": "Divide both sides by 5: x - 3 = 4. Then add 3: x = 7."
+    }
+  ]
+}
