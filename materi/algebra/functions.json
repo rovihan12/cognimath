@@ -17,8 +17,8 @@
     {
       "title": "Linear Functions",
       "text": "Linear functions have the form: $$f(x) = mx + b$$\nwhere:\n- $m$ is the slope (rate of change)\n- $b$ is the y-intercept (value when x = 0)\n\nSlope formula: $$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{\\text{rise}}{\\text{run}}$$\n\nGraphing linear functions:\n1. Plot the y-intercept (0, b)\n2. Use slope to find additional points\n3. Draw a straight line through the points\n\nSpecial cases:\n- Horizontal line: $f(x) = b$ (slope = 0)\n- Vertical line: $x = a$ (not a function)",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/linear_function.png",
-      "gambarDeskripsi": "Graph of a linear function showing slope and y-intercept"
+      "image": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/linear_function.png",
+      "imageDescription": "Graph of a linear function showing slope and y-intercept"
     },
     {
       "title": "Quadratic Functions",
@@ -43,8 +43,8 @@
     {
       "title": "Graph Transformations",
       "text": "Transformations modify the basic graph of a function.\n\nFor function $y = f(x)$:\n\n### Vertical Transformations\n- $y = f(x) + k$: Vertical shift (up if k > 0, down if k < 0)\n- $y = af(x)$: Vertical stretch (|a| > 1) or compression (0 < |a| < 1)\n- If a < 0: Reflection across x-axis\n\n### Horizontal Transformations\n- $y = f(x - h)$: Horizontal shift (right if h > 0, left if h < 0)\n- $y = f(bx)$: Horizontal stretch (0 < |b| < 1) or compression (|b| > 1)\n- If b < 0: Reflection across y-axis\n\nCombination: $$y = af(b(x - h)) + k$$",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/graph_transformations%203.png",
-      "gambarDeskripsi": "Examples of graph transformations showing shifts, stretches, and reflections"
+      "image": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/graph_transformations%203.png",
+      "imageDescription": "Examples of graph transformations showing shifts, stretches, and reflections"
     },
     {
       "title": "Even and Odd Functions",
