@@ -3,70 +3,70 @@
   "title": "",
   "subItems": [
     {
-      "judul": "Introduction to Number Theory",
-      "teks": "Number theory is a branch of mathematics that studies the properties and relationships of integers. It is one of the oldest and most fundamental areas of mathematics with applications in cryptography, computer science, and physics.\n\n### Key Concepts\n- **Integers**: Whole numbers including negatives, zero, and positives: ..., -3, -2, -1, 0, 1, 2, 3, ...\n- **Natural Numbers**: Positive integers: 1, 2, 3, 4, ...\n- **Even and Odd Numbers**: Numbers divisible by 2 are even, others are odd\n- **Prime Numbers**: Numbers greater than 1 with exactly two distinct positive divisors: 1 and itself\n\nNumber theory helps us understand the fundamental building blocks of mathematics and has practical applications in modern technology, particularly in computer security and encryption algorithms."
+      "title": "Introduction to Number Theory",
+      "text": "Number theory is a branch of mathematics that studies the properties and relationships of integers. It is one of the oldest and most fundamental areas of mathematics with applications in cryptography, computer science, and physics.\n\n### Key Concepts\n- **Integers**: Whole numbers including negatives, zero, and positives: ..., -3, -2, -1, 0, 1, 2, 3, ...\n- **Natural Numbers**: Positive integers: 1, 2, 3, 4, ...\n- **Even and Odd Numbers**: Numbers divisible by 2 are even, others are odd\n- **Prime Numbers**: Numbers greater than 1 with exactly two distinct positive divisors: 1 and itself\n\nNumber theory helps us understand the fundamental building blocks of mathematics and has practical applications in modern technology, particularly in computer security and encryption algorithms."
     },
     {
-      "judul": "Prime Numbers",
-      "teks": "Prime numbers are the fundamental building blocks of number theory.\n\n### Definition\nA prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.\n\n### Properties of Prime Numbers\n- There are infinitely many prime numbers (proved by Euclid)\n- Every natural number greater than 1 is either prime or can be uniquely factored into primes (Fundamental Theorem of Arithmetic)\n- The only even prime number is 2\n- Prime numbers become less frequent as numbers get larger (Prime Number Theorem)\n\n### Examples\nPrime numbers: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, ...\nComposite numbers (non-prime): 4, 6, 8, 9, 10, 12, 14, 15, ...\n\n### Sieve of Eratosthenes\nAn ancient algorithm for finding all prime numbers up to any given limit by iteratively marking the multiples of each prime starting from 2.",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/Screenshot_20250924_213210_Chrome.jpg",
-      "gambarDeskripsi": "Sieve of Eratosthenes method for finding prime numbers"
+      "title": "Prime Numbers",
+      "text": "Prime numbers are the fundamental building blocks of number theory.\n\n### Definition\nA prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.\n\n### Properties of Prime Numbers\n- There are infinitely many prime numbers (proved by Euclid)\n- Every natural number greater than 1 is either prime or can be uniquely factored into primes (Fundamental Theorem of Arithmetic)\n- The only even prime number is 2\n- Prime numbers become less frequent as numbers get larger (Prime Number Theorem)\n\n### Examples\nPrime numbers: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, ...\nComposite numbers (non-prime): 4, 6, 8, 9, 10, 12, 14, 15, ...\n\n### Sieve of Eratosthenes\nAn ancient algorithm for finding all prime numbers up to any given limit by iteratively marking the multiples of each prime starting from 2.",
+      "image": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/Screenshot_20250924_213210_Chrome.jpg",
+      "imageDescription": "Sieve of Eratosthenes method for finding prime numbers"
     },
     {
-      "judul": "Factors and Divisibility",
-      "teks": "Understanding factors and divisibility is crucial in number theory.\n\n### Divisibility\nA number $a$ is divisible by another number $b$ (written as $b \\mid a$) if there exists an integer $k$ such that $a = b \\times k$.\n\n### Factors (Divisors)\nThe factors of a number are the integers that divide it exactly without leaving a remainder.\n\n### Properties of Divisibility\n- If $a \\mid b$ and $a \\mid c$, then $a \\mid (b + c)$ and $a \\mid (b - c)$\n- If $a \\mid b$, then $a \\mid (b \\times c)$ for any integer $c$\n- If $a \\mid b$ and $b \\mid c$, then $a \\mid c$\n\n### Finding Factors\nTo find all factors of a number $n$:\n1. List all pairs of integers whose product equals $n$\n2. Include both positive and negative factors\n\nExample: Factors of 12 are: ±1, ±2, ±3, ±4, ±6, ±12"
+      "title": "Factors and Divisibility",
+      "text": "Understanding factors and divisibility is crucial in number theory.\n\n### Divisibility\nA number $a$ is divisible by another number $b$ (written as $b \\mid a$) if there exists an integer $k$ such that $a = b \\times k$.\n\n### Factors (Divisors)\nThe factors of a number are the integers that divide it exactly without leaving a remainder.\n\n### Properties of Divisibility\n- If $a \\mid b$ and $a \\mid c$, then $a \\mid (b + c)$ and $a \\mid (b - c)$\n- If $a \\mid b$, then $a \\mid (b \\times c)$ for any integer $c$\n- If $a \\mid b$ and $b \\mid c$, then $a \\mid c$\n\n### Finding Factors\nTo find all factors of a number $n$:\n1. List all pairs of integers whose product equals $n$\n2. Include both positive and negative factors\n\nExample: Factors of 12 are: ±1, ±2, ±3, ±4, ±6, ±12"
     },
     {
-      "judul": "Multiples",
-      "teks": "Multiples are closely related to factors in number theory.\n\n### Definition\nA multiple of a number is the product of that number and any integer.\n\n### Properties of Multiples\n- Every number is a multiple of itself\n- The set of multiples of any number is infinite\n- If $a$ is a multiple of $b$, then $b$ is a factor of $a$\n- The multiples of a number form an arithmetic sequence\n\n### Finding Multiples\nTo find multiples of a number $n$:\nMultiply $n$ by consecutive integers: $n \\times 1$, $n \\times 2$, $n \\times 3$, ...\n\nExample: Multiples of 5 are: 5, 10, 15, 20, 25, 30, ...\n\n### Applications\nMultiples are used in:\n- Finding common denominators in fractions\n- Scheduling repeating events\n- Cryptography and coding theory"
+      "title": "Multiples",
+      "text": "Multiples are closely related to factors in number theory.\n\n### Definition\nA multiple of a number is the product of that number and any integer.\n\n### Properties of Multiples\n- Every number is a multiple of itself\n- The set of multiples of any number is infinite\n- If $a$ is a multiple of $b$, then $b$ is a factor of $a$\n- The multiples of a number form an arithmetic sequence\n\n### Finding Multiples\nTo find multiples of a number $n$:\nMultiply $n$ by consecutive integers: $n \\times 1$, $n \\times 2$, $n \\times 3$, ...\n\nExample: Multiples of 5 are: 5, 10, 15, 20, 25, 30, ...\n\n### Applications\nMultiples are used in:\n- Finding common denominators in fractions\n- Scheduling repeating events\n- Cryptography and coding theory"
     },
     {
-      "judul": "Greatest Common Divisor (GCD)",
-      "teks": "The Greatest Common Divisor (GCD), also known as the Greatest Common Factor (GCF), is a fundamental concept in number theory.\n\n### Definition\nThe GCD of two or more integers is the largest positive integer that divides each of the numbers without leaving a remainder.\n\n### Notation\nGCD$(a, b)$ or sometimes written as $(a, b)$\n\n### Properties\n- GCD$(a, b)$ = GCD$(b, a)$ (commutative)\n- GCD$(a, 0)$ = $|a|$ for $a \\neq 0$\n- GCD$(a, 1)$ = 1\n- If GCD$(a, b)$ = 1, then $a$ and $b$ are called coprime or relatively prime\n\n### Methods to Find GCD\n1. **Listing factors**: List all factors and find the largest common one\n2. **Prime factorization**: Express numbers as products of primes and multiply common primes with lowest exponents\n3. **Euclidean algorithm**: Efficient algorithm based on the property that GCD$(a, b)$ = GCD$(b, a \\mod b)$\n\nExample: GCD(48, 18) = 6",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/euklidalgoriterativnieng_orig.png",
-      "gambarDeskripsi": "Visual representation of the Euclidean algorithm process"
+      "title": "Greatest Common Divisor (GCD)",
+      "text": "The Greatest Common Divisor (GCD), also known as the Greatest Common Factor (GCF), is a fundamental concept in number theory.\n\n### Definition\nThe GCD of two or more integers is the largest positive integer that divides each of the numbers without leaving a remainder.\n\n### Notation\nGCD$(a, b)$ or sometimes written as $(a, b)$\n\n### Properties\n- GCD$(a, b)$ = GCD$(b, a)$ (commutative)\n- GCD$(a, 0)$ = $|a|$ for $a \\neq 0$\n- GCD$(a, 1)$ = 1\n- If GCD$(a, b)$ = 1, then $a$ and $b$ are called coprime or relatively prime\n\n### Methods to Find GCD\n1. **Listing factors**: List all factors and find the largest common one\n2. **Prime factorization**: Express numbers as products of primes and multiply common primes with lowest exponents\n3. **Euclidean algorithm**: Efficient algorithm based on the property that GCD$(a, b)$ = GCD$(b, a \\mod b)$\n\nExample: GCD(48, 18) = 6",
+      "image": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/euklidalgoriterativnieng_orig.png",
+      "imageDescription": "Visual representation of the Euclidean algorithm process"
     },
     {
-      "judul": "Least Common Multiple (LCM)",
-      "teks": "The Least Common Multiple (LCM) is the smallest positive integer that is divisible by each of the given numbers.\n\n### Definition\nThe LCM of two or more integers is the smallest positive integer that is a multiple of each of the numbers.\n\n### Properties\n- LCM$(a, b)$ ≥ max$(a, b)$\n- LCM$(a, 1)$ = $a$\n- LCM$(a, a)$ = $a$\n- For any two numbers: $a \\times b$ = GCD$(a, b)$ × LCM$(a, b)$\n\n### Methods to Find LCM\n1. **Listing multiples**: List multiples until you find the first common one\n2. **Prime factorization**: Express numbers as products of primes and multiply each prime with the highest exponent\n3. **Using GCD**: LCM$(a, b)$ = $\\frac{|a \\times b|}{\\text{GCD}(a, b)}$\n\nExample: LCM(6, 8) = 24\n\n### Applications\nLCM is used in:\n- Adding and subtracting fractions with different denominators\n- Finding common periods in periodic events\n- Solving problems involving repeating patterns"
+      "title": "Least Common Multiple (LCM)",
+      "text": "The Least Common Multiple (LCM) is the smallest positive integer that is divisible by each of the given numbers.\n\n### Definition\nThe LCM of two or more integers is the smallest positive integer that is a multiple of each of the numbers.\n\n### Properties\n- LCM$(a, b)$ ≥ max$(a, b)$\n- LCM$(a, 1)$ = $a$\n- LCM$(a, a)$ = $a$\n- For any two numbers: $a \\times b$ = GCD$(a, b)$ × LCM$(a, b)$\n\n### Methods to Find LCM\n1. **Listing multiples**: List multiples until you find the first common one\n2. **Prime factorization**: Express numbers as products of primes and multiply each prime with the highest exponent\n3. **Using GCD**: LCM$(a, b)$ = $\\frac{|a \\times b|}{\\text{GCD}(a, b)}$\n\nExample: LCM(6, 8) = 24\n\n### Applications\nLCM is used in:\n- Adding and subtracting fractions with different denominators\n- Finding common periods in periodic events\n- Solving problems involving repeating patterns"
     },
     {
-      "judul": "Relationship Between GCD and LCM",
-      "teks": "There is an important mathematical relationship between the GCD and LCM of two numbers.\n\n### Fundamental Relationship\nFor any two positive integers $a$ and $b$:\n$$a \\times b = \\text{GCD}(a, b) \\times \\text{LCM}(a, b)$$\n\n### Derivation\nThis relationship comes from the prime factorization of numbers. If:\n$a = p_1^{a_1} p_2^{a_2} \\cdots p_k^{a_k}$\n$b = p_1^{b_1} p_2^{b_2} \\cdots p_k^{b_k}$\nThen:\nGCD$(a, b) = p_1^{\\min(a_1,b_1)} p_2^{\\min(a_2,b_2)} \\cdots p_k^{\\min(a_k,b_k)}$\nLCM$(a, b) = p_1^{\\max(a_1,b_1)} p_2^{\\max(a_2,b_2)} \\cdots p_k^{\\max(a_k,b_k)}$\nAnd since $\\min(a_i, b_i) + \\max(a_i, b_i) = a_i + b_i$, we get the relationship.\n\n### Applications\nThis relationship allows us to:\n- Find LCM if we know GCD and vice versa\n- Verify calculations of GCD and LCM\n- Solve problems more efficiently\n\nExample: If GCD(12, 18) = 6, then LCM(12, 18) = $\\frac{12 \\times 18}{6}$ = 36"
+      "title": "Relationship Between GCD and LCM",
+      "text": "There is an important mathematical relationship between the GCD and LCM of two numbers.\n\n### Fundamental Relationship\nFor any two positive integers $a$ and $b$:\n$$a \\times b = \\text{GCD}(a, b) \\times \\text{LCM}(a, b)$$\n\n### Derivation\nThis relationship comes from the prime factorization of numbers. If:\n$a = p_1^{a_1} p_2^{a_2} \\cdots p_k^{a_k}$\n$b = p_1^{b_1} p_2^{b_2} \\cdots p_k^{b_k}$\nThen:\nGCD$(a, b) = p_1^{\\min(a_1,b_1)} p_2^{\\min(a_2,b_2)} \\cdots p_k^{\\min(a_k,b_k)}$\nLCM$(a, b) = p_1^{\\max(a_1,b_1)} p_2^{\\max(a_2,b_2)} \\cdots p_k^{\\max(a_k,b_k)}$\nAnd since $\\min(a_i, b_i) + \\max(a_i, b_i) = a_i + b_i$, we get the relationship.\n\n### Applications\nThis relationship allows us to:\n- Find LCM if we know GCD and vice versa\n- Verify calculations of GCD and LCM\n- Solve problems more efficiently\n\nExample: If GCD(12, 18) = 6, then LCM(12, 18) = $\\frac{12 \\times 18}{6}$ = 36"
     },
     {
-      "judul": "Example Problems",
-      "teks": "Practice problems with number theory concepts:",
+      "title": "Example Problems",
+      "text": "Practice problems with number theory concepts:",
       "subItems": [
         {
-          "judul": "Example 1: Prime Factorization",
-          "teks": "Find the prime factorization of 84.\n\n**Solution:**\n84 ÷ 2 = 42\n42 ÷ 2 = 21\n21 ÷ 3 = 7\n7 ÷ 7 = 1\nSo, 84 = 2² × 3 × 7"
+          "title": "Example 1: Prime Factorization",
+          "text": "Find the prime factorization of 84.\n\n**Solution:**\n84 ÷ 2 = 42\n42 ÷ 2 = 21\n21 ÷ 3 = 7\n7 ÷ 7 = 1\nSo, 84 = 2² × 3 × 7"
         },
         {
-          "judul": "Example 2: Finding GCD",
-          "teks": "Find GCD(36, 60) using prime factorization.\n\n**Solution:**\n36 = 2² × 3²\n60 = 2² × 3 × 5\nGCD = 2² × 3 = 4 × 3 = 12"
+          "title": "Example 2: Finding GCD",
+          "text": "Find GCD(36, 60) using prime factorization.\n\n**Solution:**\n36 = 2² × 3²\n60 = 2² × 3 × 5\nGCD = 2² × 3 = 4 × 3 = 12"
         },
         {
-          "judul": "Example 3: Finding LCM",
-          "teks": "Find LCM(15, 25) using prime factorization.\n\n**Solution:**\n15 = 3 × 5\n25 = 5²\nLCM = 3 × 5² = 3 × 25 = 75"
+          "title": "Example 3: Finding LCM",
+          "text": "Find LCM(15, 25) using prime factorization.\n\n**Solution:**\n15 = 3 × 5\n25 = 5²\nLCM = 3 × 5² = 3 × 25 = 75"
         },
         {
-          "judul": "Example 4: GCD-LCM Relationship",
-          "teks": "If GCD(x, y) = 6 and x × y = 216, find LCM(x, y).\n\n**Solution:**\nUsing the formula: x × y = GCD × LCM\n216 = 6 × LCM\nLCM = 216 ÷ 6 = 36"
+          "title": "Example 4: GCD-LCM Relationship",
+          "text": "If GCD(x, y) = 6 and x × y = 216, find LCM(x, y).\n\n**Solution:**\nUsing the formula: x × y = GCD × LCM\n216 = 6 × LCM\nLCM = 216 ÷ 6 = 36"
         },
         {
-          "judul": "Example 5: Coprime Numbers",
-          "teks": "Are 15 and 28 coprime? Justify your answer.\n\n**Solution:**\n15 = 3 × 5\n28 = 2² × 7\nThey have no common prime factors, so GCD(15, 28) = 1\nYes, 15 and 28 are coprime."
+          "title": "Example 5: Coprime Numbers",
+          "text": "Are 15 and 28 coprime? Justify your answer.\n\n**Solution:**\n15 = 3 × 5\n28 = 2² × 7\nThey have no common prime factors, so GCD(15, 28) = 1\nYes, 15 and 28 are coprime."
         }
       ]
     },
     {
-      "judul": "Practice Exercises",
-      "teks": "1. Find all prime numbers between 50 and 70\n2. List all factors of 72\n3. Find the first 5 multiples of 13\n4. Find GCD(54, 90) using the Euclidean algorithm\n5. Find LCM(18, 24) using prime factorization\n6. If GCD(a, b) = 4 and LCM(a, b) = 60, and a = 12, find b\n7. Determine if 91 is prime or composite\n8. Find two numbers whose GCD is 7 and LCM is 140\n9. Find all common factors of 36 and 48\n10. A bell rings every 18 minutes and another every 24 minutes. If they ring together at noon, when will they next ring together?"
+      "title": "Practice Exercises",
+      "text": "1. Find all prime numbers between 50 and 70\n2. List all factors of 72\n3. Find the first 5 multiples of 13\n4. Find GCD(54, 90) using the Euclidean algorithm\n5. Find LCM(18, 24) using prime factorization\n6. If GCD(a, b) = 4 and LCM(a, b) = 60, and a = 12, find b\n7. Determine if 91 is prime or composite\n8. Find two numbers whose GCD is 7 and LCM is 140\n9. Find all common factors of 36 and 48\n10. A bell rings every 18 minutes and another every 24 minutes. If they ring together at noon, when will they next ring together?"
     },
     {
-      "judul": "Key Formulas and Concepts",
-      "teks": "### Prime Numbers\n- Definition: Numbers > 1 with exactly two distinct positive divisors\n- Fundamental Theorem of Arithmetic: Every number > 1 has a unique prime factorization\n\n### GCD (Greatest Common Divisor)\n- Largest number that divides two or more numbers\n- Properties: GCD(a, 0) = |a|, GCD(a, b) = GCD(b, a)\n- Euclidean algorithm: GCD(a, b) = GCD(b, a mod b)\n\n### LCM (Least Common Multiple)\n- Smallest number that is a multiple of two or more numbers\n- Properties: LCM(a, 1) = a, LCM(a, a) = a\n\n### Important Relationships\n- $a \\times b = \\text{GCD}(a, b) \\times \\text{LCM}(a, b)$\n- If GCD(a, b) = 1, then a and b are coprime\n- LCM(a, b) ≥ max(a, b)\n- GCD(a, b) ≤ min(a, b)\n\nThese fundamental concepts form the basis for more advanced topics in number theory and have wide applications in mathematics and computer science."
+      "title": "Key Formulas and Concepts",
+      "text": "### Prime Numbers\n- Definition: Numbers > 1 with exactly two distinct positive divisors\n- Fundamental Theorem of Arithmetic: Every number > 1 has a unique prime factorization\n\n### GCD (Greatest Common Divisor)\n- Largest number that divides two or more numbers\n- Properties: GCD(a, 0) = |a|, GCD(a, b) = GCD(b, a)\n- Euclidean algorithm: GCD(a, b) = GCD(b, a mod b)\n\n### LCM (Least Common Multiple)\n- Smallest number that is a multiple of two or more numbers\n- Properties: LCM(a, 1) = a, LCM(a, a) = a\n\n### Important Relationships\n- $a \\times b = \\text{GCD}(a, b) \\times \\text{LCM}(a, b)$\n- If GCD(a, b) = 1, then a and b are coprime\n- LCM(a, b) ≥ max(a, b)\n- GCD(a, b) ≤ min(a, b)\n\nThese fundamental concepts form the basis for more advanced topics in number theory and have wide applications in mathematics and computer science."
     }
   ]
 }
