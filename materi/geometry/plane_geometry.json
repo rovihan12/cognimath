@@ -3,74 +3,74 @@
   "title": "",
   "subItems": [
     {
-      "judul": "Introduction to Plane Geometry",
-      "teks": "Plane geometry is the study of two-dimensional shapes and figures that lie on a flat surface. It deals with properties, measurements, and relationships of points, lines, angles, surfaces, and solids in two dimensions.\n\nKey concepts:\n- **Point**: A location with no size or dimension\n- **Line**: A straight path that extends infinitely in both directions\n- **Line segment**: A part of a line with two endpoints\n- **Ray**: A part of a line with one endpoint\n- **Angle**: Formed by two rays with a common endpoint\n- **Plane**: A flat surface that extends infinitely in all directions\n\nPlane geometry forms the foundation for understanding spatial relationships and solving real-world measurement problems."
+      "title": "Introduction to Plane Geometry",
+      "text": "Plane geometry is the study of two-dimensional shapes and figures that lie on a flat surface. It deals with properties, measurements, and relationships of points, lines, angles, surfaces, and solids in two dimensions.\n\nKey concepts:\n- **Point**: A location with no size or dimension\n- **Line**: A straight path that extends infinitely in both directions\n- **Line segment**: A part of a line with two endpoints\n- **Ray**: A part of a line with one endpoint\n- **Angle**: Formed by two rays with a common endpoint\n- **Plane**: A flat surface that extends infinitely in all directions\n\nPlane geometry forms the foundation for understanding spatial relationships and solving real-world measurement problems."
     },
     {
-      "judul": "Properties of Triangles",
-      "teks": "A triangle is a three-sided polygon with three angles.\n\n### Triangle Classification by Sides:\n- **Equilateral**: All sides equal, all angles = $60^{\\circ}$\n- **Isosceles**: Two sides equal, two angles equal\n- **Scalene**: All sides different, all angles different\n\n### Triangle Classification by Angles:\n- **Acute**: All angles < $90^{\\circ}$\n- **Right**: One angle = $90^{\\circ}$\n- **Obtuse**: One angle > $90^{\\circ}$\n\n### Important Properties:\n- Sum of interior angles = $180^{\\circ}$\n- Sum of exterior angles = $360^{\\circ}$\n- Triangle inequality: Sum of any two sides > third side\n- Pythagorean theorem (right triangles): $a^2 + b^2 = c^2$\n\n### Special Segments:\n- **Median**: From vertex to midpoint of opposite side\n- **Altitude**: From vertex perpendicular to opposite side\n- **Angle bisector**: Divides angle into two equal angles\n- **Perpendicular bisector**: Perpendicular to side at its midpoint",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/1758108347947.jpg",
-      "gambarDeskripsi": "Different types of triangles classified by sides and angles"
+      "title": "Properties of Triangles",
+      "text": "A triangle is a three-sided polygon with three angles.\n\n### Triangle Classification by Sides:\n- **Equilateral**: All sides equal, all angles = $60^{\\circ}$\n- **Isosceles**: Two sides equal, two angles equal\n- **Scalene**: All sides different, all angles different\n\n### Triangle Classification by Angles:\n- **Acute**: All angles < $90^{\\circ}$\n- **Right**: One angle = $90^{\\circ}$\n- **Obtuse**: One angle > $90^{\\circ}$\n\n### Important Properties:\n- Sum of interior angles = $180^{\\circ}$\n- Sum of exterior angles = $360^{\\circ}$\n- Triangle inequality: Sum of any two sides > third side\n- Pythagorean theorem (right triangles): $a^2 + b^2 = c^2$\n\n### Special Segments:\n- **Median**: From vertex to midpoint of opposite side\n- **Altitude**: From vertex perpendicular to opposite side\n- **Angle bisector**: Divides angle into two equal angles\n- **Perpendicular bisector**: Perpendicular to side at its midpoint",
+      "image": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/1758108347947.jpg",
+      "imageDescription": "Different types of triangles classified by sides and angles"
     },
     {
-      "judul": "Properties of Quadrilaterals",
-      "teks": "A quadrilateral is a four-sided polygon.\n\n### Special Quadrilaterals:\n\n1. **Parallelogram**:\n   - Opposite sides parallel and equal\n   - Opposite angles equal\n   - Diagonals bisect each other\n\n2. **Rectangle**:\n   - All properties of parallelogram\n   - All angles = $90^{\\circ}$\n   - Diagonals equal\n\n3. **Rhombus**:\n   - All properties of parallelogram\n   - All sides equal\n   - Diagonals perpendicular\n   - Diagonals bisect angles\n\n4. **Square**:\n   - All properties of rectangle and rhombus\n   - All sides equal, all angles = $90^{\\circ}$\n   - Diagonals equal and perpendicular\n\n5. **Trapezoid**:\n   - Exactly one pair of parallel sides\n   - Isosceles trapezoid: Non-parallel sides equal, base angles equal\n\n6. **Kite**:\n   - Two pairs of adjacent sides equal\n   - One pair of opposite angles equal\n   - Diagonals perpendicular\n\n### General Properties:\n- Sum of interior angles = $360^{\\circ}$\n- Sum of exterior angles = $360^{\\circ}$"
+      "title": "Properties of Quadrilaterals",
+      "text": "A quadrilateral is a four-sided polygon.\n\n### Special Quadrilaterals:\n\n1. **Parallelogram**:\n   - Opposite sides parallel and equal\n   - Opposite angles equal\n   - Diagonals bisect each other\n\n2. **Rectangle**:\n   - All properties of parallelogram\n   - All angles = $90^{\\circ}$\n   - Diagonals equal\n\n3. **Rhombus**:\n   - All properties of parallelogram\n   - All sides equal\n   - Diagonals perpendicular\n   - Diagonals bisect angles\n\n4. **Square**:\n   - All properties of rectangle and rhombus\n   - All sides equal, all angles = $90^{\\circ}$\n   - Diagonals equal and perpendicular\n\n5. **Trapezoid**:\n   - Exactly one pair of parallel sides\n   - Isosceles trapezoid: Non-parallel sides equal, base angles equal\n\n6. **Kite**:\n   - Two pairs of adjacent sides equal\n   - One pair of opposite angles equal\n   - Diagonals perpendicular\n\n### General Properties:\n- Sum of interior angles = $360^{\\circ}$\n- Sum of exterior angles = $360^{\\circ}$"
     },
     {
-      "judul": "Properties of Circles",
-      "teks": "A circle is the set of all points equidistant from a fixed point (center).\n\n### Circle Terminology:\n- **Center**: Fixed point ($O$)\n- **Radius**: Distance from center to any point on circle ($r$)\n- **Diameter**: Distance across through center ($d = 2r$)\n- **Chord**: Segment with endpoints on circle\n- **Arc**: Part of circumference\n- **Sector**: Region bounded by two radii and arc\n- **Segment**: Region bounded by chord and arc\n- **Tangent**: Line that touches circle at exactly one point\n- **Secant**: Line that intersects circle at two points\n\n### Important Properties:\n- All radii of a circle are equal\n- Diameter is the longest chord\n- Tangent is perpendicular to radius at point of tangency\n- Central angle = measure of intercepted arc\n- Inscribed angle = $\\frac{1}{2}$ measure of intercepted arc\n- Angle in semicircle = $90^{\\circ}$",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/1758109246403.jpg",
-      "gambarDeskripsi": "Circle showing center, radius, diameter, chord, arc, and tangent"
+      "title": "Properties of Circles",
+      "text": "A circle is the set of all points equidistant from a fixed point (center).\n\n### Circle Terminology:\n- **Center**: Fixed point ($O$)\n- **Radius**: Distance from center to any point on circle ($r$)\n- **Diameter**: Distance across through center ($d = 2r$)\n- **Chord**: Segment with endpoints on circle\n- **Arc**: Part of circumference\n- **Sector**: Region bounded by two radii and arc\n- **Segment**: Region bounded by chord and arc\n- **Tangent**: Line that touches circle at exactly one point\n- **Secant**: Line that intersects circle at two points\n\n### Important Properties:\n- All radii of a circle are equal\n- Diameter is the longest chord\n- Tangent is perpendicular to radius at point of tangency\n- Central angle = measure of intercepted arc\n- Inscribed angle = $\\frac{1}{2}$ measure of intercepted arc\n- Angle in semicircle = $90^{\\circ}$",
+      "image": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/1758109246403.jpg",
+      "imageDescription": "Circle showing center, radius, diameter, chord, arc, and tangent"
     },
     {
-      "judul": "Congruence",
-      "teks": "Two figures are congruent if they have the same shape and size.\n\n### Triangle Congruence Theorems:\n1. **SSS** (Side-Side-Side): Three sides equal\n2. **SAS** (Side-Angle-Side): Two sides and included angle equal\n3. **ASA** (Angle-Side-Angle): Two angles and included side equal\n4. **AAS** (Angle-Angle-Side): Two angles and non-included side equal\n5. **HL** (Hypotenuse-Leg): Right triangles with hypotenuse and one leg equal\n\n### Properties of Congruent Figures:\n- Corresponding angles are equal\n- Corresponding sides are equal\n- Corresponding parts of congruent triangles are equal (CPCTC)\n\n### Congruence Transformations:\n- Translation (slide)\n- Rotation (turn)\n- Reflection (flip)\n- These transformations preserve shape and size\n\nCongruence is used to prove geometric relationships and solve measurement problems."
+      "title": "Congruence",
+      "text": "Two figures are congruent if they have the same shape and size.\n\n### Triangle Congruence Theorems:\n1. **SSS** (Side-Side-Side): Three sides equal\n2. **SAS** (Side-Angle-Side): Two sides and included angle equal\n3. **ASA** (Angle-Side-Angle): Two angles and included side equal\n4. **AAS** (Angle-Angle-Side): Two angles and non-included side equal\n5. **HL** (Hypotenuse-Leg): Right triangles with hypotenuse and one leg equal\n\n### Properties of Congruent Figures:\n- Corresponding angles are equal\n- Corresponding sides are equal\n- Corresponding parts of congruent triangles are equal (CPCTC)\n\n### Congruence Transformations:\n- Translation (slide)\n- Rotation (turn)\n- Reflection (flip)\n- These transformations preserve shape and size\n\nCongruence is used to prove geometric relationships and solve measurement problems."
     },
     {
-      "judul": "Similarity",
-      "teks": "Two figures are similar if they have the same shape but not necessarily the same size.\n\n### Similarity Theorems for Triangles:\n1. **AA** (Angle-Angle): Two angles equal\n2. **SSS** (Side-Side-Side): All sides proportional\n3. **SAS** (Side-Angle-Side): Two sides proportional and included angle equal\n\n### Properties of Similar Figures:\n- Corresponding angles are equal\n- Corresponding sides are proportional\n- Ratio of areas = (scale factor)$^2$\n- Ratio of volumes = (scale factor)$^3$\n\n### Scale Factor:\nThe ratio of corresponding lengths in similar figures\n$$ \\text{Scale factor} = \\frac{\\text{length in image}}{\\text{length in original}} $$\n\nSimilarity is used in maps, scale models, and solving proportion problems in geometry."
+      "title": "Similarity",
+      "text": "Two figures are similar if they have the same shape but not necessarily the same size.\n\n### Similarity Theorems for Triangles:\n1. **AA** (Angle-Angle): Two angles equal\n2. **SSS** (Side-Side-Side): All sides proportional\n3. **SAS** (Side-Angle-Side): Two sides proportional and included angle equal\n\n### Properties of Similar Figures:\n- Corresponding angles are equal\n- Corresponding sides are proportional\n- Ratio of areas = (scale factor)$^2$\n- Ratio of volumes = (scale factor)$^3$\n\n### Scale Factor:\nThe ratio of corresponding lengths in similar figures\n$$ \\text{Scale factor} = \\frac{\\text{length in image}}{\\text{length in original}} $$\n\nSimilarity is used in maps, scale models, and solving proportion problems in geometry."
     },
     {
-      "judul": "Area Formulas",
-      "teks": "Area measures the amount of space inside a two-dimensional shape.\n\n### Common Area Formulas:\n\n1. **Triangle**: $$A = \\frac{1}{2}bh$$\n   - b = base, h = height\n   - Heron's formula: $A = \\sqrt{s(s-a)(s-b)(s-c)}$ where $s = \\frac{a+b+c}{2}$\n\n2. **Rectangle**: $$A = lw$$\n   - l = length, w = width\n\n3. **Square**: $$A = s^2$$\n   - s = side\n\n4. **Parallelogram**: $$A = bh$$\n   - b = base, h = height\n\n5. **Trapezoid**: $$A = \\frac{1}{2}(b_1 + b_2)h$$\n   - b₁, b₂ = parallel sides, h = height\n\n6. **Circle**: $$A = \\pi r^2$$\n   - r = radius\n\n7. **Regular Polygon**: $$A = \\frac{1}{2}ap$$\n   - a = apothem, p = perimeter\n\n8. **Sector of Circle**: $$A = \\frac{\\theta}{360^{\\circ}}\\pi r^2$$\n   - $\\theta$ = central angle in degrees\n\nArea is measured in square units (cm², m², etc.)."
+      "title": "Area Formulas",
+      "text": "Area measures the amount of space inside a two-dimensional shape.\n\n### Common Area Formulas:\n\n1. **Triangle**: $$A = \\frac{1}{2}bh$$\n   - b = base, h = height\n   - Heron's formula: $A = \\sqrt{s(s-a)(s-b)(s-c)}$ where $s = \\frac{a+b+c}{2}$\n\n2. **Rectangle**: $$A = lw$$\n   - l = length, w = width\n\n3. **Square**: $$A = s^2$$\n   - s = side\n\n4. **Parallelogram**: $$A = bh$$\n   - b = base, h = height\n\n5. **Trapezoid**: $$A = \\frac{1}{2}(b_1 + b_2)h$$\n   - b₁, b₂ = parallel sides, h = height\n\n6. **Circle**: $$A = \\pi r^2$$\n   - r = radius\n\n7. **Regular Polygon**: $$A = \\frac{1}{2}ap$$\n   - a = apothem, p = perimeter\n\n8. **Sector of Circle**: $$A = \\frac{\\theta}{360^{\\circ}}\\pi r^2$$\n   - $\\theta$ = central angle in degrees\n\nArea is measured in square units (cm², m², etc.)."
     },
     {
-      "judul": "Perimeter Formulas",
-      "teks": "Perimeter is the distance around a two-dimensional shape.\n\n### Common Perimeter Formulas:\n\n1. **Triangle**: $$P = a + b + c$$\n   - a, b, c = side lengths\n\n2. **Rectangle**: $$P = 2l + 2w$$\n   - l = length, w = width\n\n3. **Square**: $$P = 4s$$\n   - s = side\n\n4. **Parallelogram**: $$P = 2(a + b)$$\n   - a, b = adjacent sides\n\n5. **Trapezoid**: $$P = a + b + c + d$$\n   - a, b, c, d = side lengths\n\n6. **Circle (Circumference)**: $$C = 2\\pi r = \\pi d$$\n   - r = radius, d = diameter\n\n7. **Regular Polygon**: $$P = ns$$\n   - n = number of sides, s = side length\n\n8. **Arc Length**: $$L = \\frac{\\theta}{360^{\\circ}}2\\pi r$$\n   - $\\theta$ = central angle in degrees\n\nPerimeter is measured in linear units (cm, m, etc.)."
+      "title": "Perimeter Formulas",
+      "text": "Perimeter is the distance around a two-dimensional shape.\n\n### Common Perimeter Formulas:\n\n1. **Triangle**: $$P = a + b + c$$\n   - a, b, c = side lengths\n\n2. **Rectangle**: $$P = 2l + 2w$$\n   - l = length, w = width\n\n3. **Square**: $$P = 4s$$\n   - s = side\n\n4. **Parallelogram**: $$P = 2(a + b)$$\n   - a, b = adjacent sides\n\n5. **Trapezoid**: $$P = a + b + c + d$$\n   - a, b, c, d = side lengths\n\n6. **Circle (Circumference)**: $$C = 2\\pi r = \\pi d$$\n   - r = radius, d = diameter\n\n7. **Regular Polygon**: $$P = ns$$\n   - n = number of sides, s = side length\n\n8. **Arc Length**: $$L = \\frac{\\theta}{360^{\\circ}}2\\pi r$$\n   - $\\theta$ = central angle in degrees\n\nPerimeter is measured in linear units (cm, m, etc.)."
     },
     {
-      "judul": "Example Problems",
-      "teks": "Practice problems with plane geometry concepts:",
+      "title": "Example Problems",
+      "text": "Practice problems with plane geometry concepts:",
       "subItems": [
         {
-          "judul": "Example 1: Triangle Properties",
-          "teks": "Find the missing angle in a triangle with angles $35^{\\circ}$ and $75^{\\circ}$.\n\n**Solution:**\nSum of angles = $180^{\\circ}$\nMissing angle = $180^{\\circ} - 35^{\\circ} - 75^{\\circ} = 70^{\\circ}$"
+          "title": "Example 1: Triangle Properties",
+          "text": "Find the missing angle in a triangle with angles $35^{\\circ}$ and $75^{\\circ}$.\n\n**Solution:**\nSum of angles = $180^{\\circ}$\nMissing angle = $180^{\\circ} - 35^{\\circ} - 75^{\\circ} = 70^{\\circ}$"
         },
         {
-          "judul": "Example 2: Quadrilateral Properties",
-          "teks": "In parallelogram ABCD, if $\\angle A = 65^{\\circ}$, find $\\angle C$.\n\n**Solution:**\nIn parallelogram, opposite angles are equal\n$\\angle C = \\angle A = 65^{\\circ}$"
+          "title": "Example 2: Quadrilateral Properties",
+          "text": "In parallelogram ABCD, if $\\angle A = 65^{\\circ}$, find $\\angle C$.\n\n**Solution:**\nIn parallelogram, opposite angles are equal\n$\\angle C = \\angle A = 65^{\\circ}$"
         },
         {
-          "judul": "Example 3: Circle Properties",
-          "teks": "Find the central angle that intercepts an arc of 12 cm in a circle with radius 9 cm.\n\n**Solution:**\nArc length = $\\frac{\\theta}{360^{\\circ}}2\\pi r$\n$12 = \\frac{\\theta}{360^{\\circ}}2\\pi(9)$\n$12 = \\frac{\\theta}{360^{\\circ}}18\\pi$\n$\\theta = \\frac{12 \\times 360}{18\\pi} = \\frac{4320}{18\\pi} \\approx 76.4^{\\circ}$"
+          "title": "Example 3: Circle Properties",
+          "text": "Find the central angle that intercepts an arc of 12 cm in a circle with radius 9 cm.\n\n**Solution:**\nArc length = $\\frac{\\theta}{360^{\\circ}}2\\pi r$\n$12 = \\frac{\\theta}{360^{\\circ}}2\\pi(9)$\n$12 = \\frac{\\theta}{360^{\\circ}}18\\pi$\n$\\theta = \\frac{12 \\times 360}{18\\pi} = \\frac{4320}{18\\pi} \\approx 76.4^{\\circ}$"
         },
         {
-          "judul": "Example 4: Area and Perimeter",
-          "teks": "A rectangle has length 8 cm and width 5 cm. Find its area and perimeter.\n\n**Solution:**\nArea = $l \\times w = 8 \\times 5 = 40 \\text{ cm}^2$\nPerimeter = $2(l + w) = 2(8 + 5) = 26 \\text{ cm}$"
+          "title": "Example 4: Area and Perimeter",
+          "text": "A rectangle has length 8 cm and width 5 cm. Find its area and perimeter.\n\n**Solution:**\nArea = $l \\times w = 8 \\times 5 = 40 \\text{ cm}^2$\nPerimeter = $2(l + w) = 2(8 + 5) = 26 \\text{ cm}$"
         },
         {
-          "judul": "Example 5: Similar Triangles",
-          "teks": "Triangles ABC and DEF are similar. If AB = 6 cm, DE = 9 cm, and area of ABC = 24 cm², find area of DEF.\n\n**Solution:**\nScale factor = $\\frac{DE}{AB} = \\frac{9}{6} = 1.5$\nArea ratio = (scale factor)$^2 = (1.5)^2 = 2.25$\nArea of DEF = $24 \\times 2.25 = 54 \\text{ cm}^2$"
+          "title": "Example 5: Similar Triangles",
+          "text": "Triangles ABC and DEF are similar. If AB = 6 cm, DE = 9 cm, and area of ABC = 24 cm², find area of DEF.\n\n**Solution:**\nScale factor = $\\frac{DE}{AB} = \\frac{9}{6} = 1.5$\nArea ratio = (scale factor)$^2 = (1.5)^2 = 2.25$\nArea of DEF = $24 \\times 2.25 = 54 \\text{ cm}^2$"
         }
       ]
     },
     {
-      "judul": "Practice Exercises",
-      "teks": "1. Find the area of a triangle with base 12 cm and height 8 cm\n2. Find the circumference of a circle with diameter 14 cm\n3. In a right triangle, if legs are 6 cm and 8 cm, find the hypotenuse\n4. Two similar triangles have scale factor 3:5. If the smaller triangle's area is 27 cm², find the larger triangle's area\n5. Find the missing angle in a quadrilateral with angles $85^{\\circ}$, $95^{\\circ}$, and $110^{\\circ}$\n6. A trapezoid has bases 10 cm and 6 cm, and height 4 cm. Find its area\n7. A regular hexagon has side length 5 cm. Find its perimeter\n8. In a circle with radius 10 cm, find the area of a sector with central angle $60^{\\circ}$"
+      "title": "Practice Exercises",
+      "text": "1. Find the area of a triangle with base 12 cm and height 8 cm\n2. Find the circumference of a circle with diameter 14 cm\n3. In a right triangle, if legs are 6 cm and 8 cm, find the hypotenuse\n4. Two similar triangles have scale factor 3:5. If the smaller triangle's area is 27 cm², find the larger triangle's area\n5. Find the missing angle in a quadrilateral with angles $85^{\\circ}$, $95^{\\circ}$, and $110^{\\circ}$\n6. A trapezoid has bases 10 cm and 6 cm, and height 4 cm. Find its area\n7. A regular hexagon has side length 5 cm. Find its perimeter\n8. In a circle with radius 10 cm, find the area of a sector with central angle $60^{\\circ}$"
     },
     {
-      "judul": "Key Properties and Formulas",
-      "teks": "1. **Triangle angle sum**: $180^{\\circ}$\n2. **Quadrilateral angle sum**: $360^{\\circ}$\n3. **Circle circumference**: $C = 2\\pi r = \\pi d$\n4. **Circle area**: $A = \\pi r^2$\n5. **Pythagorean theorem**: $a^2 + b^2 = c^2$ (right triangles)\n6. **Congruence tests**: SSS, SAS, ASA, AAS, HL\n7. **Similarity tests**: AA, SSS, SAS\n8. **Area scale factor**: (linear scale factor)$^2$\n9. **Triangle area**: $A = \\frac{1}{2}bh$\n10. **Rectangle area**: $A = lw$\n11. **Parallelogram area**: $A = bh$\n12. **Trapezoid area**: $A = \\frac{1}{2}(b_1 + b_2)h$\n13. **Regular polygon area**: $A = \\frac{1}{2}ap$\n\nThese fundamental concepts and formulas are essential for solving geometric problems and understanding spatial relationships."
+      "title": "Key Properties and Formulas",
+      "text": "1. **Triangle angle sum**: $180^{\\circ}$\n2. **Quadrilateral angle sum**: $360^{\\circ}$\n3. **Circle circumference**: $C = 2\\pi r = \\pi d$\n4. **Circle area**: $A = \\pi r^2$\n5. **Pythagorean theorem**: $a^2 + b^2 = c^2$ (right triangles)\n6. **Congruence tests**: SSS, SAS, ASA, AAS, HL\n7. **Similarity tests**: AA, SSS, SAS\n8. **Area scale factor**: (linear scale factor)$^2$\n9. **Triangle area**: $A = \\frac{1}{2}bh$\n10. **Rectangle area**: $A = lw$\n11. **Parallelogram area**: $A = bh$\n12. **Trapezoid area**: $A = \\frac{1}{2}(b_1 + b_2)h$\n13. **Regular polygon area**: $A = \\frac{1}{2}ap$\n\nThese fundamental concepts and formulas are essential for solving geometric problems and understanding spatial relationships."
     }
   ]
 }
