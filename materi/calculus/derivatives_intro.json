@@ -3,66 +3,66 @@
   "title": "",
   "subItems": [
     {
-      "judul": "The Derivative as the Slope of a Tangent Line",
-      "teks": "The derivative is one of the most fundamental concepts in calculus, representing the instantaneous rate of change of a function at a specific point.\n\n### Geometric Interpretation\nGeometrically, the derivative of a function at a point equals the slope of the tangent line to the function's graph at that point.\n\n### Formal Definition\n$$f'(x) = \\lim_{h \\to 0} \\frac{f(x + h) - f(x)}{h}$$\n\nWhere:\n- $f'(x)$ is the derivative of $f$ at point $x$\n- $h$ represents an infinitesimally small change in $x$\n- The limit ensures we're finding the instantaneous rate of change\n\n### Tangent Line vs. Secant Line\n- **Secant line**: Connects two points on a curve\n- **Tangent line**: Touches the curve at exactly one point\n- As the two points get closer, the secant line approaches the tangent line\n\nThis concept forms the foundation for understanding rates of change in various applications from physics to economics."
+      "title": "The Derivative as the Slope of a Tangent Line",
+      "text": "The derivative is one of the most fundamental concepts in calculus, representing the instantaneous rate of change of a function at a specific point.\n\n### Geometric Interpretation\nGeometrically, the derivative of a function at a point equals the slope of the tangent line to the function's graph at that point.\n\n### Formal Definition\n$$f'(x) = \\lim_{h \\to 0} \\frac{f(x + h) - f(x)}{h}$$\n\nWhere:\n- $f'(x)$ is the derivative of $f$ at point $x$\n- $h$ represents an infinitesimally small change in $x$\n- The limit ensures we're finding the instantaneous rate of change\n\n### Tangent Line vs. Secant Line\n- **Secant line**: Connects two points on a curve\n- **Tangent line**: Touches the curve at exactly one point\n- As the two points get closer, the secant line approaches the tangent line\n\nThis concept forms the foundation for understanding rates of change in various applications from physics to economics."
     },
     {
-      "judul": "Power Rule for Derivatives",
-      "teks": "The power rule is one of the most basic and frequently used differentiation rules.\n\n### Power Rule Formula\nIf $f(x) = x^n$, where $n$ is a real number, then:\n$$f'(x) = nx^{n-1}$$\n\n### Examples\n1. $f(x) = x^3$ → $f'(x) = 3x^2$\n2. $f(x) = x^5$ → $f'(x) = 5x^4$\n3. $f(x) = \\sqrt{x} = x^{1/2}$ → $f'(x) = \\frac{1}{2}x^{-1/2} = \\frac{1}{2\\sqrt{x}}$\n4. $f(x) = \\frac{1}{x} = x^{-1}$ → $f'(x) = -x^{-2} = -\\frac{1}{x^2}$\n\n### Extended Power Rule\nFor functions of the form $f(x) = kx^n$, where $k$ is a constant:\n$$f'(x) = k \\cdot nx^{n-1}$$\n\nExample: $f(x) = 4x^3$ → $f'(x) = 12x^2$",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/power-rule-formula.png",
-      "gambarDeskripsi": "Visual representation of power rule derivatives for different functions"
+      "title": "Power Rule for Derivatives",
+      "text": "The power rule is one of the most basic and frequently used differentiation rules.\n\n### Power Rule Formula\nIf $f(x) = x^n$, where $n$ is a real number, then:\n$$f'(x) = nx^{n-1}$$\n\n### Examples\n1. $f(x) = x^3$ → $f'(x) = 3x^2$\n2. $f(x) = x^5$ → $f'(x) = 5x^4$\n3. $f(x) = \\sqrt{x} = x^{1/2}$ → $f'(x) = \\frac{1}{2}x^{-1/2} = \\frac{1}{2\\sqrt{x}}$\n4. $f(x) = \\frac{1}{x} = x^{-1}$ → $f'(x) = -x^{-2} = -\\frac{1}{x^2}$\n\n### Extended Power Rule\nFor functions of the form $f(x) = kx^n$, where $k$ is a constant:\n$$f'(x) = k \\cdot nx^{n-1}$$\n\nExample: $f(x) = 4x^3$ → $f'(x) = 12x^2$",
+      "image": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/power-rule-formula.png",
+      "imageDescription": "Visual representation of power rule derivatives for different functions"
     },
     {
-      "judul": "Product Rule for Derivatives",
-      "teks": "The product rule is used to differentiate functions that are products of two or more functions.\n\n### Product Rule Formula\nIf $f(x) = u(x) \\cdot v(x)$, then:\n$$f'(x) = u'(x)v(x) + u(x)v'(x)$$\n\nIn words: \"Derivative of first times second, plus first times derivative of second\"\n\n### Examples\n1. $f(x) = (x^2 + 1)(3x - 2)$\n   $u(x) = x^2 + 1$, $u'(x) = 2x$\n   $v(x) = 3x - 2$, $v'(x) = 3$\n   $f'(x) = (2x)(3x - 2) + (x^2 + 1)(3) = 6x^2 - 4x + 3x^2 + 3 = 9x^2 - 4x + 3$\n\n2. $f(x) = x^3 \\cdot \\sin(x)$\n   $f'(x) = 3x^2\\sin(x) + x^3\\cos(x)$\n\n### Multiple Factors\nFor three functions: $f(x) = u(x)v(x)w(x)$\n$$f'(x) = u'(x)v(x)w(x) + u(x)v'(x)w(x) + u(x)v(x)w'(x)$$"
+      "title": "Product Rule for Derivatives",
+      "text": "The product rule is used to differentiate functions that are products of two or more functions.\n\n### Product Rule Formula\nIf $f(x) = u(x) \\cdot v(x)$, then:\n$$f'(x) = u'(x)v(x) + u(x)v'(x)$$\n\nIn words: \"Derivative of first times second, plus first times derivative of second\"\n\n### Examples\n1. $f(x) = (x^2 + 1)(3x - 2)$\n   $u(x) = x^2 + 1$, $u'(x) = 2x$\n   $v(x) = 3x - 2$, $v'(x) = 3$\n   $f'(x) = (2x)(3x - 2) + (x^2 + 1)(3) = 6x^2 - 4x + 3x^2 + 3 = 9x^2 - 4x + 3$\n\n2. $f(x) = x^3 \\cdot \\sin(x)$\n   $f'(x) = 3x^2\\sin(x) + x^3\\cos(x)$\n\n### Multiple Factors\nFor three functions: $f(x) = u(x)v(x)w(x)$\n$$f'(x) = u'(x)v(x)w(x) + u(x)v'(x)w(x) + u(x)v(x)w'(x)$$"
     },
     {
-      "judul": "Quotient Rule for Derivatives",
-      "teks": "The quotient rule is used to differentiate functions that are quotients of two functions.\n\n### Quotient Rule Formula\nIf $f(x) = \\frac{u(x)}{v(x)}$, then:\n$$f'(x) = \\frac{u'(x)v(x) - u(x)v'(x)}{[v(x)]^2}$$\n\nIn words: \"Derivative of top times bottom, minus top times derivative of bottom, all over bottom squared\"\n\n### Examples\n1. $f(x) = \\frac{x^2 + 1}{3x - 2}$\n   $u(x) = x^2 + 1$, $u'(x) = 2x$\n   $v(x) = 3x - 2$, $v'(x) = 3$\n   $f'(x) = \\frac{(2x)(3x - 2) - (x^2 + 1)(3)}{(3x - 2)^2} = \\frac{6x^2 - 4x - 3x^2 - 3}{(3x - 2)^2} = \\frac{3x^2 - 4x - 3}{(3x - 2)^2}$\n\n2. $f(x) = \\frac{\\sin(x)}{x^2}$\n   $f'(x) = \\frac{\\cos(x)x^2 - \\sin(x)(2x)}{x^4} = \\frac{x\\cos(x) - 2\\sin(x)}{x^3}$\n\n### Special Case: Reciprocal Rule\nIf $f(x) = \\frac{1}{v(x)}$, then:\n$$f'(x) = -\\frac{v'(x)}{[v(x)]^2}$$"
+      "title": "Quotient Rule for Derivatives",
+      "text": "The quotient rule is used to differentiate functions that are quotients of two functions.\n\n### Quotient Rule Formula\nIf $f(x) = \\frac{u(x)}{v(x)}$, then:\n$$f'(x) = \\frac{u'(x)v(x) - u(x)v'(x)}{[v(x)]^2}$$\n\nIn words: \"Derivative of top times bottom, minus top times derivative of bottom, all over bottom squared\"\n\n### Examples\n1. $f(x) = \\frac{x^2 + 1}{3x - 2}$\n   $u(x) = x^2 + 1$, $u'(x) = 2x$\n   $v(x) = 3x - 2$, $v'(x) = 3$\n   $f'(x) = \\frac{(2x)(3x - 2) - (x^2 + 1)(3)}{(3x - 2)^2} = \\frac{6x^2 - 4x - 3x^2 - 3}{(3x - 2)^2} = \\frac{3x^2 - 4x - 3}{(3x - 2)^2}$\n\n2. $f(x) = \\frac{\\sin(x)}{x^2}$\n   $f'(x) = \\frac{\\cos(x)x^2 - \\sin(x)(2x)}{x^4} = \\frac{x\\cos(x) - 2\\sin(x)}{x^3}$\n\n### Special Case: Reciprocal Rule\nIf $f(x) = \\frac{1}{v(x)}$, then:\n$$f'(x) = -\\frac{v'(x)}{[v(x)]^2}$$"
     },
     {
-      "judul": "Finding Equations of Tangent Lines",
-      "teks": "The derivative provides a powerful tool for finding the equation of the tangent line to a curve at a specific point.\n\n### Tangent Line Equation\nGiven a function $f(x)$ and a point $(a, f(a))$:\n$$y - f(a) = f'(a)(x - a)$$\n\nWhere:\n- $f(a)$ is the y-coordinate of the point of tangency\n- $f'(a)$ is the slope of the tangent line at $x = a$\n\n### Step-by-Step Procedure\n1. Find $f'(x)$ (the derivative)\n2. Evaluate $f'(a)$ to get the slope\n3. Evaluate $f(a)$ to get the y-coordinate\n4. Substitute into point-slope form\n5. Simplify to slope-intercept form if desired\n\n### Example\nFind the tangent line to $f(x) = x^2$ at $x = 3$\n\n1. $f'(x) = 2x$\n2. $f'(3) = 6$ (slope)\n3. $f(3) = 9$ (point is (3, 9))\n4. $y - 9 = 6(x - 3)$\n5. $y = 6x - 18 + 9 = 6x - 9$\n\nThe tangent line is $y = 6x - 9$",
-      "gambar": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/tang_curve.png",
-      "gambarDeskripsi": "Graph showing function curve and its tangent line at a specific point"
+      "title": "Finding Equations of Tangent Lines",
+      "text": "The derivative provides a powerful tool for finding the equation of the tangent line to a curve at a specific point.\n\n### Tangent Line Equation\nGiven a function $f(x)$ and a point $(a, f(a))$:\n$$y - f(a) = f'(a)(x - a)$$\n\nWhere:\n- $f(a)$ is the y-coordinate of the point of tangency\n- $f'(a)$ is the slope of the tangent line at $x = a$\n\n### Step-by-Step Procedure\n1. Find $f'(x)$ (the derivative)\n2. Evaluate $f'(a)$ to get the slope\n3. Evaluate $f(a)$ to get the y-coordinate\n4. Substitute into point-slope form\n5. Simplify to slope-intercept form if desired\n\n### Example\nFind the tangent line to $f(x) = x^2$ at $x = 3$\n\n1. $f'(x) = 2x$\n2. $f'(3) = 6$ (slope)\n3. $f(3) = 9$ (point is (3, 9))\n4. $y - 9 = 6(x - 3)$\n5. $y = 6x - 18 + 9 = 6x - 9$\n\nThe tangent line is $y = 6x - 9$",
+      "image": "https://raw.githubusercontent.com/rovihan12/cognimath/refs/heads/main/images/tang_curve.png",
+      "imageDescription": "Graph showing function curve and its tangent line at a specific point"
     },
     {
-      "judul": "Introduction to Rates of Change",
-      "teks": "Derivatives provide the mathematical foundation for understanding and calculating rates of change in various contexts.\n\n### Instantaneous vs. Average Rate of Change\n- **Average rate of change**: $\\frac{f(b) - f(a)}{b - a}$ (slope of secant line)\n- **Instantaneous rate of change**: $f'(a)$ (slope of tangent line at $x = a$)\n\n### Physical Interpretations\n- **Position → Velocity**: If $s(t)$ is position, then $v(t) = s'(t)$ is velocity\n- **Velocity → Acceleration**: If $v(t)$ is velocity, then $a(t) = v'(t)$ is acceleration\n- **Volume → Flow rate**: If $V(t)$ is volume, then $V'(t)$ is flow rate\n\n### Economic Applications\n- **Cost → Marginal cost**: If $C(x)$ is cost function, then $C'(x)$ is marginal cost\n- **Revenue → Marginal revenue**: If $R(x)$ is revenue, then $R'(x)$ is marginal revenue\n- **Profit → Marginal profit**: If $P(x)$ is profit, then $P'(x)$ is marginal profit\n\n### Geometric Applications\n- **Area → Perimeter rate**: If $A(r)$ is area of circle, then $A'(r)$ gives circumference\n- **Volume → Surface area**: If $V(r)$ is volume of sphere, then $V'(r)$ gives surface area"
+      "title": "Introduction to Rates of Change",
+      "text": "Derivatives provide the mathematical foundation for understanding and calculating rates of change in various contexts.\n\n### Instantaneous vs. Average Rate of Change\n- **Average rate of change**: $\\frac{f(b) - f(a)}{b - a}$ (slope of secant line)\n- **Instantaneous rate of change**: $f'(a)$ (slope of tangent line at $x = a$)\n\n### Physical Interpretations\n- **Position → Velocity**: If $s(t)$ is position, then $v(t) = s'(t)$ is velocity\n- **Velocity → Acceleration**: If $v(t)$ is velocity, then $a(t) = v'(t)$ is acceleration\n- **Volume → Flow rate**: If $V(t)$ is volume, then $V'(t)$ is flow rate\n\n### Economic Applications\n- **Cost → Marginal cost**: If $C(x)$ is cost function, then $C'(x)$ is marginal cost\n- **Revenue → Marginal revenue**: If $R(x)$ is revenue, then $R'(x)$ is marginal revenue\n- **Profit → Marginal profit**: If $P(x)$ is profit, then $P'(x)$ is marginal profit\n\n### Geometric Applications\n- **Area → Perimeter rate**: If $A(r)$ is area of circle, then $A'(r)$ gives circumference\n- **Volume → Surface area**: If $V(r)$ is volume of sphere, then $V'(r)$ gives surface area"
     },
     {
-      "judul": "Example Problems",
-      "teks": "Practice problems with derivatives and their applications:",
+      "title": "Example Problems",
+      "text": "Practice problems with derivatives and their applications:",
       "subItems": [
         {
-          "judul": "Example 1: Basic Differentiation",
-          "teks": "Find the derivative of $f(x) = 4x^3 - 2x^2 + 5x - 7$\n\n**Solution:**\nUsing power rule:\n$f'(x) = 4 \\cdot 3x^{2} - 2 \\cdot 2x^{1} + 5 \\cdot 1x^{0} - 0$\n$f'(x) = 12x^2 - 4x + 5$"
+          "title": "Example 1: Basic Differentiation",
+          "text": "Find the derivative of $f(x) = 4x^3 - 2x^2 + 5x - 7$\n\n**Solution:**\nUsing power rule:\n$f'(x) = 4 \\cdot 3x^{2} - 2 \\cdot 2x^{1} + 5 \\cdot 1x^{0} - 0$\n$f'(x) = 12x^2 - 4x + 5$"
         },
         {
-          "judul": "Example 2: Product Rule",
-          "teks": "Find the derivative of $f(x) = (x^2 + 3x)(x^3 - 2)$\n\n**Solution:**\nUsing product rule:\n$u(x) = x^2 + 3x$, $u'(x) = 2x + 3$\n$v(x) = x^3 - 2$, $v'(x) = 3x^2$\n$f'(x) = (2x + 3)(x^3 - 2) + (x^2 + 3x)(3x^2)$\n$= (2x^4 - 4x + 3x^3 - 6) + (3x^4 + 9x^3)$\n$= 5x^4 + 12x^3 - 4x - 6$"
+          "title": "Example 2: Product Rule",
+          "text": "Find the derivative of $f(x) = (x^2 + 3x)(x^3 - 2)$\n\n**Solution:**\nUsing product rule:\n$u(x) = x^2 + 3x$, $u'(x) = 2x + 3$\n$v(x) = x^3 - 2$, $v'(x) = 3x^2$\n$f'(x) = (2x + 3)(x^3 - 2) + (x^2 + 3x)(3x^2)$\n$= (2x^4 - 4x + 3x^3 - 6) + (3x^4 + 9x^3)$\n$= 5x^4 + 12x^3 - 4x - 6$"
         },
         {
-          "judul": "Example 3: Quotient Rule",
-          "teks": "Find the derivative of $f(x) = \\frac{2x + 1}{x^2 - 3}$\n\n**Solution:**\nUsing quotient rule:\n$u(x) = 2x + 1$, $u'(x) = 2$\n$v(x) = x^2 - 3$, $v'(x) = 2x$\n$f'(x) = \\frac{(2)(x^2 - 3) - (2x + 1)(2x)}{(x^2 - 3)^2}$\n$= \\frac{2x^2 - 6 - (4x^2 + 2x)}{(x^2 - 3)^2}$\n$= \\frac{-2x^2 - 2x - 6}{(x^2 - 3)^2}$"
+          "title": "Example 3: Quotient Rule",
+          "text": "Find the derivative of $f(x) = \\frac{2x + 1}{x^2 - 3}$\n\n**Solution:**\nUsing quotient rule:\n$u(x) = 2x + 1$, $u'(x) = 2$\n$v(x) = x^2 - 3$, $v'(x) = 2x$\n$f'(x) = \\frac{(2)(x^2 - 3) - (2x + 1)(2x)}{(x^2 - 3)^2}$\n$= \\frac{2x^2 - 6 - (4x^2 + 2x)}{(x^2 - 3)^2}$\n$= \\frac{-2x^2 - 2x - 6}{(x^2 - 3)^2}$"
         },
         {
-          "judul": "Example 4: Tangent Line",
-          "teks": "Find the equation of the tangent line to $f(x) = x^2 - 4x + 1$ at $x = 2$\n\n**Solution:**\n$f'(x) = 2x - 4$\n$f'(2) = 2(2) - 4 = 0$ (slope)\n$f(2) = (2)^2 - 4(2) + 1 = 4 - 8 + 1 = -3$\nPoint: (2, -3)\nEquation: $y - (-3) = 0(x - 2)$\n$y + 3 = 0$\n$y = -3$\nThe tangent line is horizontal at $y = -3$"
+          "title": "Example 4: Tangent Line",
+          "text": "Find the equation of the tangent line to $f(x) = x^2 - 4x + 1$ at $x = 2$\n\n**Solution:**\n$f'(x) = 2x - 4$\n$f'(2) = 2(2) - 4 = 0$ (slope)\n$f(2) = (2)^2 - 4(2) + 1 = 4 - 8 + 1 = -3$\nPoint: (2, -3)\nEquation: $y - (-3) = 0(x - 2)$\n$y + 3 = 0$\n$y = -3$\nThe tangent line is horizontal at $y = -3$"
         },
         {
-          "judul": "Example 5: Rate of Change",
-          "teks": "The position of a particle is given by $s(t) = t^3 - 6t^2 + 9t$. Find the velocity and acceleration at $t = 2$ seconds.\n\n**Solution:**\nVelocity: $v(t) = s'(t) = 3t^2 - 12t + 9$\n$v(2) = 3(4) - 12(2) + 9 = 12 - 24 + 9 = -3$ m/s\n\nAcceleration: $a(t) = v'(t) = 6t - 12$\n$a(2) = 6(2) - 12 = 12 - 12 = 0$ m/s²"
+          "title": "Example 5: Rate of Change",
+          "text": "The position of a particle is given by $s(t) = t^3 - 6t^2 + 9t$. Find the velocity and acceleration at $t = 2$ seconds.\n\n**Solution:**\nVelocity: $v(t) = s'(t) = 3t^2 - 12t + 9$\n$v(2) = 3(4) - 12(2) + 9 = 12 - 24 + 9 = -3$ m/s\n\nAcceleration: $a(t) = v'(t) = 6t - 12$\n$a(2) = 6(2) - 12 = 12 - 12 = 0$ m/s²"
         }
       ]
     },
     {
-      "judul": "Practice Exercises",
-      "teks": "1. Find $f'(x)$ for $f(x) = 3x^4 - 2x^2 + 5$\n2. Differentiate $g(x) = (x^2 + 1)(3x^3 - 2x)$ using product rule\n3. Find the derivative of $h(x) = \\frac{x^2 - 1}{x^2 + 1}$ using quotient rule\n4. Find the equation of the tangent line to $y = x^3 - 3x$ at $x = 1$\n5. The cost function is $C(x) = 0.1x^2 + 50x + 1000$. Find the marginal cost at $x = 100$\n6. A ball is thrown upward with position $s(t) = -16t^2 + 64t + 80$. Find its velocity after 2 seconds\n7. Differentiate $f(x) = \\frac{(x + 1)(x - 2)}{x^2}$\n8. Find where the tangent line to $y = x^2 - 4x$ is horizontal"
+      "title": "Practice Exercises",
+      "text": "1. Find $f'(x)$ for $f(x) = 3x^4 - 2x^2 + 5$\n2. Differentiate $g(x) = (x^2 + 1)(3x^3 - 2x)$ using product rule\n3. Find the derivative of $h(x) = \\frac{x^2 - 1}{x^2 + 1}$ using quotient rule\n4. Find the equation of the tangent line to $y = x^3 - 3x$ at $x = 1$\n5. The cost function is $C(x) = 0.1x^2 + 50x + 1000$. Find the marginal cost at $x = 100$\n6. A ball is thrown upward with position $s(t) = -16t^2 + 64t + 80$. Find its velocity after 2 seconds\n7. Differentiate $f(x) = \\frac{(x + 1)(x - 2)}{x^2}$\n8. Find where the tangent line to $y = x^2 - 4x$ is horizontal"
     },
     {
-      "judul": "Key Formulas and Concepts",
-      "teks": "### Basic Derivative Rules\n- Power rule: $\\frac{d}{dx}(x^n) = nx^{n-1}$\n- Constant multiple: $\\frac{d}{dx}[cf(x)] = cf'(x)$\n- Sum/difference: $\\frac{d}{dx}[f(x) \\pm g(x)] = f'(x) \\pm g'(x)$\n\n### Product and Quotient Rules\n- Product: $\\frac{d}{dx}[uv] = u'v + uv'$\n- Quotient: $\\frac{d}{dx}[\\frac{u}{v}] = \\frac{u'v - uv'}{v^2}$\n\n### Applications\n- Tangent line: $y - f(a) = f'(a)(x - a)$\n- Velocity: $v(t) = s'(t)$\n- Acceleration: $a(t) = v'(t)$\n- Marginal cost: $C'(x)$\n\n### Important Notes\n- The derivative represents instantaneous rate of change\n- Geometrically, it's the slope of the tangent line\n- Differentiability implies continuity, but continuity doesn't guarantee differentiability\n- These rules form the foundation for more advanced calculus concepts including optimization and curve analysis"
+      "title": "Key Formulas and Concepts",
+      "text": "### Basic Derivative Rules\n- Power rule: $\\frac{d}{dx}(x^n) = nx^{n-1}$\n- Constant multiple: $\\frac{d}{dx}[cf(x)] = cf'(x)$\n- Sum/difference: $\\frac{d}{dx}[f(x) \\pm g(x)] = f'(x) \\pm g'(x)$\n\n### Product and Quotient Rules\n- Product: $\\frac{d}{dx}[uv] = u'v + uv'$\n- Quotient: $\\frac{d}{dx}[\\frac{u}{v}] = \\frac{u'v - uv'}{v^2}$\n\n### Applications\n- Tangent line: $y - f(a) = f'(a)(x - a)$\n- Velocity: $v(t) = s'(t)$\n- Acceleration: $a(t) = v'(t)$\n- Marginal cost: $C'(x)$\n\n### Important Notes\n- The derivative represents instantaneous rate of change\n- Geometrically, it's the slope of the tangent line\n- Differentiability implies continuity, but continuity doesn't guarantee differentiability\n- These rules form the foundation for more advanced calculus concepts including optimization and curve analysis"
     }
   ]
 }
